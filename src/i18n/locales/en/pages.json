@@ -1,0 +1,153 @@
+{
+  "home": {
+    "title": "Discover Talent. Shape the Future",
+    "subtitle": "Smart recruiting for SMEs, global advantage for enterprises.",
+    "solutionsTitle": "Higherd Solutions – Recruiting for Your Hiring Needs",
+    "solutionsDesc": "Higherd delivers tailored recruiting services for SMEs, enterprises and agencies, saving you time through targeted support and tools that bring top candidates directly to you.",
+    "partnersTitle": "Customers & Partners",
+    "bookaDemo": "Book a Demo",
+    "partnersList": ["Layers", "Quotient", "Circooles", "Hourglass", "Command+R"],
+    "pricing": {
+      "employers": {
+        "title": "For Employers",
+        "descBase": "Core package: essential tools for internal hiring processes...",
+        "priceBase": "250 € / user monthly",
+        "premiumDesc": " For larger teams with advanced needs",
+        "cta": "Try it now",
+        "coreplanTitle": "For smaller teams and basic needs",
+        "corePlanName": "Core",
+        "premiumPlanName": "Premium",
+        "corePrice": "€249",
+        "premiumPriceValue": "€1500",
+        "userMonth": "/user/month",
+        "currentPlan": "  Current Plan",
+        "bestPlan": " BEST VALUE",
+        "fromMonthly": "/monthly",
+        "contactSales": " Contact our Sales Team for payments only.",
+        "commissionBased": " Prefer a commission-based hiring model?",
+        "coreFeatures": [
+          "Up to 2 seats",
+          "2 job post/user/month",
+          "12 chat invitations/month",
+          "Filtered candidate matching",
+          "Unlimited Talent Pool Savings",
+          "5/7 days Real-Time Support"
+        ],
+        "premiumFeatures": [
+          "Everything in Core +",
+          "3 Seats Included",
+          "Unlimited Job Postings",
+          "Premium Candidates",
+          "Unlimited Chat Invitations",
+          "Advanced Matching Algorithm",
+          "Dedicated Account Manager",
+          "Full Visa & Relocation support"
+        ]
+      },
+      "agencies": {
+        "title": "For Recruitment Agencies",
+        "list": [
+          "For agencies searching jobs for candidates...",
+          "For agencies looking for candidates for their clients..."
+        ],
+        "price": "0 € monthly + success fee per hire",
+        "cta": "Try it now"
+      },
+      "candidates": {
+        "title": "For Candidates",
+        "desc": "Unlimited access, profile creation, apply, interview preparation...",
+        "price": "From 150 € / month",
+        "cta": "Try it now"
+      }
+    },
+    "plansCTA": {
+      "title": "Explore our plans and contact us to find which package fits your goals.",
+      "button": "Explore Plans"
+    },
+    "specialties": {
+      "title": "Specialties",
+      "desc": "Higherd offers deep expertise across these domains ensuring your next hire fits the German market requirements. Finding talent in IT, Engineering and Life Sciences has never been more efficient.",
+      "items": [
+        {
+          "icon": "🖥️",
+          "title": "IT & Software Engineering",
+          "desc": "Skilled developers, DevOps engineers, QA specialists and more – focused on the German market."
+        },
+        {
+          "icon": "🛠️",
+          "title": "Engineering",
+          "desc": "From mechanical to civil engineering: access highly qualified technical talent in Germany."
+        },
+        {
+          "icon": "🧬",
+          "title": "Life Sciences",
+          "desc": "Biotech, pharma and healthcare – we connect you with top experts."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Can I change the plan at any time?",
+            "a": "Yes, you can upgrade or downgrade your plan anytime to match your career needs."
+        },
+        { "q": "Is there a setup fee?", "a": "No, there is no setup fee." },
+        { "q": "Do you offer support during the free trial?", "a": "Yes, our support is available during the trial as well." },
+        { "q": "How does ad revenue sharing work in the base plan?", "a": "You pay a percentage of revenue on successful hires." },
+        { "q": "Which payment methods are accepted?", "a": "We accept credit card, SEPA direct debit and PayPal." }
+      ]
+    },
+    "newsletter": {
+      "heading": "Stay Informed with Higherd Insights",
+      "description": "Subscribe to our newsletter for the latest industry trends, tips, and updates on how to get the most out of Higherd.",
+      "emailPlaceholder": "Enter your email",
+      "subscribeButton": "Subscribe",
+      "productHeading": "Product",
+      "productLinks": {
+        "homepage": "Homepage",
+        "about": "About us",
+        "blog": "Our Blog",
+        "contact": "Contact Us"
+      },
+      "solutionsHeading": "Solutions",
+      "solutionsLinks": {
+        "companies": "For Companies",
+        "agencies": "For Agencies",
+        "candidates": "For Candidates",
+        "students": "For Students"
+      },
+      "socialAlt": {
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "instagram": "Instagram"
+      }
+    },
+    "images": {
+      "heroAlt": "Hiring Illustration",
+      "employersAlt": "Employer Dashboard",
+      "agenciesAlt": "Agency Dashboard",
+      "candidatesAlt": "Candidate Dashboard"
+    }
+  },
+  "companies": {
+    "title": "Solutions for Companies",
+    "subtitle": "Streamline recruiting and collaborate with hiring managers."
+  },
+  "agencies": {
+    "title": "Solutions for Agencies",
+    "subtitle": "Manage clients and placements with ease."
+  },
+  "candidates": {
+    "title": "For Candidates",
+    "subtitle": "Showcase your skills and connect with top employers."
+  },
+  "students": {
+    "title": "For Students",
+    "subtitle": "Kickstart your career with internships and mentorship."
+  },
+  "about": {
+    "title": "About Higherd",
+    "subtitle": "Our mission is to make hiring human and effective."
+  }
+}

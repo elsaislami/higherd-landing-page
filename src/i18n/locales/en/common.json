@@ -1,0 +1,21 @@
+{
+  "brand": "Higherd",
+  "nav": {
+    "home": "Home",
+    "forCompanies": "For Companies",
+    "forAgencies": "For Agencies",
+    "forCandidates": "For Candidates",
+    "forStudents": "For Students",
+    "aboutUs": "About Us",
+    "language": "Language"
+  },
+  "cta": {
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "tryNow": "Try it now",
+    "explorePlans": "Explore Plans"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

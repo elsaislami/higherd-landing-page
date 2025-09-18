@@ -1,0 +1,153 @@
+{
+  "home": {
+    "title": "Bauen Sie bessere Teams mit Higherd",
+    "subtitle": "Eine moderne Recruiting-Plattform für Unternehmen, Agenturen, Kandidaten und Studierende.",
+    "solutionsTitle": "Higherd Lösungen – Personalbeschaffung für Ihre Einstellungsbedürfnisse",
+    "solutionsDesc": "Higherd bietet maßgeschneiderte Rekrutierungsdienste für KMU, Unternehmen und Agenturen und spart Ihnen Zeit durch gezielten Support und Tools, um Top-Kandidaten direkt zu Ihnen zu bringen.",
+    "partnersTitle": "Kunden und Partner",
+    "bookaDemo": "Demo buchen",
+    "partnersList": ["Layers", "Quotient", "Circooles", "Hourglass", "Command+R"],
+    "pricing": {
+      "employers": {
+        "title": "Für Arbeitgeber",
+        "descBase": "Kernpaket: Wesentliche Tools für interne Einstellungsprozesse...",
+        "priceBase": "250 € / Benutzer monatlich",
+        "premiumDesc": "Premium-Paket: Weitere Funktionen wie unlimitierte Jobs...",
+        "cta": "Versuchen Sie es jetzt",
+        "coreplanTitle": "Für kleinere Teams und grundlegende Bedürfnisse",
+        "corePlanName": "Core",
+        "premiumPlanName": "Premium",
+        "corePrice": "€249",
+        "premiumPriceValue": "€1500",
+        "userMonth": "/Benutzer/Monat",
+        "currentPlan": " Aktueller Plan",
+        "bestPlan": " BESTER WERT",
+        "fromMonthly": "/monatlich",
+        "contactSales": " Kontaktieren Sie unser Verkaufsteam für Zahlungen.",
+        "commissionBased": " Bevorzugen Sie ein provisionbasiertes Einstellungsmodell?",
+        "coreFeatures": [
+          "Bis zu 2 Plätze",
+          "2 Stellenausschreibungen/Benutzer/Monat",
+          "12 Chat-Einladungen/Monat",
+          "Gefilterte Kandidatensuche",
+          "Unbegrenzte Talent Pool Speicherung",
+          "5/7 Tage Echtzeit-Support"
+        ],
+        "premiumFeatures": [
+          "Alles in Core +",
+          "3 Plätze inklusive",
+          "Unbegrenzte Stellenausschreibungen",
+          "Premium-Kandidaten",
+          "Unbegrenzte Chat-Einladungen",
+          "Erweiterte Matching-Algorithmus",
+          "Dedicated Account Manager",
+          "Vollständige Visa- und Umzugsunterstützung"
+        ]
+      },
+      "agencies": {
+        "title": "Für Personalagenturen",
+        "list": [
+          "Für Agenturen, die Jobs für Kandidaten suchen...",
+          "Für Agenturen, die auf der Suche nach Kandidaten sind..."
+        ],
+        "price": "0 € monatlich + Provision pro Einstellung",
+        "cta": "Versuchen Sie es jetzt"
+      },
+      "candidates": {
+        "title": "Für Kandidaten",
+        "desc": "Unbeschränkter Zugriff, Profilerstellung, Bewerbung, Vorbereitung auf Vorstellungsgespräche...",
+        "price": "Ab 150 € / Monat",
+        "cta": "Versuchen Sie es jetzt"
+      }
+    },
+    "plansCTA": {
+      "title": "Entdecken Sie unsere Pläne und kontaktieren Sie uns, um herauszufinden, welches Paket Ihren Zielen entspricht.",
+      "button": "Entdecken Sie Pläne"
+    },
+    "specialties": {
+      "title": "Fachgebiete",
+      "desc": "Higher Solutions bietet spezielles Fachwissen in diesen Bereichen und stellt sicher, dass Ihre nächste Einstellung den Anforderungen des deutschen Marktes entspricht..Die Suche nach Fachkräften für IT, Ingenieurwesen und Biowissenschaften war noch nie so effizient. Higher Solutions bietet spezielles Fachwissen in diesen Bereichen und stellt sicher, dass Ihr nächster Mitarbeiter den Anforderungen des deutschen Marktes entspricht..",
+      "items": [
+        {
+          "icon": "🖥️",
+          "title": "IT- und Softwareentwicklung",
+          "desc": "Qualifizierte Entwickler, DevOps-Ingenieure, QA-Spezialisten und mehr – spezialisiert auf den deutschen Markt."
+        },
+        {
+          "icon": "🛠️",
+          "title": "Maschinenbau",
+          "desc": "Vom Maschinenbau bis zum Bauingenieur: Erhalten Sie Zugang zu hochqualifizierten Technikern in Deutschland."
+        },
+        {
+          "icon": "🧬",
+          "title": "Lebenswissenschaften",
+          "desc": "Biotech, Pharma und Gesundheitswesen – wir bringen Sie mit den besten Experten zusammen."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "q": "Kann ich den Tarif jederzeit wechseln?",
+          "a": "Ja, Sie können Ihren Plan jederzeit upgraden oder downgraden, um ihn an die Bedürfnisse Ihrer Karriere anzupassen."
+        },
+        { "q": "Gibt es eine Einrichtungsgebühr?", "a": "Nein, es gibt keine Einrichtungsgebühr." },
+        { "q": "Bieten Sie während der kostenlosen Testversion Support an?", "a": "Ja, unser Support steht Ihnen auch in der Testphase zur Verfügung." },
+        { "q": "Wie funktioniert die Umsatzbeteiligung aus Anzeigen im Basistarif?", "a": "Sie zahlen einen prozentualen Anteil des Umsatzes bei erfolgreichen Einstellungen." },
+        { "q": "Welche Zahlungsmethoden akzeptieren Sie?", "a": "Wir akzeptieren Kreditkarte, SEPA-Lastschrift und PayPal." }
+      ]
+    },
+    "newsletter": {
+      "heading": "Bleiben Sie informiert mit Higherd Insights",
+      "description": "Abonnieren Sie unseren Newsletter für aktuelle Branchentrends, Tipps und Updates, wie Sie das Beste aus Higherd herausholen.",
+      "emailPlaceholder": "E-Mail eingeben",
+      "subscribeButton": "Abonnieren",
+      "productHeading": "Produkt",
+      "productLinks": {
+        "homepage": "Startseite",
+        "about": "Über uns",
+        "blog": "Unser Blog",
+        "contact": "Kontakt"
+      },
+      "solutionsHeading": "Lösungen",
+      "solutionsLinks": {
+        "companies": "Für Unternehmen",
+        "agencies": "Für Agenturen",
+        "candidates": "Für Kandidaten",
+        "students": "Für Studierende"
+      },
+      "socialAlt": {
+        "linkedin": "LinkedIn",
+        "facebook": "Facebook",
+        "instagram": "Instagram"
+      }
+    },
+    "images": {
+      "heroAlt": "Illustration Recruiting",
+      "employersAlt": "Arbeitgeber Dashboard",
+      "agenciesAlt": "Agentur Dashboard",
+      "candidatesAlt": "Kandidaten Dashboard"
+    }
+  },
+  "companies": {
+    "title": "Lösungen für Unternehmen",
+    "subtitle": "Optimieren Sie das Recruiting und arbeiten Sie mit Hiring Managern zusammen."
+  },
+  "agencies": {
+    "title": "Lösungen für Agenturen",
+    "subtitle": "Verwalten Sie Kunden und Vermittlungen mühelos."
+  },
+  "candidates": {
+    "title": "Für Kandidaten",
+    "subtitle": "Präsentieren Sie Ihre Fähigkeiten und vernetzen Sie sich mit Top-Arbeitgebern."
+  },
+  "students": {
+    "title": "Für Studierende",
+    "subtitle": "Starten Sie Ihre Karriere mit Praktika und Mentoring."
+  },
+  "about": {
+    "title": "Über Higherd",
+    "subtitle": "Unsere Mission ist es, Recruiting menschlich und effektiv zu machen."
+  }
+}
