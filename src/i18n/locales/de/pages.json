@@ -131,16 +131,93 @@
     }
   },
   "companies": {
-    "title": "Lösungen für Unternehmen",
-    "subtitle": "Optimieren Sie das Recruiting und arbeiten Sie mit Hiring Managern zusammen."
+    "title": "Bestbewertete ATS-Plattform",
+    "subtitle": "Intelligente Personalbeschaffung für KMU, globaler Vorteil für Unternehmen",
+    "bookaDemo": "Versuchen Sie es jetzt",
+    "solutionsTitle": "Higherd Solutions – Personalbeschaffung für Ihre Einstellungsbedürfnisse",
+    "solutionsDesc": "Higherd bietet maßgeschneiderte Rekrutierungsdienste für KMU, Unternehmen und Agenturen und spart Ihnen Zeit durch gezielten Support und Tools, um Top-Kandidaten direkt zu Ihnen zu bringen..",
+    "plansCTA": {
+      "title": "Beginnt mit der Einstellung bei Highder",
+      "button": "Legen Sie los"
+    },
+       "specialties": {
+      "title": "Unsere Leistungen",
+      "desc": "Higherd ist Ihr One-Stop-Shop für die internationale Rekrutierung von MINT-Kandidaten. . Unsere Personalvermittler vor Ort prüfen den Hintergrund der Kandidaten gründlich. . Darüber hinaus stellt unsere wertbasierte KI-Technologie die kulturelle Passung zu Ihrem Unternehmen und Ihrem lokalen Team sicher. . Bei uns erhalten Sie einen echten Kandidatenhintergrund, höhere Mitarbeiterbindungsraten und engagierte Unterstützung, um alle internationalen Verfahren zu optimieren..",
+      "buttonText": "Erstellen Sie Ihr Profil",
+      "items": [
+        {
+          "icon": "🖥️",
+          "title": "Experten-Recruiting",
+          "desc": "Unsere engagierten Personalvermittler sind hier, um Ihre Kunden mit den perfekten Kandidaten zusammenzubringen und so sicherzustellen, dass sie kulturell und professionell passen. Durch den Zugriff auf einen umfangreichen Pool außergewöhnlicher MINT-Talente helfen wir Ihnen, Positionen schneller zu besetzen, damit Sie die Bedürfnisse Ihrer Kunden mit Zuversicht erfüllen können."
+        },
+        {
+          "icon": "🛠️",
+          "title": "Visa-Unterstützung",
+          "desc": "Bürokratische Hürden sind große Herausforderungen bei der grenzüberschreitenden Einstellung. Wir sorgen für ein stressfreies Umzugserlebnis für Sie und Ihre Mitarbeiter. . Wir kümmern uns um alles!"
+        },
+        {
+          "icon": "🧬",
+          "title": "Onboarding und Integration",
+          "desc": "Wie können wir eine höhere Mitarbeiterbindungsrate sicherstellen? . Unser umfassendes Lern- und Entwicklungsprogramm konzentriert sich auf die Organisation zertifizierter Kurse, die Ausbildung am Arbeitsplatz und den Zugang zu staatlichen Förderprogrammen, um eine stärkere Bindung zu Ihrem Unternehmen und Ihrer Mission sicherzustellen."
+        },
+         {
+          "icon": "🧬",
+          "title": "Personalwesen",
+          "desc": "Ein breites Spektrum an Kandidaten aus verschiedenen Branchen, die Ihnen dabei helfen, starke und vielfältige Teams aufzubauen"
+        }
+      ]
+    }
   },
-  "agencies": {
-    "title": "Lösungen für Agenturen",
-    "subtitle": "Verwalten Sie Kunden und Vermittlungen mühelos."
+    "agencies": {
+    "title": "Optimierte Rekrutierung, verbesserte Ergebnisse",
+    "subtitle": "Unser ATS automatisiert die Rekrutierung, bringt Sie mit Top-Talenten zusammen und steigert die Effizienz.",
+    "bookaDemo": "Versuchen Sie es jetzt",
+    "solutionsTitle": "Higherd Solutions – Personalbeschaffung für Ihre Einstellungsbedürfnisse",
+    "solutionsDesc": "Higherd bietet maßgeschneiderte Rekrutierungsdienste für KMU, Unternehmen und Agenturen und spart Ihnen Zeit durch gezielten Support und Tools, um Top-Kandidaten direkt zu Ihnen zu bringen..",
+    "plansCTA": {
+      "title": "Beginnen Sie noch heute!",
+      "subtitle": "Schalten Sie unbegrenzt Kandidatenprofile und Stellenausschreibungen ohne Vorabkosten frei. Melden Sie sich jetzt an, um Zugang zu erstklassigen Talenten und Stellenangeboten zu erhalten – zahlen Sie nur eine Provision für erfolgreiche Einstellungen. Beginnen Sie mit der Rekrutierung intelligenter und schneller!",
+      "button": "Legen Sie los"
+    },
+       "specialties": {
+      "title": "Unsere Leistungen",
+      "desc": "Higherd ist Ihr One-Stop-Shop für die internationale Rekrutierung von MINT-Kandidaten. . Unsere Personalvermittler vor Ort prüfen den Hintergrund der Kandidaten gründlich. . Darüber hinaus stellt unsere wertbasierte KI-Technologie die kulturelle Passung zu Ihrem Unternehmen und Ihrem lokalen Team sicher. . Bei uns erhalten Sie einen echten Kandidatenhintergrund, höhere Mitarbeiterbindungsraten und engagierte Unterstützung, um alle internationalen Verfahren zu optimieren..",
+      "buttonText": "Erstellen Sie Ihr Profil",
+      "items": [
+        {
+          "icon": "🖥️",
+          "title": "Experten-Recruiting",
+          "desc": "Unsere engagierten Personalvermittler sind hier, um Ihre Kunden mit den perfekten Kandidaten zusammenzubringen und so sicherzustellen, dass sie kulturell und professionell passen. Durch den Zugriff auf einen umfangreichen Pool außergewöhnlicher MINT-Talente helfen wir Ihnen, Positionen schneller zu besetzen, damit Sie die Bedürfnisse Ihrer Kunden mit Zuversicht erfüllen können."
+        },
+        {
+          "icon": "🛠️",
+          "title": "Visa-Unterstützung",
+          "desc": "Bürokratische Hürden sind große Herausforderungen bei der grenzüberschreitenden Einstellung. Wir sorgen für ein stressfreies Umzugserlebnis für Sie und Ihre Mitarbeiter. . Wir kümmern uns um alles!"
+        },
+        {
+          "icon": "🧬",
+          "title": "Onboarding und Integration",
+          "desc": "Wie können wir eine höhere Mitarbeiterbindungsrate sicherstellen? . Unser umfassendes Lern- und Entwicklungsprogramm konzentriert sich auf die Organisation zertifizierter Kurse, die Ausbildung am Arbeitsplatz und den Zugang zu staatlichen Förderprogrammen, um eine stärkere Bindung zu Ihrem Unternehmen und Ihrer Mission sicherzustellen."
+        },
+         {
+          "icon": "🧬",
+          "title": "Personalwesen",
+          "desc": "Ein breites Spektrum an Kandidaten aus verschiedenen Branchen, die Ihnen dabei helfen, starke und vielfältige Teams aufzubauen"
+        }
+      ]
+    }
   },
+ 
   "candidates": {
-    "title": "Für Kandidaten",
-    "subtitle": "Präsentieren Sie Ihre Fähigkeiten und vernetzen Sie sich mit Top-Arbeitgebern."
+    "title": "Ihr Traumjob, nur einen Klick entfernt",
+    "subtitle": "Bewerben Sie sich ganz einfach für neue Stellen und treten Sie direkt mit Unternehmen in Kontakt, die nach Talenten wie Ihrem suchen. ",
+     "bookaDemo": "Versuchen Sie es jetzt",
+    "solutionsTitle": "Higherd Solutions – Personalbeschaffung für Ihre Einstellungsbedürfnisse",
+    "solutionsDesc": "Higherd bietet maßgeschneiderte Rekrutierungsdienste für KMU, Unternehmen und Agenturen und spart Ihnen Zeit durch gezielten Support und Tools, um Top-Kandidaten direkt zu Ihnen zu bringen..",
+    "plansCTA": {
+      "title": "Starten Sie Ihre Jobsuche mit Higherd",
+      "button": "Legen Sie los" 
+    }
   },
   "students": {
     "title": "Für Studierende",

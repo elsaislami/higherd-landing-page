@@ -41,27 +41,16 @@ export default function Header() {
       <NavLink to="/" className={navLink} end onClick={onNavigate}>
         {t("nav.home")}
       </NavLink>
-      <a
-        href="#for-companies"
-        className={navLink({ isActive: false })}
-        onClick={(e) => handleSmoothScroll(e, "for-companies", onNavigate)}
-      >
+      <NavLink to="/companies" className={navLink} end onClick={onNavigate}>
         {t("nav.forCompanies")}
-      </a>
-      <a
-        href="#for-agencies"
-        className={navLink({ isActive: false })}
-        onClick={(e) => handleSmoothScroll(e, "for-agencies", onNavigate)}
-      >
+      </NavLink>
+
+      <NavLink to="/agencies" className={navLink} end onClick={onNavigate}>
         {t("nav.forAgencies")}
-      </a>
-      <a
-        href="#for-candidates"
-        className={navLink({ isActive: false })}
-        onClick={(e) => handleSmoothScroll(e, "for-candidates", onNavigate)}
-      >
+      </NavLink>
+      <NavLink to="/candidates" className={navLink} end onClick={onNavigate}>
         {t("nav.forCandidates")}
-      </a>
+      </NavLink>
     </>
   );
 

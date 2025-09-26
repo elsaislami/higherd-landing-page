@@ -42,14 +42,14 @@ export default function Header() {
         {t("nav.home")}
       </NavLink>
       <a
-        href="#for-companies"
+        href="/companies"
         className={navLink({ isActive: false })}
         onClick={(e) => handleSmoothScroll(e, "for-companies", onNavigate)}
       >
         {t("nav.forCompanies")}
       </a>
       <a
-        href="#for-agencies"
+        href="/agencies"
         className={navLink({ isActive: false })}
         onClick={(e) => handleSmoothScroll(e, "for-agencies", onNavigate)}
       >

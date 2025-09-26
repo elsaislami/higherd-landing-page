@@ -54,10 +54,29 @@
         "cta": "Try it now"
       },
       "candidates": {
-        "title": "For Candidates",
-        "desc": "Unlimited access, profile creation, apply, interview preparation...",
-        "price": "From 150 € / month",
-        "cta": "Try it now"
+        "title": "Your dream job, just a click away",
+        "subtitle": "Easily apply for new positions and connect directly with companies looking for talents like yours.",
+        "bookaDemo": "Try it now",
+        "solutionsTitle": "Higherd Solutions – Recruiting for Your Hiring Needs",
+        "solutionsDesc": "Higherd delivers tailored recruiting services for SMEs, enterprises and agencies, saving you time through targeted support and tools that bring top candidates directly to you.",
+        "plansCTA": {
+          "title": "Start your job search with Higherd",
+          "button": "Get Started"
+        },
+        "jobListingsTitle": "Job Listings",
+        "jobListingsDesc": "At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
+        "notEnoughJobs": "If you don’t find enough jobs for yourself, then",
+        "createProfile": "Create Your Profile",
+        "additionalServicesTitle": "Our Services",
+        "additionalServicesDesc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates’ backgrounds. In addition, our value-based AI technology ensures cultural fit with your company and local team. At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
+        "preparationTitle": "Expert Recruiting",
+        "preparationDescription": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit. By accessing a vast pool of exceptional STEM talent, we help you fill positions faster, enabling you to meet your clients’ needs with confidence.",
+        "visaTitle": "Visa Support",
+        "visaSupportDescription": "Bureaucratic hurdles are major challenges in cross-border hiring. We ensure a stress-free relocation experience for you and your employees. We take care of everything!",
+        "languageCoursesTitle": "Onboarding and Integration",
+        "languageCoursesDescription": "How can we ensure higher employee retention rates? Our comprehensive learning and development program focuses on organizing certified courses, on-the-job training, and access to government funding programs to ensure stronger ties to your company and mission.",
+        "continuousSupportTitle": "Human Resources",
+        "continuousSupportDescription": "A wide range of candidates from various industries to help you build strong and diverse teams."
       }
     },
     "plansCTA": {
@@ -131,16 +150,93 @@
     }
   },
   "companies": {
-    "title": "Solutions for Companies",
-    "subtitle": "Streamline recruiting and collaborate with hiring managers."
+    "title": "Top-Rated ATS Platform",
+    "subtitle": "Smart recruiting for SMEs, global advantage for enterprises",
+    "bookaDemo": "Try it now",
+    "solutionsTitle": "Higherd Solutions – Recruiting for Your Hiring Needs",
+    "solutionsDesc": "Higherd delivers tailored recruiting services for SMEs, enterprises and agencies, saving you time through targeted support and tools that bring top candidates directly to you.",
+    "plansCTA": {
+      "title": "Start hiring with Higherd",
+      "button": "Get Started"
+    },
+    "services": {
+      "title": "Our Services",
+      "items": [
+        {
+          "title": "Expert Recruiting",
+          "desc": "Higherd’s recruiting experts ensure the best candidates are matched to your needs."
+        },
+        {
+          "title": "Visa & Relocation",
+          "desc": "Full support for visa applications and relocation processes."
+        },
+        {
+          "title": "Onboarding and Integration",
+          "desc": "Smooth onboarding and integration for new hires."
+        },
+        {
+          "title": "Professionalism",
+          "desc": "We ensure a professional and efficient hiring process."
+        }
+      ]
+    }
   },
   "agencies": {
-    "title": "Solutions for Agencies",
-    "subtitle": "Manage clients and placements with ease."
+    "title": "Optimized Recruiting, Improved Results",
+    "subtitle": "Our ATS automates recruiting, brings you top talent faster, and boosts efficiency.",
+    "bookaDemo": "Try it now",
+    "solutionsTitle": "Higherd Solutions – Recruiting for Your Hiring Needs",
+    "solutionsDesc": "Higherd delivers tailored recruiting services for SMEs, enterprises and agencies, saving you time through targeted support and tools that bring top candidates directly to you.",
+    "plansCTA": {
+      "title": "Start hiring with Higherd",
+      "button": "Get Started"
+    },
+    "services": {
+      "title": "Our Services",
+      "items": [
+        {
+          "title": "Expert Recruiting",
+          "desc": "Higherd’s recruiting experts ensure the best candidates are matched to your needs."
+        },
+        {
+          "title": "Visa & Relocation",
+          "desc": "Full support for visa applications and relocation processes."
+        },
+        {
+          "title": "Onboarding and Integration",
+          "desc": "Smooth onboarding and integration for new hires."
+        },
+        {
+          "title": "Professionalism",
+          "desc": "We ensure a professional and efficient hiring process."
+        }
+      ]
+    }
   },
   "candidates": {
-    "title": "For Candidates",
-    "subtitle": "Showcase your skills and connect with top employers."
+    "title": "Your dream job, just a click away",
+    "subtitle": "Easily apply for new positions and connect directly with companies looking for talents like yours.",
+    "bookaDemo": "Try it now",
+    "solutionsTitle": "Higherd Solutions – Recruiting for Your Hiring Needs",
+    "solutionsDesc": "Higherd delivers tailored recruiting services for SMEs, enterprises and agencies, saving you time through targeted support and tools that bring top candidates directly to you.",
+    "plansCTA": {
+      "title": "Start your job search with Higherd",
+      "button": "Get Started"
+    },
+    "jobListingsTitle": "Job Listings",
+    "jobListingsDesc": "At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
+    "notEnoughJobs": "If you don’t find enough jobs for yourself, then",
+    "createProfile": "Create Your Profile",
+    "additionalServicesTitle": "Our Services",
+    "additionalServicesDesc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates’ backgrounds. In addition, our value-based AI technology ensures cultural fit with your company and local team. At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
+    "preparationTitle": "Expert Recruiting",
+    "preparationDescription": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit. By accessing a vast pool of exceptional STEM talent, we help you fill positions faster, enabling you to meet your clients’ needs with confidence.",
+    "visaTitle": "Visa Support",
+    "visaSupportDescription": "Bureaucratic hurdles are major challenges in cross-border hiring. We ensure a stress-free relocation experience for you and your employees. We take care of everything!",
+    "languageCoursesTitle": "Onboarding and Integration",
+    "languageCoursesDescription": "How can we ensure higher employee retention rates? Our comprehensive learning and development program focuses on organizing certified courses, on-the-job training, and access to government funding programs to ensure stronger ties to your company and mission.",
+    "continuousSupportTitle": "Human Resources",
+    "continuousSupportDescription": "A wide range of candidates from various industries to help you build strong and diverse teams."
   },
   "students": {
     "title": "For Students",
