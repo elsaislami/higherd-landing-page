@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { openBookingURL } from "../utils/navigation";
 import SEO from "../components/SEO.jsx";
 import companiespage from "../assets/companiespage.png";
 import HeroSection from "../components/sections/HeroSection.jsx";
@@ -19,17 +20,10 @@ import logo7 from "../assets/logo7.png";
 
 export default function Companies() {
   const { t } = useTranslation(["pages", "common"]);
-  const faqs = t("home.faq.items", { returnObjects: true });
+  const faqs = t("companies.faq.items", { returnObjects: true });
   const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
-  // Helper function for opening booking URL
-  const openBookingURL = () => {
-    const bookingURL =
-      import.meta.env.VITE_BOOKING_URL ||
-      "https://outlook.office.com/book/HigherdSolutionsYou@higherd.de/?ismsaljsauthenabled=true";
-    window.open(bookingURL);
-  };
   return (
-    <>
+    <div className="grid gap-16">
       <SEO
         title={`${t("companies.title")} - Higherd Solutions`}
         description={t("companies.subtitle")}
@@ -84,9 +78,9 @@ export default function Companies() {
         buttonText={t("companies.specialties.buttonText")}
       />
       {/* Partners Section */}
-      <PartnersSection logos={logos} />
+      <PartnersSection title={t("companies.partnersTitle")} logos={logos} />
       {/* FAQ Section */}
       <FAQSection faqs={faqs} />
-    </>
+    </div>
   );
 }

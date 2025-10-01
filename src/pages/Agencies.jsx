@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
+import { openBookingURL } from "../utils/navigation";
 import SEO from "../components/SEO.jsx";
-import agenciespage from "../assets/agenciespage.png";
+import recrutImg from "../assets/recrutImg.png";
 import HeroSection from "../components/sections/HeroSection.jsx";
 import SectionHeader from "../components/sections/SectionHeader.jsx";
 import EmployerPricingSection from "../components/sections/EmployerPricingSection.jsx";
@@ -19,17 +20,10 @@ import logo7 from "../assets/logo7.png";
 
 export default function Agencies() {
   const { t } = useTranslation(["pages", "common"]);
-  const faqs = t("home.faq.items", { returnObjects: true });
+  const faqs = t("agencies.faq.items", { returnObjects: true });
   const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
-  // Helper function for opening booking URL
-  const openBookingURL = () => {
-    const bookingURL =
-      import.meta.env.VITE_BOOKING_URL ||
-      "https://outlook.office.com/book/HigherdSolutionsYou@higherd.de/?ismsaljsauthenabled=true";
-    window.open(bookingURL);
-  };
   return (
-    <>
+    <div className="grid gap-16">
       <SEO
         title={`${t("agencies.title")} - Higherd Solutions`}
         description={t("agencies.subtitle")}
@@ -46,7 +40,7 @@ export default function Agencies() {
       />
       {/* Hero Section */}
       <HeroSection
-        heroImage={agenciespage}
+        heroImage={recrutImg}
         heroImageAlt={t("agencies.images.heroAlt")}
         title={t("agencies.title")}
         subtitle={t("agencies.subtitle")}
@@ -87,9 +81,9 @@ export default function Agencies() {
         buttonLink={() => openBookingURL()}
       />
       {/* Partners Section */}
-      <PartnersSection title={t("agencies.partners.title")} logos={logos} />
+      <PartnersSection title={t("agencies.partnersTitle")} logos={logos} />
       {/* FAQ Section */}
       <FAQSection faqs={faqs} />
-    </>
+    </div>
   );
 }

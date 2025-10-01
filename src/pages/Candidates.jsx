@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { openBookingURL } from "../utils/navigation";
 import SEO from "../components/SEO.jsx";
 import companiespage from "../assets/companiespage.png";
 import HeroSection from "../components/sections/HeroSection.jsx";
@@ -22,12 +23,6 @@ export default function Candidates() {
   const { t } = useTranslation("pages");
   const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
   const faqs = t("home.faq.items", { returnObjects: true });
-  const openBookingURL = () => {
-    const bookingURL =
-      import.meta.env.VITE_BOOKING_URL ||
-      "https://outlook.office.com/book/HigherdSolutionsYou@higherd.de/?ismsaljsauthenabled=true";
-    window.open(bookingURL);
-  };
 
   // Load job listings from translations
   const jobListings = t("candidates.jobListings", { returnObjects: true });
@@ -52,7 +47,7 @@ export default function Candidates() {
   ];
 
   return (
-    <>
+    <div className="grid gap-16">
       <SEO
         title={`${t("candidates.title")} - Higherd Solutions`}
         description={t("candidates.subtitle")}
@@ -116,6 +111,6 @@ export default function Candidates() {
       <PartnersSection title={t("candidates.partners.title")} logos={logos} />
       {/* FAQ Section */}
       <FAQSection faqs={faqs} />
-    </>
+    </div>
   );
 }

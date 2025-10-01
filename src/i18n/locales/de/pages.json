@@ -68,6 +68,7 @@
     },
     "plansCTA": {
       "title": "Entdecken Sie unsere Pläne und kontaktieren Sie uns, um herauszufinden, welches Paket Ihren Zielen entspricht.",
+
       "button": "Entdecken Sie Pläne"
     },
     "specialties": {
@@ -159,10 +160,61 @@
       "title": "Beginnt mit der Einstellung bei Highder",
       "button": "Legen Sie los"
     },
+    "partnersTitle": "Unsere Partner",
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "q": "Kann ich den Tarif jederzeit wechseln?",
+          "a": "Ja, Sie können Ihren Plan jederzeit upgraden oder downgraden, um ihn an die Bedürfnisse Ihrer Karriere anzupassen."
+        },
+        {
+          "q": "Gibt es eine Einrichtungsgebühr?",
+          "a": "Nein, es gibt keine Einrichtungsgebühr."
+        },
+        {
+          "q": "Bieten Sie während der kostenlosen Testversion Support an?",
+          "a": "Ja, unser Support steht Ihnen auch in der Testphase zur Verfügung."
+        },
+        {
+          "q": "Wie funktioniert die Umsatzbeteiligung aus Anzeigen im Basistarif?",
+          "a": "Sie zahlen einen prozentualen Anteil des Umsatzes bei erfolgreichen Einstellungen."
+        },
+        {
+          "q": "Welche Zahlungsmethoden akzeptieren Sie?",
+          "a": "Wir akzeptieren Kreditkarte, SEPA-Lastschrift und PayPal."
+        }
+      ]
+    },
     "specialties": {
       "title": "Unsere Leistungen",
       "desc": "Higherd ist Ihr One-Stop-Shop für die internationale Rekrutierung von MINT-Kandidaten. . Unsere Personalvermittler vor Ort prüfen den Hintergrund der Kandidaten gründlich. . Darüber hinaus stellt unsere wertbasierte KI-Technologie die kulturelle Passung zu Ihrem Unternehmen und Ihrem lokalen Team sicher. . Bei uns erhalten Sie einen echten Kandidatenhintergrund, höhere Mitarbeiterbindungsraten und engagierte Unterstützung, um alle internationalen Verfahren zu optimieren..",
       "buttonText": "Erstellen Sie Ihr Profil",
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "items": [
+          {
+            "q": "Kann ich den Tarif jederzeit wechseln?",
+            "a": "Ja, Sie können Ihren Plan jederzeit upgraden oder downgraden, um ihn an die Bedürfnisse Ihrer Karriere anzupassen."
+          },
+          {
+            "q": "Gibt es eine Einrichtungsgebühr?",
+            "a": "Nein, es gibt keine Einrichtungsgebühr."
+          },
+          {
+            "q": "Bieten Sie während der kostenlosen Testversion Support an?",
+            "a": "Ja, unser Support steht Ihnen auch in der Testphase zur Verfügung."
+          },
+          {
+            "q": "Wie funktioniert die Umsatzbeteiligung aus Anzeigen im Basistarif?",
+            "a": "Sie zahlen einen prozentualen Anteil des Umsatzes bei erfolgreichen Einstellungen."
+          },
+          {
+            "q": "Welche Zahlungsmethoden akzeptieren Sie?",
+            "a": "Wir akzeptieren Kreditkarte, SEPA-Lastschrift und PayPal."
+          }
+        ]
+      },
       "items": [
         {
           "icon": "🖥️",
@@ -198,14 +250,66 @@
       "subtitle": "Schalten Sie unbegrenzt Kandidatenprofile und Stellenausschreibungen ohne Vorabkosten frei. Melden Sie sich jetzt an, um Zugang zu erstklassigen Talenten und Stellenangeboten zu erhalten – zahlen Sie nur eine Provision für erfolgreiche Einstellungen. Beginnen Sie mit der Rekrutierung intelligenter und schneller!",
       "button": "Legen Sie los"
     },
+    "partnersTitle": "Unsere Partner",
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "q": "Kann ich den Tarif jederzeit wechseln?",
+          "a": "Ja, Sie können Ihren Plan jederzeit upgraden oder downgraden, um ihn an die Bedürfnisse Ihrer Karriere anzupassen."
+        },
+        {
+          "q": "Gibt es eine Einrichtungsgebühr?",
+          "a": "Nein, es gibt keine Einrichtungsgebühr."
+        },
+        {
+          "q": "Bieten Sie während der kostenlosen Testversion Support an?",
+          "a": "Ja, unser Support steht Ihnen auch in der Testphase zur Verfügung."
+        },
+        {
+          "q": "Wie funktioniert die Umsatzbeteiligung aus Anzeigen im Basistarif?",
+          "a": "Sie zahlen einen prozentualen Anteil des Umsatzes bei erfolgreichen Einstellungen."
+        },
+        {
+          "q": "Welche Zahlungsmethoden akzeptieren Sie?",
+          "a": "Wir akzeptieren Kreditkarte, SEPA-Lastschrift und PayPal."
+        }
+      ]
+    },
     "partners": {
       "title": "Kunden und Partner"
     },
 
     "specialties": {
       "title": "Unsere Leistungen",
+
       "desc": "Higherd ist Ihr One-Stop-Shop für die internationale Rekrutierung von MINT-Kandidaten. . Unsere Personalvermittler vor Ort prüfen den Hintergrund der Kandidaten gründlich. . Darüber hinaus stellt unsere wertbasierte KI-Technologie die kulturelle Passung zu Ihrem Unternehmen und Ihrem lokalen Team sicher. . Bei uns erhalten Sie einen echten Kandidatenhintergrund, höhere Mitarbeiterbindungsraten und engagierte Unterstützung, um alle internationalen Verfahren zu optimieren..",
       "buttonText": "Erstellen Sie Ihr Profil",
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "items": [
+          {
+            "q": "Kann ich den Tarif jederzeit wechseln?",
+            "a": "Ja, Sie können Ihren Plan jederzeit upgraden oder downgraden, um ihn an die Bedürfnisse Ihrer Karriere anzupassen."
+          },
+          {
+            "q": "Gibt es eine Einrichtungsgebühr?",
+            "a": "Nein, es gibt keine Einrichtungsgebühr."
+          },
+          {
+            "q": "Bieten Sie während der kostenlosen Testversion Support an?",
+            "a": "Ja, unser Support steht Ihnen auch in der Testphase zur Verfügung."
+          },
+          {
+            "q": "Wie funktioniert die Umsatzbeteiligung aus Anzeigen im Basistarif?",
+            "a": "Sie zahlen einen prozentualen Anteil des Umsatzes bei erfolgreichen Einstellungen."
+          },
+          {
+            "q": "Welche Zahlungsmethoden akzeptieren Sie?",
+            "a": "Wir akzeptieren Kreditkarte, SEPA-Lastschrift und PayPal."
+          }
+        ]
+      },
       "items": [
         {
           "icon": "🖥️",
@@ -233,6 +337,9 @@
 
   "candidates": {
     "title": "Ihr Traumjob, nur einen Klick entfernt",
+    "partners": {
+      "title": "Kunden und Partner"
+    },
     "subtitle": "Bewerben Sie sich ganz einfach für neue Stellen und treten Sie direkt mit Unternehmen in Kontakt, die nach Talenten wie Ihrem suchen. ",
     "bookaDemo": "Versuchen Sie es jetzt",
     "solutionsTitle": "Higherd Solutions – Personalbeschaffung für Ihre Einstellungsbedürfnisse",
@@ -243,9 +350,32 @@
       "title": "Starten Sie Ihre Jobsuche mit Higherd",
       "button": "Legen Sie los"
     },
-    "partners": {
-      "title": "Kunden und Partner"
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "q": "Kann ich den Tarif jederzeit wechseln?",
+          "a": "Ja, Sie können Ihren Plan jederzeit upgraden oder downgraden, um ihn an die Bedürfnisse Ihrer Karriere anzupassen."
+        },
+        {
+          "q": "Gibt es eine Einrichtungsgebühr?",
+          "a": "Nein, es gibt keine Einrichtungsgebühr."
+        },
+        {
+          "q": "Bieten Sie während der kostenlosen Testversion Support an?",
+          "a": "Ja, unser Support steht Ihnen auch in der Testphase zur Verfügung."
+        },
+        {
+          "q": "Wie funktioniert die Umsatzbeteiligung aus Anzeigen im Basistarif?",
+          "a": "Sie zahlen einen prozentualen Anteil des Umsatzes bei erfolgreichen Einstellungen."
+        },
+        {
+          "q": "Welche Zahlungsmethoden akzeptieren Sie?",
+          "a": "Wir akzeptieren Kreditkarte, SEPA-Lastschrift und PayPal."
+        }
+      ]
     },
+
     "pricing": {
       "title": "Für Kandidaten",
       "desc": "Unbeschränkter Zugriff, Profilerstellung, Bewerbung, Vorbereitung auf Vorstellungsgespräche...",
@@ -283,6 +413,7 @@
       "subtitle": "Entdecke Jobs, Praktika und Ressourcen für Studierende und Absolventen.",
       "bookaDemo": "Kostenlose Beratung buchen"
     },
+
     "jobListingsTitle": "Stellenangebote",
     "jobListingsDesc": "Finde die neuesten Studentenjobs, Praktika und Traineeprogramme.",
     "cta": {

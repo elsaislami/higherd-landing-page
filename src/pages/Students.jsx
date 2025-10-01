@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { openBookingURL } from "../utils/navigation";
 import SEO from "../components/SEO.jsx";
 import HeroSection from "../components/sections/HeroSection.jsx";
 import companiespage from "../assets/companiespage.png";
@@ -20,13 +21,6 @@ export default function Students() {
   const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
   const faqs = t("students.faqs", { returnObjects: true });
 
-  const openBookingURL = () => {
-    const bookingURL =
-      import.meta.env.VITE_BOOKING_URL ||
-      "https://outlook.office.com/book/HigherdSolutionsYou@higherd.de/?ismsaljsauthenabled=true";
-    window.open(bookingURL);
-  };
-
   // Load job listings from translations
   const jobListings = t("students.jobListings", { returnObjects: true });
 
@@ -34,7 +28,7 @@ export default function Students() {
   const additionalServices = t("students.services", { returnObjects: true });
 
   return (
-    <>
+    <div className="grid gap-16">
       <SEO
         title={`${t("students.title")} - Higherd Solutions`}
         description={t("students.subtitle")}
@@ -85,6 +79,6 @@ export default function Students() {
       <PartnersSection title={t("students.partnersTitle")} logos={logos} />
       {/* FAQ Section */}
       <FAQSection faqs={faqs} title={t("students.faqTitle")} />
-    </>
+    </div>
   );
 }

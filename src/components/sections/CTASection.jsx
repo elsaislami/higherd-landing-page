@@ -16,7 +16,7 @@ export default function CTASection({
       className={`bg-[#4500A8] justify-items-center px-8 py-16  text-white ${className}`}
     >
       <h1 className="title-xl-white mx-auto w-full">{title}</h1>
-      <p className="my-3 ">{subtitle}</p>
+      <p className="my-3 text-center ">{subtitle}</p>
       <Button variant={variant} onClick={onButtonClick}>
         {buttonText}
       </Button>

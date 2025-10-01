@@ -35,7 +35,7 @@ export default function HeroSection({
         {/* Foreground Content */}
         <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between relative z-10">
           <header className="md:max-w-1/2">
-            <h1 className="title-xxl px-3">{title}</h1>
+            <h1 className="title-xxl ">{title}</h1>
             <p className="mt-3 text-gray-600">{subtitle}</p>
             {buttons.length > 0 && (
               <nav className="mt-6 flex  gap-3" aria-label="Primary actions">

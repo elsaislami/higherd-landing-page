@@ -212,6 +212,30 @@
       "title": "Start hiring with Higherd",
       "button": "Get Started"
     },
+    "partnersTitle": "Our Partners",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Can I change the plan at any time?",
+          "a": "Yes, you can upgrade or downgrade your plan anytime to match your career needs."
+        },
+        { "q": "Is there a setup fee?", "a": "No, there is no setup fee." },
+        {
+          "q": "Do you offer support during the free trial?",
+          "a": "Yes, our support is available during the trial as well."
+        },
+        {
+          "q": "How does ad revenue sharing work in the base plan?",
+          "a": "You pay a percentage of revenue on successful hires."
+        },
+        {
+          "q": "Which payment methods are accepted?",
+          "a": "We accept credit card, SEPA direct debit and PayPal."
+        }
+      ]
+    },
+
     "specialties": {
       "title": "Our Specialties",
       "desc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates’ backgrounds and our AI ensures cultural fit.",
@@ -248,10 +272,36 @@
     "solutionsDesc": "Higherd delivers tailored recruiting services for SMEs, enterprises and agencies, saving you time through targeted support and tools that bring top candidates directly to you.",
     "plansCTA": {
       "title": "Start hiring with Higherd",
+      "subtitle": "Unlock unlimited candidate profiles and job postings with no upfront costs. Sign up now to access top-tier talent and job listings – pay only a commission for successful hires. Start recruiting smarter and faster!",
       "button": "Get Started"
+    },
+    "partnersTitle": "Our Partners",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Can I change the plan at any time?",
+          "a": "Yes, you can upgrade or downgrade your plan anytime to match your career needs."
+        },
+        { "q": "Is there a setup fee?", "a": "No, there is no setup fee." },
+        {
+          "q": "Do you offer support during the free trial?",
+          "a": "Yes, our support is available during the trial as well."
+        },
+        {
+          "q": "How does ad revenue sharing work in the base plan?",
+          "a": "You pay a percentage of revenue on successful hires."
+        },
+        {
+          "q": "Which payment methods are accepted?",
+          "a": "We accept credit card, SEPA direct debit and PayPal."
+        }
+      ]
     },
     "specialties": {
       "title": "Our Services",
+      "desc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates’ backgrounds. In addition, our value-based AI technology ensures cultural fit with your company and local team. At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
+      "buttonText": "Create your profile",
       "items": [
         {
           "title": "Expert Recruiting",
@@ -274,6 +324,14 @@
   },
   "candidates": {
     "title": "Your dream job, just a click away",
+    "pricing": {
+      "title": "For Candidates",
+      "desc": "Unlimited access, profile creation, application, interview preparation...",
+      "price": "From €150 / month"
+    },
+    "partners": {
+      "title": "Customers & Partners"
+    },
     "subtitle": "Easily apply for new positions and connect directly with companies looking for talents like yours.",
     "bookaDemo": "Try it now",
     "solutionsTitle": "Higherd Solutions – Recruiting for Your Hiring Needs",

@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import { openBookingURL } from "../utils/navigation";
 import SEO from "../components/SEO.jsx";
 import PricingStructuredData from "../components/PricingStructuredData.jsx";
 import LocalBusinessSchema from "../components/LocalBusinessSchema.jsx";
@@ -44,13 +45,6 @@ export default function Home() {
     },
   ];
 
-  // Helper function for opening booking URL
-  const openBookingURL = () => {
-    const bookingURL =
-      import.meta.env.VITE_BOOKING_URL ||
-      "https://outlook.office.com/book/HigherdSolutionsYou@higherd.de/?ismsaljsauthenabled=true";
-    window.open(bookingURL);
-  };
   return (
     <div className="grid gap-16">
       <SEO
