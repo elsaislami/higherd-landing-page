@@ -10,7 +10,7 @@ export default function HeroSection({
 }) {
   return (
     <section className={`container my-20 ${className}`} role="banner">
-      <div className="relative px-6">
+      <div className="relative">
         {/* Irregular Blob Background (SVG) */}
         <div
           className="absolute top-1/2 left-1/2 -translate-x-1/4 -translate-y-1/2 z-0 opacity-40 pointer-events-none"
@@ -34,16 +34,11 @@ export default function HeroSection({
 
         {/* Foreground Content */}
         <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between relative z-10">
-          <header>
-            <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
-              {title}
-            </h1>
+          <header className="md:max-w-1/2">
+            <h1 className="title-xxl px-3">{title}</h1>
             <p className="mt-3 text-gray-600">{subtitle}</p>
             {buttons.length > 0 && (
-              <nav
-                className="mt-6 flex justify-center gap-3"
-                aria-label="Primary actions"
-              >
+              <nav className="mt-6 flex  gap-3" aria-label="Primary actions">
                 {buttons.map((button, index) => (
                   <Button
                     key={index}

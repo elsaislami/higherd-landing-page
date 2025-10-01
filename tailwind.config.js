@@ -29,12 +29,15 @@ export default {
       },
       container: {
         center: true,
-        padding: '1rem',
+        padding: '6rem',
         screens: {
           lg: '1024px',
           xl: '1200px',
           '2xl': '1400px',
         },
+      },
+      fontFamily: {
+        sans: ['Geist', 'Inter', 'ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'Roboto', '"Helvetica Neue"', 'Arial'],
       },
     },
   },

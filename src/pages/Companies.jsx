@@ -62,8 +62,7 @@ export default function Companies() {
         title={t("companies.solutionsTitle")}
         description={t("companies.solutionsDesc")}
       />
-      {/* Partners Section */}
-      <PartnersSection logos={logos} />
+
       {/* Pricing Sections */}
       <section className="container my-20 space-y-24">
         {/* Employers Pricing */}
@@ -84,6 +83,8 @@ export default function Companies() {
         pageKey="companies"
         buttonText={t("companies.specialties.buttonText")}
       />
+      {/* Partners Section */}
+      <PartnersSection logos={logos} />
       {/* FAQ Section */}
       <FAQSection faqs={faqs} />
     </>

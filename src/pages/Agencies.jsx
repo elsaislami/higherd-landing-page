@@ -4,7 +4,7 @@ import agenciespage from "../assets/agenciespage.png";
 import HeroSection from "../components/sections/HeroSection.jsx";
 import SectionHeader from "../components/sections/SectionHeader.jsx";
 import EmployerPricingSection from "../components/sections/EmployerPricingSection.jsx";
-import employessImg from "../assets/employessImg.png";
+import agenciesImg from "../assets/agenciesImg.png";
 import CTASection from "../components/sections/CTASection.jsx";
 import SpecialtiesSection from "../components/sections/SpecialtiesSection.jsx";
 import FAQSection from "../components/sections/FAQSection.jsx";
@@ -63,13 +63,12 @@ export default function Agencies() {
         title={t("agencies.solutionsTitle")}
         description={t("agencies.solutionsDesc")}
       />
-      {/* Partners Section */}
-      <PartnersSection logos={logos} />
+
       {/* Pricing Sections */}
       <section className="container my-20 space-y-24">
         {/* Employers Pricing */}
         <EmployerPricingSection
-          image={employessImg}
+          image={agenciesImg}
           imageAlt={t("agencies.images.employersAlt")}
           onBookDemo={openBookingURL}
         />
@@ -85,7 +84,10 @@ export default function Agencies() {
       <SpecialtiesSection
         pageKey="agencies"
         buttonText={t("agencies.specialties.buttonText")}
+        buttonLink={() => openBookingURL()}
       />
+      {/* Partners Section */}
+      <PartnersSection title={t("agencies.partners.title")} logos={logos} />
       {/* FAQ Section */}
       <FAQSection faqs={faqs} />
     </>

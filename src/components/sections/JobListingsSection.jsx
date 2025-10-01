@@ -1,10 +1,11 @@
 import { useTranslation } from "react-i18next";
+import Button from "../ui/Button";
 
 export default function JobListingsSection({ jobListings = [] }) {
   const { t } = useTranslation("pages");
 
   return (
-    <section className="container my-20">
+    <section className="container my-20 flex flex-col items-center ">
       <h2 className="text-2xl font-bold text-center mb-6">
         {t("candidates.jobListingsTitle")}
       </h2>
@@ -15,7 +16,7 @@ export default function JobListingsSection({ jobListings = [] }) {
         {jobListings.map((job, index) => (
           <div
             key={index}
-            className="p-6 border rounded-lg shadow-lg bg-white flex flex-col justify-between"
+            className="p-6 border border-gray-100 rounded-lg shadow-lg bg-white flex flex-col justify-between"
           >
             <div>
               <h3 className="text-xl font-semibold mb-2">{job.title}</h3>
@@ -32,11 +33,11 @@ export default function JobListingsSection({ jobListings = [] }) {
           </div>
         ))}
       </div>
-      <div className="mt-8 flex items-center justify-between bg-gray-100 p-4 rounded-lg">
-        <p className="text-sm text-gray-600">{t("candidates.notEnoughJobs")}</p>
-        <button className="px-6 py-2 bg-purple-600 text-white rounded-lg">
-          {t("candidates.createProfile")}
-        </button>
+      <div className=" mt-8 flex self-center items-center justify-between bg-gray-100 p-4 rounded-lg">
+        <p className="text-sm text-gray-600 pr-2">
+          {t("candidates.notEnoughJobs")}
+        </p>
+        <Button variant="primary">{t("candidates.createProfile")}</Button>
       </div>
     </section>
   );

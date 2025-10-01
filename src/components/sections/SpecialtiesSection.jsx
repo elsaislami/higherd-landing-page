@@ -9,6 +9,8 @@ export default function SpecialtiesSection({
 }) {
   const { t } = useTranslation(["pages"]);
 
+  console.log(t(`${pageKey}.specialties.items`, { returnObjects: true }));
+
   return (
     <section
       className={`container my-20 flex flex-col lg:flex-row items-center gap-10 ${className}`}

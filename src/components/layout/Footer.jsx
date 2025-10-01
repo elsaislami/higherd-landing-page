@@ -70,13 +70,31 @@ export default function Footer() {
               />
 
               <div className="flex gap-4 text-2xl mt-5">
-                <a href="#" aria-label="linkedIn">
+                <a
+                  href="https://www.linkedin.com/company/higherding"
+                  aria-label="LinkedIn (opens in new tab)"
+                  title="Visit our LinkedIn (opens in new tab)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Linkedin className="w-6 h-6 hover:text-purple-500" />
                 </a>
-                <a href="#" aria-label="Facebook">
+                <a
+                  href="https://www.facebook.com/p/Higherd-Solutions-61559645822112/"
+                  aria-label="Facebook (opens in new tab)"
+                  title="Visit our Facebook (opens in new tab)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Facebook className="w-6 h-6 hover:text-purple-500" />
                 </a>
-                <a href="#" aria-label="Instagram">
+                <a
+                  href="https://www.instagram.com/higherd_solutions"
+                  aria-label="Instagram (opens in new tab)"
+                  title="Visit our Instagram (opens in new tab)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <Instagram className="w-6 h-6 hover:text-purple-500" />
                 </a>
               </div>

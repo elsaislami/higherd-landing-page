@@ -23,7 +23,7 @@ export default function ServiceSection({
     >
       <div
         className={`absolute rounded-xl top-0 ${
-          isImageRight ? "right-0" : "left-0"
+          isImageRight ? "left-0" : "right-0"
         } w-[70%] h-full bg-purple-50 z-0`}
       />
 

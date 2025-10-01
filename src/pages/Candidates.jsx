@@ -3,8 +3,7 @@ import SEO from "../components/SEO.jsx";
 import companiespage from "../assets/companiespage.png";
 import HeroSection from "../components/sections/HeroSection.jsx";
 import SectionHeader from "../components/sections/SectionHeader.jsx";
-import EmployerPricingSection from "../components/sections/EmployerPricingSection.jsx";
-import employessImg from "../assets/employessImg.png";
+import candidatesImg from "../assets/candidatesImg.png";
 import CTASection from "../components/sections/CTASection.jsx";
 import PartnersSection from "../components/sections/PartnersSection.jsx";
 import logo1 from "../assets/logo1.png";
@@ -16,10 +15,13 @@ import logo6 from "../assets/logo6.png";
 import logo7 from "../assets/logo7.png";
 import JobListingsSection from "../components/sections/JobListingsSection.jsx";
 import AdditionalServicesSection from "../components/sections/AdditionalServicesSection.jsx";
+import FAQSection from "../components/sections/FAQSection.jsx";
+import ServiceSection from "../components/sections/ServiceSection.jsx";
 
 export default function Candidates() {
   const { t } = useTranslation("pages");
   const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
+  const faqs = t("home.faq.items", { returnObjects: true });
   const openBookingURL = () => {
     const bookingURL =
       import.meta.env.VITE_BOOKING_URL ||
@@ -27,50 +29,8 @@ export default function Candidates() {
     window.open(bookingURL);
   };
 
-  const jobListings = [
-    {
-      title: "UX-UI-Designer",
-      description:
-        "Die Sicherung eines Vorstellungsgesprächs ist nur der Anfang. Unser Service zur Vorbereitung auf Vorstellungsgespräche vermittelt Ihnen die Fähigkeiten und das Selbstvertrauen, die Sie benötigen, um in Vorstellungsgesprächen hervorragende Leistungen zu erbringen. ",
-      type: "Vollzeit",
-      mode: "Fernbedienung",
-    },
-    {
-      title: "Produktdesigner",
-      description:
-        "Die Sicherung eines Vorstellungsgesprächs ist nur der Anfang. Unser Service zur Vorbereitung auf Vorstellungsgespräche vermittelt Ihnen die Fähigkeiten und das Selbstvertrauen, die Sie benötigen, um in Vorstellungsgesprächen hervorragende Leistungen zu erbringen. ",
-      type: "Vollzeit",
-      mode: "Fernbedienung",
-    },
-    {
-      title: "Software-Ingenieur",
-      description:
-        "Die Sicherung eines Vorstellungsgesprächs ist nur der Anfang. Unser Service zur Vorbereitung auf Vorstellungsgespräche vermittelt Ihnen die Fähigkeiten und das Selbstvertrauen, die Sie benötigen, um in Vorstellungsgesprächen hervorragende Leistungen zu erbringen. ",
-      type: "Vollzeit",
-      mode: "Fernbedienung",
-    },
-    {
-      title: "Grafikdesigner",
-      description:
-        "Die Sicherung eines Vorstellungsgesprächs ist nur der Anfang. Unser Service zur Vorbereitung auf Vorstellungsgespräche vermittelt Ihnen die Fähigkeiten und das Selbstvertrauen, die Sie benötigen, um in Vorstellungsgesprächen hervorragende Leistungen zu erbringen. ",
-      type: "Vollzeit",
-      mode: "Fernbedienung",
-    },
-    {
-      title: "Biotechnik",
-      description:
-        "Die Sicherung eines Vorstellungsgesprächs ist nur der Anfang. Unser Service zur Vorbereitung auf Vorstellungsgespräche vermittelt Ihnen die Fähigkeiten und das Selbstvertrauen, die Sie benötigen, um in Vorstellungsgesprächen hervorragende Leistungen zu erbringen. ",
-      type: "Vollzeit",
-      mode: "Fernbedienung",
-    },
-    {
-      title: "QS-Ingenieur",
-      description:
-        "Die Sicherung eines Vorstellungsgesprächs ist nur der Anfang. Unser Service zur Vorbereitung auf Vorstellungsgespräche vermittelt Ihnen die Fähigkeiten und das Selbstvertrauen, die Sie benötigen, um in Vorstellungsgesprächen hervorragende Leistungen zu erbringen. ",
-      type: "Vollzeit",
-      mode: "Fernbedienung",
-    },
-  ];
+  // Load job listings from translations
+  const jobListings = t("candidates.jobListings", { returnObjects: true });
 
   const additionalServices = [
     {
@@ -126,14 +86,18 @@ export default function Candidates() {
         title={t("candidates.solutionsTitle")}
         description={t("candidates.solutionsDesc")}
       />
-      {/* Partners Section */}
-      <PartnersSection logos={logos} />
+
       {/* Pricing Sections */}
       <section className="container my-20 space-y-24">
-        {/* Employers Pricing */}
-        <EmployerPricingSection
-          image={employessImg}
-          imageAlt={t("candidates.images.employersAlt")}
+        {/* Candidates Section */}
+        <ServiceSection
+          id="for-candidates"
+          title={t("candidates.pricing.title")}
+          description={t("candidates.pricing.desc")}
+          price={t("candidates.pricing.price")}
+          image={candidatesImg}
+          imageAlt={t("candidates.images.candidatesAlt")}
+          imagePosition="left"
           onBookDemo={openBookingURL}
         />
       </section>
@@ -147,6 +111,11 @@ export default function Candidates() {
       <JobListingsSection jobListings={jobListings} />
       {/* Additional Services Section */}
       <AdditionalServicesSection services={additionalServices} />
+
+      {/* Partners Section */}
+      <PartnersSection title={t("candidates.partners.title")} logos={logos} />
+      {/* FAQ Section */}
+      <FAQSection faqs={faqs} />
     </>
   );
 }

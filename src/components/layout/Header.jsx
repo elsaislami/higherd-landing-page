@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import logo from "../../assets/brand-logo.png";
@@ -6,35 +6,15 @@ import logo from "../../assets/brand-logo.png";
 export default function Header() {
   const { t, i18n } = useTranslation("common");
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => {
-      setScrolled(window.scrollY > 0);
-    };
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
 
   const navLink = ({ isActive }) =>
     `px-3 py-2 rounded-md text-sm font-medium ${
       isActive ? "text-primary-700" : "text-gray-700 hover:text-primary-700"
     }`;
 
-  const headerBg = scrolled ? "bg-white/70 backdrop-blur-md" : "bg-transparent";
+  const headerBg = "bg-white/70 backdrop-blur-md";
 
   const closeMobile = () => setMobileOpen(false);
-
-  // Smooth scroll helper
-  const handleSmoothScroll = (e, targetId, onNavigate) => {
-    e.preventDefault();
-    const el = document.getElementById(targetId);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-      if (onNavigate) onNavigate();
-    }
-  };
 
   const NavItems = ({ onNavigate }) => (
     <>
@@ -51,6 +31,12 @@ export default function Header() {
       <NavLink to="/candidates" className={navLink} end onClick={onNavigate}>
         {t("nav.forCandidates")}
       </NavLink>
+      <NavLink to="/students" className={navLink} end onClick={onNavigate}>
+        {t("nav.forStudents")}
+      </NavLink>
+      <NavLink to="/about" className={navLink} end onClick={onNavigate}>
+        {t("nav.about")}
+      </NavLink>
     </>
   );
 
@@ -58,7 +44,7 @@ export default function Header() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-colors duration-300 ${headerBg}`}
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto max-w-7xl">
         <div className="flex h-16 items-center justify-between">
           <Link
             to="/"
@@ -116,7 +102,7 @@ export default function Header() {
       {/* Mobile/tablet full-screen menu */}
       {mobileOpen && (
         <div className="fixed inset-0 z-50 bg-white/95 backdrop-blur-xl">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative flex h-full flex-col items-center justify-center">
+          <div className="mx-auto max-w-7xl container  relative flex h-full flex-col items-center justify-center">
             <button
               type="button"
               className="absolute right-4 top-4 inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:text-primary-700"

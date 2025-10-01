@@ -6,7 +6,13 @@
     "solutionsDesc": "Higherd delivers tailored recruiting services for SMEs, enterprises and agencies, saving you time through targeted support and tools that bring top candidates directly to you.",
     "partnersTitle": "Customers & Partners",
     "bookaDemo": "Book a Demo",
-    "partnersList": ["Layers", "Quotient", "Circooles", "Hourglass", "Command+R"],
+    "partnersList": [
+      "Layers",
+      "Quotient",
+      "Circooles",
+      "Hourglass",
+      "Command+R"
+    ],
     "pricing": {
       "employers": {
         "title": "For Employers",
@@ -65,7 +71,45 @@
         },
         "jobListingsTitle": "Job Listings",
         "jobListingsDesc": "At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
-        "notEnoughJobs": "If you don’t find enough jobs for yourself, then",
+        "jobListings": [
+          {
+            "title": "UX-UI-Designer",
+            "description": "Work on user experience and interface design for digital products.",
+            "type": "Full-time",
+            "mode": "Remote"
+          },
+          {
+            "title": "Product Designer",
+            "description": "Design and develop innovative products for various industries.",
+            "type": "Full-time",
+            "mode": "Remote"
+          },
+          {
+            "title": "Software Engineer",
+            "description": "Develop and maintain software applications and systems.",
+            "type": "Full-time",
+            "mode": "Remote"
+          },
+          {
+            "title": "Graphic Designer",
+            "description": "Create visual concepts and designs for marketing materials.",
+            "type": "Full-time",
+            "mode": "Remote"
+          },
+          {
+            "title": "Biotech Intern",
+            "description": "Assist in research and development in the biotech sector.",
+            "type": "Internship",
+            "mode": "On-site"
+          },
+          {
+            "title": "QA Engineer",
+            "description": "Test and ensure the quality of software products.",
+            "type": "Full-time",
+            "mode": "Remote"
+          }
+        ],
+        "notEnoughJobs": "If you don’t find enough jobs for yourself, then  ",
         "createProfile": "Create Your Profile",
         "additionalServicesTitle": "Our Services",
         "additionalServicesDesc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates’ backgrounds. In addition, our value-based AI technology ensures cultural fit with your company and local team. At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
@@ -109,12 +153,21 @@
       "items": [
         {
           "q": "Can I change the plan at any time?",
-            "a": "Yes, you can upgrade or downgrade your plan anytime to match your career needs."
+          "a": "Yes, you can upgrade or downgrade your plan anytime to match your career needs."
         },
         { "q": "Is there a setup fee?", "a": "No, there is no setup fee." },
-        { "q": "Do you offer support during the free trial?", "a": "Yes, our support is available during the trial as well." },
-        { "q": "How does ad revenue sharing work in the base plan?", "a": "You pay a percentage of revenue on successful hires." },
-        { "q": "Which payment methods are accepted?", "a": "We accept credit card, SEPA direct debit and PayPal." }
+        {
+          "q": "Do you offer support during the free trial?",
+          "a": "Yes, our support is available during the trial as well."
+        },
+        {
+          "q": "How does ad revenue sharing work in the base plan?",
+          "a": "You pay a percentage of revenue on successful hires."
+        },
+        {
+          "q": "Which payment methods are accepted?",
+          "a": "We accept credit card, SEPA direct debit and PayPal."
+        }
       ]
     },
     "newsletter": {
@@ -159,24 +212,30 @@
       "title": "Start hiring with Higherd",
       "button": "Get Started"
     },
-    "services": {
-      "title": "Our Services",
+    "specialties": {
+      "title": "Our Specialties",
+      "desc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates’ backgrounds and our AI ensures cultural fit.",
+      "buttonText": "Create your profile",
       "items": [
         {
+          "icon": "🖥️",
           "title": "Expert Recruiting",
-          "desc": "Higherd’s recruiting experts ensure the best candidates are matched to your needs."
+          "desc": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit."
         },
         {
-          "title": "Visa & Relocation",
+          "icon": "🛠️",
+          "title": "Visa Support",
           "desc": "Full support for visa applications and relocation processes."
         },
         {
-          "title": "Onboarding and Integration",
-          "desc": "Smooth onboarding and integration for new hires."
+          "icon": "🧬",
+          "title": "Onboarding & Integration",
+          "desc": "Comprehensive learning and development programs, certified courses and on-the-job training."
         },
         {
-          "title": "Professionalism",
-          "desc": "We ensure a professional and efficient hiring process."
+          "icon": "🧬",
+          "title": "Human Resources",
+          "desc": "A wide range of candidates from various industries to help you build strong and diverse teams."
         }
       ]
     }
@@ -191,7 +250,7 @@
       "title": "Start hiring with Higherd",
       "button": "Get Started"
     },
-    "services": {
+    "specialties": {
       "title": "Our Services",
       "items": [
         {
@@ -225,7 +284,45 @@
     },
     "jobListingsTitle": "Job Listings",
     "jobListingsDesc": "At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
-    "notEnoughJobs": "If you don’t find enough jobs for yourself, then",
+    "jobListings": [
+      {
+        "title": "UX-UI-Designer",
+        "description": "Work on user experience and interface design for digital products.",
+        "type": "Full-time",
+        "mode": "Remote"
+      },
+      {
+        "title": "Product Designer",
+        "description": "Design and develop innovative products for various industries.",
+        "type": "Full-time",
+        "mode": "Remote"
+      },
+      {
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications and systems.",
+        "type": "Full-time",
+        "mode": "Remote"
+      },
+      {
+        "title": "Graphic Designer",
+        "description": "Create visual concepts and designs for marketing materials.",
+        "type": "Full-time",
+        "mode": "Remote"
+      },
+      {
+        "title": "Biotech Intern",
+        "description": "Assist in research and development in the biotech sector.",
+        "type": "Internship",
+        "mode": "On-site"
+      },
+      {
+        "title": "QA Engineer",
+        "description": "Test and ensure the quality of software products.",
+        "type": "Full-time",
+        "mode": "Remote"
+      }
+    ],
+    "notEnoughJobs": "If you don’t find enough jobs for yourself, then  ",
     "createProfile": "Create Your Profile",
     "additionalServicesTitle": "Our Services",
     "additionalServicesDesc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates’ backgrounds. In addition, our value-based AI technology ensures cultural fit with your company and local team. At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
@@ -239,11 +336,149 @@
     "continuousSupportDescription": "A wide range of candidates from various industries to help you build strong and diverse teams."
   },
   "students": {
-    "title": "For Students",
-    "subtitle": "Kickstart your career with internships and mentorship."
+    "title": "Student Opportunities",
+    "subtitle": "Find internships, entry-level jobs, and career support tailored for students.",
+    "hero": {
+      "imageAlt": "Students exploring career opportunities",
+      "title": "Start Your Career Journey",
+      "subtitle": "Discover jobs, internships, and resources for students and graduates.",
+      "bookaDemo": "Book a Free Consultation"
+    },
+    "jobListingsTitle": "Job Listings",
+    "jobListingsDesc": "Browse the latest student jobs, internships, and graduate programs.",
+    "jobListings": [
+      {
+        "title": "UX-UI-Designer",
+        "description": "Work on user experience and interface design for digital products.",
+        "type": "Full-time",
+        "mode": "Remote"
+      },
+      {
+        "title": "Product Designer",
+        "description": "Design and develop innovative products for various industries.",
+        "type": "Full-time",
+        "mode": "Remote"
+      },
+      {
+        "title": "Software Engineer",
+        "description": "Develop and maintain software applications and systems.",
+        "type": "Full-time",
+        "mode": "Remote"
+      },
+      {
+        "title": "Graphic Designer",
+        "description": "Create visual concepts and designs for marketing materials.",
+        "type": "Full-time",
+        "mode": "Remote"
+      },
+      {
+        "title": "Biotech Intern",
+        "description": "Assist in research and development in the biotech sector.",
+        "type": "Internship",
+        "mode": "On-site"
+      },
+      {
+        "title": "QA Engineer",
+        "description": "Test and ensure the quality of software products.",
+        "type": "Full-time",
+        "mode": "Remote"
+      }
+    ],
+    "cta": {
+      "title": "Ready to take the next step?",
+      "button": "Get Started"
+    },
+    "additionalServicesTitle": "Student Services",
+    "additionalServicesDesc": "We offer a range of services to help you succeed in your studies and career.",
+    "services": [
+      {
+        "title": "Interview Preparation",
+        "description": "Get the skills and confidence you need to excel in interviews."
+      },
+      {
+        "title": "Visa Support",
+        "description": "We help you navigate the visa process for internships and jobs abroad."
+      },
+      {
+        "title": "Language Courses",
+        "description": "Improve your language skills with our certified courses."
+      },
+      {
+        "title": "Continuous Support",
+        "description": "Ongoing guidance and resources for your academic and career journey."
+      }
+    ],
+    "partnersTitle": "Our Partners",
+    "faqTitle": "Frequently Asked Questions",
+    "faqs": [
+      {
+        "q": "How do I apply for a student job?",
+        "a": "Simply create a profile and apply directly to listings that interest you."
+      },
+      {
+        "q": "Can I get help with my CV?",
+        "a": "Yes, our team offers CV optimization and review services."
+      },
+      {
+        "q": "Are internships paid?",
+        "a": "Most internships listed are paid, but details are provided in each listing."
+      },
+      {
+        "q": "Do you offer support for international students?",
+        "a": "Absolutely! We provide visa, language, and relocation support."
+      }
+    ]
   },
   "about": {
     "title": "About Higherd",
-    "subtitle": "Our mission is to make hiring human and effective."
+    "additionalServicesTitle": "Our Additional Services",
+    "additionalServicesDesc": "Discover the extra ways Higherd supports your hiring and growth.",
+    "subtitle": "Our mission is to make hiring human and effective.",
+    "hero": {
+      "imageAlt": "About Higherd team photo",
+      "title": "Who We Are",
+      "subtitle": "Recruiting with a human touch for a better future.",
+      "bookaDemo": "Book a Free Consultation"
+    },
+    "specialties": {
+      "title": "Our Specialties",
+      "desc": "We offer deep expertise in IT, Engineering, and Life Sciences, ensuring your next hire fits the German market.",
+      "items": [
+        {
+          "icon": "🖥️",
+          "title": "IT & Software Engineering",
+          "desc": "Skilled developers, DevOps engineers, QA specialists and more – focused on the German market."
+        },
+        {
+          "icon": "🛠️",
+          "title": "Engineering",
+          "desc": "From mechanical to civil engineering: access highly qualified technical talent in Germany."
+        },
+        {
+          "icon": "🧬",
+          "title": "Life Sciences",
+          "desc": "Biotech, pharma and healthcare – we connect you with top experts."
+        }
+      ]
+    },
+    "additionalServices": {
+      "cvOptimization": {
+        "title": "CV Optimization",
+        "description": "Our CV optimization service helps you create a professional and appealing resume that highlights your skills and experience."
+      },
+      "interviewPreparation": {
+        "title": "Interview Preparation",
+        "description": "Get the skills and confidence you need to excel in interviews."
+      },
+      "careerCounseling": {
+        "title": "Career Counseling",
+        "description": "Our career counseling provides personalized support and advice to help you achieve your professional goals."
+      },
+      "jobAlerts": {
+        "title": "Job Alerts",
+        "description": "Stay up to date with our job alert service, which notifies you about the latest job offers matching your interests and qualifications."
+      }
+    },
+    "partnersTitle": "Our Partners"
   }
 }

@@ -52,7 +52,7 @@ export default function Home() {
     window.open(bookingURL);
   };
   return (
-    <div>
+    <div className="grid gap-16">
       <SEO
         title={`${t("home.title")} - ${
           import.meta.env.VITE_APP_NAME || "Higherd Solutions"
