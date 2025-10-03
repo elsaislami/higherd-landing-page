@@ -5,21 +5,22 @@ import HeroSection from "../components/sections/HeroSection.jsx";
 import SpecialtiesSection from "../components/sections/SpecialtiesSection.jsx";
 import AdditionalServicesSection from "../components/sections/AdditionalServicesSection.jsx";
 import PartnersSection from "../components/sections/PartnersSection.jsx";
-import teamImg from "../assets/teamImg.png";
-import logo1 from "../assets/logo1.png";
-import logo2 from "../assets/logo2.png";
-import logo3 from "../assets/logo3.png";
-import logo4 from "../assets/logo4.png";
-import logo5 from "../assets/logo5.png";
-import logo6 from "../assets/logo6.png";
-import logo7 from "../assets/logo7.png";
-import aboutPhoto1 from "../assets/aboutPhoto1.jpg";
-import aboutPhoto2 from "../assets/aboutPhoto2.jpg";
-import aboutPhoto3 from "../assets/aboutPhoto3.jpg";
+import {
+  teamImg,
+  aboutPhoto1,
+  aboutPhoto2,
+  aboutPhoto3,
+} from "../assets/images";
+import { logos } from "../assets/logos";
+import {
+  DEFAULT_KEYWORDS,
+  DEFAULT_URL,
+  DEFAULT_APP_NAME,
+} from "../utils/seoDefaults";
 
+// About page does not accept props
 export default function About() {
   const { t } = useTranslation("pages");
-  const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
 
   // Define services array with images and translation keys
   const services = [
@@ -46,19 +47,12 @@ export default function About() {
   ];
 
   return (
-    <div className="grid gap-16">
+    <div className="grid gap-8 sm:gap-12 lg:gap-16">
       <SEO
-        title={`${t("about.title")} - Higherd Solutions`}
+        title={`${t("about.title")} - ${DEFAULT_APP_NAME}`}
         description={t("about.subtitle")}
-        keywords={[
-          "about Higherd",
-          "company information",
-          "recruiting platform",
-          "über uns",
-          "unternehmen",
-          "mission",
-        ]}
-        url="https://higherd.de/about"
+        keywords={DEFAULT_KEYWORDS}
+        url={DEFAULT_URL + "about"}
       />
       {/* Hero Section */}
       <HeroSection
@@ -89,7 +83,7 @@ export default function About() {
       />
 
       {/* Partners Section */}
-      <PartnersSection title={t("about.partnersTitle")} logos={logos} />
+      <PartnersSection title={t("about.partnersTitle")} />
     </div>
   );
 }

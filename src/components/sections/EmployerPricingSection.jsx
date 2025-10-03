@@ -11,26 +11,26 @@ export default function EmployerPricingSection({
 
   return (
     <div
-      className={`relative flex flex-col-reverse lg:flex-row items-center gap-10 p-10 overflow-hidden min-h-[400px] ${className}`}
+      className={`relative flex flex-col-reverse lg:flex-row items-center gap-6 sm:gap-8 md:gap-12 px-4 sm:px-6 md:px-8 lg:px-10 py-6 sm:py-8 md:py-12 overflow-hidden min-h-[300px] sm:min-h-[400px] ${className}`}
       id="for-companies"
     >
-      <div className="absolute rounded-xl top-0 right-0 w-[70%] h-full bg-purple-50 z-0" />
+      <div className="absolute rounded-xl top-0 right-0 w-[90%] sm:w-[85%] lg:w-[80%] h-full bg-purple-50 z-0" />
 
       <img
         src={image}
         alt={imageAlt}
-        className="w-full lg:w-1/2 relative z-10"
+        className="w-full max-w-[280px] sm:max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg lg:w-1/2 relative z-10 object-cover rounded-lg shadow-md"
         loading="lazy"
         width="500"
         height="400"
       />
 
       {/* Text content */}
-      <div className="lg:w-1/2 relative z-10">
-        <h2 className="text-2xl font-bold mb-4">
+      <div className="w-full lg:w-1/2 relative z-10 flex flex-col items-center lg:items-start">
+        <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-center lg:text-left">
           {t("home.pricing.employers.title")}
         </h2>
-        <div className="w-full flex flex-col md:flex-row gap-4">
+        <div className="w-full flex flex-col sm:flex-row gap-4 md:gap-6 justify-center lg:justify-start">
           {/* Core Plan */}
           <PricingCard
             planName={t("home.pricing.employers.corePlanName")}
@@ -69,7 +69,7 @@ export default function EmployerPricingSection({
           />
         </div>
 
-        <div className="mt-6 text-center">
+        <div className="mt-6 text-center w-full">
           <p className="text-xs text-gray-500">
             {t("home.pricing.employers.commissionBased")} <br />
             <a

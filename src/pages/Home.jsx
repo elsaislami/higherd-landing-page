@@ -11,23 +11,25 @@ import ServiceSection from "../components/sections/ServiceSection.jsx";
 import CTASection from "../components/sections/CTASection.jsx";
 import SpecialtiesSection from "../components/sections/SpecialtiesSection.jsx";
 import FAQSection from "../components/sections/FAQSection.jsx";
-import employessImg from "../assets/employessImg.png";
-import recrutImg from "../assets/recrutImg.png";
-import jopsImg from "../assets/jobs.png";
-import homepageImg from "../assets/homepage.png";
-import logo1 from "../assets/logo1.png";
-import logo2 from "../assets/logo2.png";
-import logo3 from "../assets/logo3.png";
-import logo4 from "../assets/logo4.png";
-import logo5 from "../assets/logo5.png";
-import logo6 from "../assets/logo6.png";
-import logo7 from "../assets/logo7.png";
+import {
+  employessImg,
+  recrutImg,
+  jopsImg,
+  homepageImg,
+} from "../assets/images";
+import { logos } from "../assets/logos";
+import {
+  DEFAULT_KEYWORDS,
+  DEFAULT_IMAGE,
+  DEFAULT_URL,
+  DEFAULT_APP_NAME,
+} from "../utils/seoDefaults";
 
+// Home page does not accept props
 export default function Home() {
   const { t } = useTranslation(["pages", "common"]);
 
   const faqs = t("home.faq.items", { returnObjects: true });
-  const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7];
 
   // Pricing data for structured data
   const pricingPlans = [
@@ -46,27 +48,15 @@ export default function Home() {
   ];
 
   return (
-    <div className="grid gap-16">
+    <div className="grid gap-8 sm:gap-12 lg:gap-16">
       <SEO
         title={`${t("home.title")} - ${
-          import.meta.env.VITE_APP_NAME || "Higherd Solutions"
+          import.meta.env.VITE_APP_NAME || DEFAULT_APP_NAME
         }`}
         description={t("home.subtitle")}
-        keywords={[
-          "recruiting",
-          "hiring",
-          "talent acquisition",
-          "SME recruiting",
-          "enterprise hiring",
-          "Germany recruitment",
-          "job matching",
-          "candidates",
-          "personalvermittlung",
-          "stellenvermittlung",
-          "fachkräfte",
-        ]}
-        url={import.meta.env.VITE_APP_URL || "https://higherd.de/"}
-        image="/assets/homepage.png"
+        keywords={DEFAULT_KEYWORDS}
+        url={import.meta.env.VITE_APP_URL || DEFAULT_URL}
+        image={DEFAULT_IMAGE}
       />
       <PricingStructuredData plans={pricingPlans} />
       <LocalBusinessSchema />
@@ -94,10 +84,10 @@ export default function Home() {
       />
 
       {/* Partners Section */}
-      <PartnersSection title={t("home.partnersTitle")} logos={logos} />
+      <PartnersSection title={t("home.partnersTitle")} />
 
       {/* Pricing Sections */}
-      <section className="container my-20 space-y-24">
+      <section className="container mx-auto my-12 sm:my-16 lg:my-20 space-y-16 sm:space-y-20 lg:space-y-24">
         {/* Employers Pricing */}
         <EmployerPricingSection
           image={employessImg}

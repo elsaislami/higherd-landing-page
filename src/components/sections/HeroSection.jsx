@@ -9,7 +9,10 @@ export default function HeroSection({
   className = "",
 }) {
   return (
-    <section className={`container my-20 ${className}`} role="banner">
+    <section
+      className={`container mx-auto my-10 md:my-20 ${className}`}
+      role="banner"
+    >
       <div className="relative">
         {/* Irregular Blob Background (SVG) */}
         <div
@@ -33,12 +36,19 @@ export default function HeroSection({
         </div>
 
         {/* Foreground Content */}
-        <div className="flex flex-col items-center gap-6 sm:flex-row sm:justify-between relative z-10">
-          <header className="md:max-w-1/2">
-            <h1 className="title-xxl ">{title}</h1>
-            <p className="mt-3 text-gray-600">{subtitle}</p>
+        <div className="flex flex-col-reverse items-center gap-6 sm:gap-8 md:gap-12 md:flex-row md:justify-between relative z-10 w-full">
+          <header className="w-full md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start px-4 sm:px-0">
+            <h1 className="title-xxl text-xl sm:text-2xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-2">
+              {title}
+            </h1>
+            <p className="mt-3 text-gray-600 text-sm sm:text-base md:text-lg lg:text-xl max-w-xl">
+              {subtitle}
+            </p>
             {buttons.length > 0 && (
-              <nav className="mt-6 flex  gap-3" aria-label="Primary actions">
+              <nav
+                className="mt-6 flex flex-col sm:flex-row gap-3 w-full sm:w-auto justify-center md:justify-start"
+                aria-label="Primary actions"
+              >
                 {buttons.map((button, index) => (
                   <Button
                     key={index}
@@ -52,13 +62,12 @@ export default function HeroSection({
             )}
           </header>
 
-          <figure className="rounded-lg overflow-hidden">
+          <figure className="w-full md:w-1/2 flex justify-center items-center mb-6 md:mb-0 px-4 sm:px-0">
             <img
               src={heroImage}
               alt={heroImageAlt}
               loading="eager"
-              width="600"
-              height="400"
+              className="w-full max-w-[280px] sm:max-w-xs md:max-w-md lg:max-w-lg h-auto object-cover"
             />
           </figure>
         </div>

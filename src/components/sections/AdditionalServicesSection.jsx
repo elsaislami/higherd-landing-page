@@ -8,18 +8,22 @@ export default function AdditionalServicesSection({
   ctaButtonText,
 }) {
   return (
-    <section className="container ml-40 my-20 flex flex-col items-center ">
+    <section className="container mx-auto px-4 sm:px-6 lg:px-8 my-12 sm:my-16 lg:my-20 flex flex-col items-center">
       {title && (
-        <h2 className="text-2xl font-bold text-center mb-6">{title}</h2>
+        <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold text-center mb-4 sm:mb-6">
+          {title}
+        </h2>
       )}
       {description && (
-        <p className="text-center text-gray-600 mb-10">{description}</p>
+        <p className="text-center text-gray-600 mb-6 sm:mb-8 lg:mb-10 max-w-3xl">
+          {description}
+        </p>
       )}
-      <div className="flex overflow-x-auto gap-6  ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 w-full">
         {services.map((service, index) => (
           <div
             key={index}
-            className="min-w-1/4 max-w-1/4 my-4  p-6 border border-gray-100 rounded-lg shadow-lg bg-white "
+            className="p-4 sm:p-6 border border-gray-100 rounded-lg shadow-lg bg-white"
           >
             {service.icon && (
               <div className="flex justify-center mb-2 text-4xl">
@@ -31,19 +35,26 @@ export default function AdditionalServicesSection({
                 <img
                   src={service.image}
                   alt=""
-                  className="rounded-lg object-cover max-h-48 w-full
-                  "
+                  className="rounded-lg object-cover max-h-32 sm:max-h-40 lg:max-h-48 w-full"
                 />
               </div>
             )}
-            <h4 className="font-semibold">{service.title}</h4>
-            <p className="text-sm text-gray-500">{service.description}</p>
+            <h4 className="font-semibold text-sm sm:text-base mb-2">
+              {service.title}
+            </h4>
+            <p className="text-xs sm:text-sm text-gray-500">
+              {service.description}
+            </p>
           </div>
         ))}
       </div>
       {(ctaText || ctaButtonText) && (
-        <div className="mt-8 flex items-center justify-between bg-gray-100 p-4 rounded-lg">
-          {ctaText && <p className="text-sm text-gray-600 mr-2">{ctaText}</p>}
+        <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row items-center justify-center sm:justify-between bg-gray-100 p-4 rounded-lg w-full max-w-2xl gap-3 sm:gap-0">
+          {ctaText && (
+            <p className="text-xs sm:text-sm text-gray-600 text-center sm:text-left">
+              {ctaText}
+            </p>
+          )}
           {ctaButtonText && <Button variant="primary">{ctaButtonText}</Button>}
         </div>
       )}

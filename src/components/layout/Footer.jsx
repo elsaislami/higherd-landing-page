@@ -5,26 +5,6 @@ import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 export default function Footer() {
   const { t } = useTranslation(["pages", "common"]);
 
-  // Helper function for smooth scrolling
-  const handleSmoothScroll = (e, targetSelector = null) => {
-    e.preventDefault();
-
-    if (targetSelector) {
-      // Scroll to specific element
-      const element = document.querySelector(targetSelector);
-      element?.scrollIntoView({
-        behavior: "smooth",
-        block: "start",
-      });
-    } else {
-      // Scroll to top
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth",
-      });
-    }
-  };
-
   return (
     <footer className="bg-gradient-to-b from-[#4500A8] to-purple-950 text-white py-14 mt-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
@@ -54,7 +34,7 @@ export default function Footer() {
                 aria-label={t("home.newsletter.emailPlaceholder")}
               />
               <button
-                className="bg-white text-black font-semibold px-5 py-3 rounded-r-md hover:bg-gray-200"
+                className="bg-white text-black font-semibold px-5 py-3 rounded-r-md hover:bg-gray-200 cursor-pointer"
                 type="submit"
               >
                 {t("home.newsletter.subscribeButton")}
@@ -109,18 +89,26 @@ export default function Footer() {
               </h4>
               <ul className="space-y-2">
                 <li>
-                  <a
-                    href="#"
-                    className="hover:text-gray-300 transition-colors duration-200"
-                    onClick={(e) => handleSmoothScroll(e)}
+                  <button
+                    onClick={() => {
+                      window.location.href = "/";
+                    }}
+                    className="hover:text-gray-300 transition-colors duration-200 cursor-pointer"
                   >
                     {t("home.newsletter.productLinks.homepage")}
-                  </a>
-                </li>
-                {/* <li>
-                  <a href="#">{t("home.newsletter.productLinks.about")}</a>
+                  </button>
                 </li>
                 <li>
+                  <button
+                    onClick={() => {
+                      window.location.href = "/about";
+                    }}
+                    className="hover:text-gray-300 transition-colors duration-200 cursor-pointer"
+                  >
+                    {t("home.newsletter.productLinks.about")}
+                  </button>
+                </li>
+                {/* <li>
                   <a href="#">{t("home.newsletter.productLinks.blog")}</a>
                 </li>
                 <li>
@@ -135,39 +123,91 @@ export default function Footer() {
               </h4>
               <ul className="space-y-2">
                 <li>
-                  <a
-                    href="#for-companies"
-                    className="hover:text-gray-300 transition-colors duration-200"
-                    onClick={(e) => handleSmoothScroll(e, "#for-companies")}
+                  <button
+                    onClick={() => {
+                      window.location.href = "/companies";
+                    }}
+                    className="hover:text-gray-300 transition-colors duration-200 cursor-pointer"
                   >
                     {t("home.newsletter.solutionsLinks.companies")}
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a
-                    href="#for-agencies"
-                    className="hover:text-gray-300 transition-colors duration-200"
-                    onClick={(e) => handleSmoothScroll(e, "#for-agencies")}
+                  <button
+                    onClick={() => {
+                      window.location.href = "/agencies";
+                    }}
+                    className="hover:text-gray-300 transition-colors duration-200 cursor-pointer"
                   >
                     {t("home.newsletter.solutionsLinks.agencies")}
-                  </a>
+                  </button>
                 </li>
                 <li>
-                  <a
-                    href="#for-candidates"
-                    className="hover:text-gray-300 transition-colors duration-200"
-                    onClick={(e) => handleSmoothScroll(e, "#for-candidates")}
+                  <button
+                    onClick={() => {
+                      window.location.href = "/candidates";
+                    }}
+                    className="hover:text-gray-300 transition-colors duration-200 cursor-pointer"
                   >
                     {t("home.newsletter.solutionsLinks.candidates")}
-                  </a>
+                  </button>
                 </li>
-                {/* <li>
-                  <a href="#">{t("home.newsletter.solutionsLinks.students")}</a>
-                </li> */}
+                <li>
+                  {/* <Link
+                    to="/students"
+                    className="hover:text-gray-300 transition-colors duration-200"
+                  >
+                    {t("home.newsletter.solutionsLinks.students")}
+                  </Link> */}
+
+                  <button
+                    onClick={() => {
+                      window.location.href = "/students";
+                    }}
+                    className="hover:text-gray-300 transition-colors duration-200 cursor-pointer"
+                  >
+                    {t("home.newsletter.solutionsLinks.students")}
+                  </button>
+                </li>
               </ul>
             </div>
           </div>
         </div>
+      </div>
+      {/* Legal links */}
+      <div className="mt-8 text-center text-xs text-white/70 space-x-4">
+        <button
+          onClick={() => {
+            window.location.href = "/imprint";
+          }}
+          className="hover:underline cursor-pointer"
+        >
+          Imprint
+        </button>
+        <span>|</span>
+        <button
+          onClick={() => {
+            window.location.href = "/privacy-terms";
+          }}
+          className="hover:underline cursor-pointer"
+        >
+          Privacy & Terms
+        </button>
+      </div>
+
+      {/* Hidden signature */}
+      <div className="text-right mt-2 mr-44">
+        <p className="text-[10px] text-[#4500A8] opacity-20">
+          Crafted by{" "}
+          <a
+            href="http://linkedin.com/in/elsaislami"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#4500A8] opacity-20 hover:opacity-40 transition-opacity"
+          >
+            ELSA ISLAMI
+          </a>
+        </p>
       </div>
     </footer>
   );

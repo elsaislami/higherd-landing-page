@@ -13,16 +13,16 @@ export default function SpecialtiesSection({
 
   return (
     <section
-      className={`container my-20 flex flex-col lg:flex-row items-center gap-10 ${className}`}
+      className={`container mx-auto my-12 sm:my-16 lg:my-20 flex flex-col lg:flex-row items-center gap-8 sm:gap-10 ${className}`}
     >
-      <div className="relative flex flex-col-reverse lg:flex-row items-center gap-10 p-10 overflow-hidden min-h-[400px]">
-        <div className="absolute rounded-xl top-0 right-0 w-[40%] h-full bg-purple-50 z-0" />
+      <div className="relative flex flex-col-reverse lg:flex-row items-center gap-6 sm:gap-8 lg:gap-10 p-4 sm:p-6 lg:p-10 overflow-hidden min-h-[300px] sm:min-h-[400px] w-full">
+        <div className="absolute rounded-xl top-0 right-0 w-[50%] sm:w-[45%] lg:w-[40%] h-full bg-purple-50 z-0" />
 
-        <div className="lg:w-1/2 z-10">
-          <h2 className="text-2xl font-bold mb-4">
+        <div className="lg:w-1/2 z-10 text-center lg:text-left">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4">
             {t(`${pageKey}.specialties.title`)}
           </h2>
-          <p className="text-gray-600 mb-4">
+          <p className="text-gray-600 mb-4 text-sm sm:text-base">
             {t(`${pageKey}.specialties.desc`)}
           </p>
           {buttonText && (
@@ -32,17 +32,23 @@ export default function SpecialtiesSection({
           )}
         </div>
 
-        <div className="lg:w-1/2 space-y-4 relative z-10">
+        <div className="lg:w-1/2 space-y-3 sm:space-y-4 relative z-10 w-full">
           {t(`${pageKey}.specialties.items`, { returnObjects: true }).map(
             (item, index) => (
               <div
                 key={index}
-                className="flex items-start gap-4 p-4 bg-white shadow-xl rounded-lg"
+                className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 bg-white shadow-xl rounded-lg"
               >
-                <div className="text-3xl">{item.icon}</div>
-                <div>
-                  <h3 className="text-lg font-semibold">{item.title}</h3>
-                  <p className="text-gray-600 text-sm">{item.desc}</p>
+                <div className="text-2xl sm:text-3xl flex-shrink-0">
+                  {item.icon}
+                </div>
+                <div className="min-w-0">
+                  <h3 className="text-sm sm:text-base lg:text-lg font-semibold">
+                    {item.title}
+                  </h3>
+                  <p className="text-gray-600 text-xs sm:text-sm">
+                    {item.desc}
+                  </p>
                 </div>
               </div>
             )
