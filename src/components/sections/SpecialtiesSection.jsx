@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Button from "../ui/Button.jsx";
+import { getIconComponent } from "../../utils/iconHelpers.jsx";
 
 export default function SpecialtiesSection({
   className = "",
@@ -8,8 +9,6 @@ export default function SpecialtiesSection({
   buttonLink = "#",
 }) {
   const { t } = useTranslation(["pages"]);
-
-  console.log(t(`${pageKey}.specialties.items`, { returnObjects: true }));
 
   return (
     <section
@@ -37,10 +36,10 @@ export default function SpecialtiesSection({
             (item, index) => (
               <div
                 key={index}
-                className="flex items-start gap-3 sm:gap-4 p-3 sm:p-4 bg-white shadow-xl rounded-lg"
+                className="flex items-start gap-3 sm:gap-4 p-6 bg-white shadow-xl rounded-lg"
               >
                 <div className="text-2xl sm:text-3xl flex-shrink-0">
-                  {item.icon}
+                  {getIconComponent(item.icon)}
                 </div>
                 <div className="min-w-0">
                   <h3 className="text-sm sm:text-base lg:text-lg font-semibold">

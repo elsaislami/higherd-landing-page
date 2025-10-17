@@ -1,5 +1,4 @@
 import { useTranslation } from "react-i18next";
-import { openBookingURL } from "../utils/navigation";
 import SEO from "../components/SEO.jsx";
 import HeroSection from "../components/sections/HeroSection.jsx";
 import SpecialtiesSection from "../components/sections/SpecialtiesSection.jsx";
@@ -10,8 +9,8 @@ import {
   aboutPhoto1,
   aboutPhoto2,
   aboutPhoto3,
+  aboutPhoto4,
 } from "../assets/images";
-import { logos } from "../assets/logos";
 import {
   DEFAULT_KEYWORDS,
   DEFAULT_URL,
@@ -40,7 +39,7 @@ export default function About() {
       description: t("about.additionalServices.2.description"),
     },
     {
-      image: aboutPhoto3,
+      image: aboutPhoto4,
       title: t("about.additionalServices.3.title"),
       description: t("about.additionalServices.3.description"),
     },
@@ -60,30 +59,23 @@ export default function About() {
         heroImageAlt={t("about.hero.imageAlt")}
         title={t("about.hero.title")}
         subtitle={t("about.hero.subtitle")}
-        buttons={[
-          {
-            text: t("about.hero.bookaDemo"),
-            variant: "primary",
-            onClick: openBookingURL,
-          },
-        ]}
       />
       {/* Specialties Section */}
       <SpecialtiesSection
+        pageKey="about"
         title={t("about.specialties.title")}
         description={t("about.specialties.desc")}
-        specialties={t("about.specialties.items", { returnObjects: true })}
-      />
-
-      {/* Additional Services Section */}
-      <AdditionalServicesSection
-        services={services}
-        title={t("about.additionalServicesTitle")}
-        description={t("about.additionalServicesDesc")}
       />
 
       {/* Partners Section */}
       <PartnersSection title={t("about.partnersTitle")} />
+
+      {/* Additional Services Section */}
+      <AdditionalServicesSection
+        services={services}
+        title={t("about.teamTitle")}
+        description={t("about.teamDesc")}
+      />
     </div>
   );
 }

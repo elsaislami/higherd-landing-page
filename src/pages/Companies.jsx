@@ -10,7 +10,6 @@ import CTASection from "../components/sections/CTASection.jsx";
 import SpecialtiesSection from "../components/sections/SpecialtiesSection.jsx";
 import FAQSection from "../components/sections/FAQSection.jsx";
 import PartnersSection from "../components/sections/PartnersSection.jsx";
-import { logos } from "../assets/logos";
 import {
   DEFAULT_KEYWORDS,
   DEFAULT_URL,

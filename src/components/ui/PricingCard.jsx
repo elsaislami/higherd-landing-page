@@ -15,7 +15,7 @@ export default function PricingCard({
 
   return (
     <div
-      className={`flex-1 min-w-[280px] sm:min-w-0 rounded-xl border p-4 sm:p-5 shadow-sm relative bg-white ${
+      className={`flex-1 min-w-[280px] sm:min-w-0 rounded-xl border p-4 sm:p-5 shadow-sm relative bg-white flex flex-col ${
         isPremium ? "border-purple-300 shadow-md" : "border-gray-200"
       } ${className}`}
     >
@@ -25,23 +25,27 @@ export default function PricingCard({
         </div>
       )}
 
-      <h3 className="text-sm sm:text-base font-semibold mb-0.5">{planName}</h3>
-      <p className="text-gray-500 mb-1 text-xs sm:text-sm">{planTitle}</p>
-      <p
-        className={`text-base sm:text-lg font-bold mb-2 ${
-          isPremium ? "text-purple-700" : ""
-        }`}
-      >
-        {price}
-      </p>
+      <div className="flex-1">
+        <h3 className="text-sm sm:text-base font-semibold mb-0.5">
+          {planName}
+        </h3>
+        <p className="text-gray-500 mb-1 text-xs sm:text-sm">{planTitle}</p>
+        <p
+          className={`text-base sm:text-lg font-bold mb-2 ${
+            isPremium ? "text-purple-700" : ""
+          }`}
+        >
+          {price}
+        </p>
 
-      <ul className="space-y-2 mb-3 text-xs sm:text-sm">
-        {features.map((item, i) => (
-          <li key={i} className="flex items-start gap-2">
-            <span>{item}</span>
-          </li>
-        ))}
-      </ul>
+        <ul className="space-y-2 mb-3 text-xs sm:text-sm">
+          {features.map((item, i) => (
+            <li key={i} className="flex items-start gap-2">
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
 
       <Button
         className={`w-full py-2 text-xs sm:text-sm ${

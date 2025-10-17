@@ -12,6 +12,7 @@ export default function ServiceSection({
   imagePosition = "right", // "left" or "right"
   onBookDemo,
   className = "",
+  priceClassName = "",
 }) {
   const { t } = useTranslation(["pages"]);
   const isImageRight = imagePosition === "right";
@@ -44,15 +45,23 @@ export default function ServiceSection({
         )}
 
         {features.length > 0 && (
-          <ul className="text-gray-600 list-disc list-inside mb-6 space-y-2 text-sm md:text-base text-left w-full max-w-md mx-auto lg:mx-0">
-            {features.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
+          <ul className="text-gray-600 list-disc list-outside mb-6 space-y-2 text-sm md:text-base text-left w-full max-w-md mx-auto lg:mx-0 pl-5">
+            {features.map((item, index) =>
+              typeof item === "object" ? (
+                <li key={index}>
+                  <strong>{item.title}</strong> {item.desc}
+                </li>
+              ) : (
+                <li key={index}>{item}</li>
+              )
+            )}
           </ul>
         )}
 
         {price && (
-          <p className="text-gray-800 font-semibold mb-2 text-center lg:text-left">
+          <p
+            className={`text-gray-800 font-semibold mb-2 text-center lg:text-left ${priceClassName}`}
+          >
             {price}
           </p>
         )}

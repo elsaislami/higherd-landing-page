@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "We connect companies and high potentials",
-    "subtitle": "Smart recruiting for SMEs, global advantage for enterprises.",
+    "subtitle": "A modern recruiting platform for businesses, agencies, candidates, and students.",
     "solutionsTitle": "Higherd Solutions – Recruiting for Your Hiring Needs",
     "solutionsDesc": "Higherd delivers tailored recruiting services for SMEs, enterprises and agencies, saving you time through targeted support and tools that bring top candidates directly to you.",
     "partnersTitle": "Customers & Partners",
@@ -16,9 +16,9 @@
     "pricing": {
       "employers": {
         "title": "For Employers",
-        "descBase": "Core package: essential tools for internal hiring processes...",
+        "descBase": "Core package: Essential tools for internal hiring processes...",
         "priceBase": "250 € / user monthly",
-        "premiumDesc": " For larger teams with advanced needs",
+        "premiumDesc": "Premium package: Additional features like unlimited jobs...",
         "cta": "Try it now",
         "coreplanTitle": "For smaller teams and basic needs",
         "corePlanName": "Core",
@@ -26,26 +26,26 @@
         "corePrice": "€249",
         "premiumPriceValue": "€1500",
         "userMonth": "/user/month",
-        "currentPlan": "  Current Plan",
+        "currentPlan": " Current Plan",
         "bestPlan": " BEST VALUE",
         "fromMonthly": "/monthly",
-        "contactSales": " Contact our Sales Team for payments only.",
+        "contactSales": " Contact our Sales Team for payments.",
         "commissionBased": " Prefer a commission-based hiring model?",
         "coreFeatures": [
           "Up to 2 seats",
-          "2 job post/user/month",
+          "2 job postings/user/month",
           "12 chat invitations/month",
-          "Filtered candidate matching",
-          "Unlimited Talent Pool Savings",
-          "5/7 days Real-Time Support"
+          "Filtered candidate search",
+          "Unlimited Talent Pool storage",
+          "5/7 days Real-time Support"
         ],
         "premiumFeatures": [
           "Everything in Core +",
-          "3 Seats Included",
-          "Unlimited Job Postings",
-          "Premium Candidates",
-          "Unlimited Chat Invitations",
-          "Advanced Matching Algorithm",
+          "3 seats included",
+          "Unlimited job postings",
+          "Premium candidates",
+          "Unlimited chat invitations",
+          "Advanced matching algorithm",
           "Dedicated Account Manager",
           "Full Visa & Relocation support"
         ]
@@ -53,74 +53,23 @@
       "agencies": {
         "title": "For Recruitment Agencies",
         "list": [
-          "For agencies searching jobs for candidates...",
-          "For agencies looking for candidates for their clients..."
+          {
+            "title": "For agencies searching jobs for candidates:",
+            "desc": "Manage unlimited candidate profiles, access premium job postings, and benefit from automated matching and reporting."
+          },
+          {
+            "title": "For agencies looking for candidates for their jobs:",
+            "desc": "Manage job postings, special access to back-office support, and connect with top candidates."
+          }
         ],
-        "price": "0 € monthly + success fee per hire",
+        "price": "0 € monthly + commission per hire",
         "cta": "Try it now"
       },
       "candidates": {
-        "title": "Your dream job, just a click away",
-        "subtitle": "Easily apply for new positions and connect directly with companies looking for talents like yours.",
-        "bookaDemo": "Try it now",
-        "solutionsTitle": "Higherd Solutions – Recruiting for Your Hiring Needs",
-        "solutionsDesc": "Higherd delivers tailored recruiting services for SMEs, enterprises and agencies, saving you time through targeted support and tools that bring top candidates directly to you.",
-        "plansCTA": {
-          "title": "Start your job search with Higherd",
-          "button": "Get Started"
-        },
-        "jobListingsTitle": "Job Listings",
-        "jobListingsDesc": "At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
-        "jobListings": [
-          {
-            "title": "UX-UI-Designer",
-            "description": "Work on user experience and interface design for digital products.",
-            "type": "Full-time",
-            "mode": "Remote"
-          },
-          {
-            "title": "Product Designer",
-            "description": "Design and develop innovative products for various industries.",
-            "type": "Full-time",
-            "mode": "Remote"
-          },
-          {
-            "title": "Software Engineer",
-            "description": "Develop and maintain software applications and systems.",
-            "type": "Full-time",
-            "mode": "Remote"
-          },
-          {
-            "title": "Graphic Designer",
-            "description": "Create visual concepts and designs for marketing materials.",
-            "type": "Full-time",
-            "mode": "Remote"
-          },
-          {
-            "title": "Biotech Intern",
-            "description": "Assist in research and development in the biotech sector.",
-            "type": "Internship",
-            "mode": "On-site"
-          },
-          {
-            "title": "QA Engineer",
-            "description": "Test and ensure the quality of software products.",
-            "type": "Full-time",
-            "mode": "Remote"
-          }
-        ],
-        "notEnoughJobs": "If you don’t find enough jobs for yourself, then  ",
-        "createProfile": "Create Your Profile",
-        "additionalServicesTitle": "Our Services",
-        "additionalServicesDesc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates’ backgrounds. In addition, our value-based AI technology ensures cultural fit with your company and local team. At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
-        "preparationTitle": "Expert Recruiting",
-        "preparationDescription": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit. By accessing a vast pool of exceptional STEM talent, we help you fill positions faster, enabling you to meet your clients’ needs with confidence.",
-        "visaTitle": "Visa Support",
-        "visaSupportDescription": "Bureaucratic hurdles are major challenges in cross-border hiring. We ensure a stress-free relocation experience for you and your employees. We take care of everything!",
-        "languageCoursesTitle": "Onboarding and Integration",
-        "languageCoursesDescription": "How can we ensure higher employee retention rates? Our comprehensive learning and development program focuses on organizing certified courses, on-the-job training, and access to government funding programs to ensure stronger ties to your company and mission.",
-        "continuousSupportTitle": "Human Resources",
-        "continuousSupportDescription": "A wide range of candidates from various industries to help you build strong and diverse teams."
+        "title": "For Candidates",
+        "desc": "Unlimited access, profile creation, application, interview preparation...",
+        "price": "From €150 / month",
+        "cta": "Try it now"
       }
     },
     "plansCTA": {
@@ -129,22 +78,22 @@
     },
     "specialties": {
       "title": "Specialties",
-      "desc": "Higherd offers deep expertise across these domains ensuring your next hire fits the German market requirements. Finding talent in IT, Engineering and Life Sciences has never been more efficient.",
+      "desc": "Higherd Solutions offers specialized expertise in these areas, ensuring your next hire meets German market requirements. Finding talent in IT, Engineering, and Life Sciences has never been more efficient. Higherd Solutions offers specialized expertise in these areas, ensuring your next hire meets German market requirements.",
       "items": [
         {
-          "icon": "🖥️",
-          "title": "IT & Software Engineering",
-          "desc": "Skilled developers, DevOps engineers, QA specialists and more – focused on the German market."
+          "icon": "TerminalIcon",
+          "title": "IT & Software Development",
+          "desc": "Skilled developers, DevOps engineers, QA specialists and more – specialized for the German market."
         },
         {
-          "icon": "🛠️",
-          "title": "Engineering",
-          "desc": "From mechanical to civil engineering: access highly qualified technical talent in Germany."
+          "icon": "SettingsIcon",
+          "title": "Mechanical Engineering",
+          "desc": "From mechanical to civil engineering: Access highly qualified technicians in Germany."
         },
         {
-          "icon": "🧬",
+          "icon": "UsersIcon",
           "title": "Life Sciences",
-          "desc": "Biotech, pharma and healthcare – we connect you with top experts."
+          "desc": "Biotech, pharma and healthcare – we connect you with the best experts."
         }
       ]
     },
@@ -155,17 +104,20 @@
           "q": "Can I change the plan at any time?",
           "a": "Yes, you can upgrade or downgrade your plan anytime to match your career needs."
         },
-        { "q": "Is there a setup fee?", "a": "No, there is no setup fee." },
+        {
+          "q": "Is there a setup fee?",
+          "a": "No, there is no setup fee."
+        },
         {
           "q": "Do you offer support during the free trial?",
           "a": "Yes, our support is available during the trial as well."
         },
         {
-          "q": "How does ad revenue sharing work in the base plan?",
+          "q": "How does revenue sharing from ads work in the basic plan?",
           "a": "You pay a percentage of revenue on successful hires."
         },
         {
-          "q": "Which payment methods are accepted?",
+          "q": "Which payment methods do you accept?",
           "a": "We accept credit card, SEPA direct debit and PayPal."
         }
       ]
@@ -173,14 +125,14 @@
     "newsletter": {
       "heading": "Stay Informed with Higherd Insights",
       "description": "Subscribe to our newsletter for the latest industry trends, tips, and updates on how to get the most out of Higherd.",
-      "emailPlaceholder": "Enter your email",
+      "emailPlaceholder": "Enter email",
       "subscribeButton": "Subscribe",
       "productHeading": "Product",
       "productLinks": {
         "homepage": "Homepage",
         "about": "About us",
         "blog": "Our Blog",
-        "contact": "Contact Us"
+        "contact": "Contact"
       },
       "solutionsHeading": "Solutions",
       "solutionsLinks": {
@@ -193,15 +145,18 @@
         "linkedin": "LinkedIn",
         "facebook": "Facebook",
         "instagram": "Instagram"
-      }
+      },
+      "successMessage": "Successfully subscribed to our newsletter!",
+      "errorMessage": "An error occurred. Please try again."
     },
     "images": {
-      "heroAlt": "Hiring Illustration",
+      "heroAlt": "Recruiting Illustration",
       "employersAlt": "Employer Dashboard",
       "agenciesAlt": "Agency Dashboard",
       "candidatesAlt": "Candidate Dashboard"
     }
   },
+
   "companies": {
     "title": "Top-Rated ATS Platform",
     "subtitle": "Smart recruiting for SMEs, global advantage for enterprises",
@@ -220,46 +175,73 @@
           "q": "Can I change the plan at any time?",
           "a": "Yes, you can upgrade or downgrade your plan anytime to match your career needs."
         },
-        { "q": "Is there a setup fee?", "a": "No, there is no setup fee." },
+        {
+          "q": "Is there a setup fee?",
+          "a": "No, there is no setup fee."
+        },
         {
           "q": "Do you offer support during the free trial?",
           "a": "Yes, our support is available during the trial as well."
         },
         {
-          "q": "How does ad revenue sharing work in the base plan?",
+          "q": "How does revenue sharing from ads work in the basic plan?",
           "a": "You pay a percentage of revenue on successful hires."
         },
         {
-          "q": "Which payment methods are accepted?",
+          "q": "Which payment methods do you accept?",
           "a": "We accept credit card, SEPA direct debit and PayPal."
         }
       ]
     },
-
     "specialties": {
-      "title": "Our Specialties",
-      "desc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates’ backgrounds and our AI ensures cultural fit.",
+      "title": "Our Services",
+      "desc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates' backgrounds. In addition, our value-based AI technology ensures cultural fit with your company and local team. At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
       "buttonText": "Create your profile",
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "q": "Can I change the plan at any time?",
+            "a": "Yes, you can upgrade or downgrade your plan anytime to match your career needs."
+          },
+          {
+            "q": "Is there a setup fee?",
+            "a": "No, there is no setup fee."
+          },
+          {
+            "q": "Do you offer support during the free trial?",
+            "a": "Yes, our support is available during the trial as well."
+          },
+          {
+            "q": "How does revenue sharing from ads work in the basic plan?",
+            "a": "You pay a percentage of revenue on successful hires."
+          },
+          {
+            "q": "Which payment methods do you accept?",
+            "a": "We accept credit card, SEPA direct debit and PayPal."
+          }
+        ]
+      },
       "items": [
         {
-          "icon": "🖥️",
+          "icon": "UsersTagIcon",
           "title": "Expert Recruiting",
-          "desc": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit."
+          "desc": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit. By accessing a vast pool of exceptional STEM talent, we help you fill positions faster, enabling you to meet your clients' needs with confidence."
         },
         {
-          "icon": "🛠️",
+          "icon": "VisaIcon",
           "title": "Visa Support",
-          "desc": "Full support for visa applications and relocation processes."
+          "desc": "Bureaucratic hurdles are major challenges in cross-border hiring. We ensure a stress-free relocation experience for you and your employees. We take care of everything!"
         },
         {
-          "icon": "🧬",
-          "title": "Onboarding & Integration",
-          "desc": "Comprehensive learning and development programs, certified courses and on-the-job training."
+          "icon": "UsersIcon",
+          "title": "Onboarding and Integration",
+          "desc": "How can we ensure higher employee retention rates? Our comprehensive learning and development program focuses on organizing certified courses, on-the-job training, and access to government funding programs to ensure stronger ties to your company and mission."
         },
         {
-          "icon": "🧬",
+          "icon": "HrIcon",
           "title": "Human Resources",
-          "desc": "A wide range of candidates from various industries to help you build strong and diverse teams."
+          "desc": "A wide range of candidates from various industries to help you build strong and diverse teams"
         }
       ]
     }
@@ -271,7 +253,7 @@
     "solutionsTitle": "Higherd Solutions – Recruiting for Your Hiring Needs",
     "solutionsDesc": "Higherd delivers tailored recruiting services for SMEs, enterprises and agencies, saving you time through targeted support and tools that bring top candidates directly to you.",
     "plansCTA": {
-      "title": "Start hiring with Higherd",
+      "title": "Start today!",
       "subtitle": "Unlock unlimited candidate profiles and job postings with no upfront costs. Sign up now to access top-tier talent and job listings – pay only a commission for successful hires. Start recruiting smarter and faster!",
       "button": "Get Started"
     },
@@ -283,65 +265,125 @@
           "q": "Can I change the plan at any time?",
           "a": "Yes, you can upgrade or downgrade your plan anytime to match your career needs."
         },
-        { "q": "Is there a setup fee?", "a": "No, there is no setup fee." },
+        {
+          "q": "Is there a setup fee?",
+          "a": "No, there is no setup fee."
+        },
         {
           "q": "Do you offer support during the free trial?",
           "a": "Yes, our support is available during the trial as well."
         },
         {
-          "q": "How does ad revenue sharing work in the base plan?",
+          "q": "How does revenue sharing from ads work in the basic plan?",
           "a": "You pay a percentage of revenue on successful hires."
         },
         {
-          "q": "Which payment methods are accepted?",
+          "q": "Which payment methods do you accept?",
           "a": "We accept credit card, SEPA direct debit and PayPal."
         }
       ]
     },
+    "partners": {
+      "title": "Customers & Partners"
+    },
+
     "specialties": {
       "title": "Our Services",
-      "desc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates’ backgrounds. In addition, our value-based AI technology ensures cultural fit with your company and local team. At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
+      "desc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates' backgrounds. In addition, our value-based AI technology ensures cultural fit with your company and local team. At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
       "buttonText": "Create your profile",
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "q": "Can I change the plan at any time?",
+            "a": "Yes, you can upgrade or downgrade your plan anytime to match your career needs."
+          },
+          {
+            "q": "Is there a setup fee?",
+            "a": "No, there is no setup fee."
+          },
+          {
+            "q": "Do you offer support during the free trial?",
+            "a": "Yes, our support is available during the trial as well."
+          },
+          {
+            "q": "How does revenue sharing from ads work in the basic plan?",
+            "a": "You pay a percentage of revenue on successful hires."
+          },
+          {
+            "q": "Which payment methods do you accept?",
+            "a": "We accept credit card, SEPA direct debit and PayPal."
+          }
+        ]
+      },
       "items": [
         {
+          "icon": "TerminalIcon",
           "title": "Expert Recruiting",
-          "desc": "Higherd’s recruiting experts ensure the best candidates are matched to your needs."
+          "desc": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit. By accessing a vast pool of exceptional STEM talent, we help you fill positions faster, enabling you to meet your clients' needs with confidence."
         },
         {
-          "title": "Visa & Relocation",
-          "desc": "Full support for visa applications and relocation processes."
+          "icon": "VisaIcon",
+          "title": "Visa Support",
+          "desc": "Bureaucratic hurdles are major challenges in cross-border hiring. We ensure a stress-free relocation experience for you and your employees. We take care of everything!"
         },
         {
+          "icon": "UsersIcon",
           "title": "Onboarding and Integration",
-          "desc": "Smooth onboarding and integration for new hires."
+          "desc": "How can we ensure higher employee retention rates? Our comprehensive learning and development program focuses on organizing certified courses, on-the-job training, and access to government funding programs to ensure stronger ties to your company and mission."
         },
         {
-          "title": "Professionalism",
-          "desc": "We ensure a professional and efficient hiring process."
+          "icon": "RegisterIcon",
+          "title": "Human Resources",
+          "desc": "A wide range of candidates from various industries to help you build strong and diverse teams"
         }
       ]
     }
   },
+
   "candidates": {
     "title": "Your dream job, just a click away",
-    "pricing": {
-      "title": "For Candidates",
-      "desc": "Unlimited access, profile creation, application, interview preparation...",
-      "price": "From €150 / month"
-    },
     "partners": {
       "title": "Customers & Partners"
     },
     "subtitle": "Easily apply for new positions and connect directly with companies looking for talents like yours.",
     "bookaDemo": "Try it now",
     "solutionsTitle": "Higherd Solutions – Recruiting for Your Hiring Needs",
+    "additionalServicesTitle": "Our Services",
+    "additionalServicesDesc": "At Higherd, you get genuine candidate backgrounds, higher employee retention rates, and dedicated support to optimize all international procedures.",
     "solutionsDesc": "Higherd delivers tailored recruiting services for SMEs, enterprises and agencies, saving you time through targeted support and tools that bring top candidates directly to you.",
     "plansCTA": {
       "title": "Start your job search with Higherd",
       "button": "Get Started"
     },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "q": "Can I change the plan at any time?",
+          "a": "Yes, you can upgrade or downgrade your plan anytime to match your career needs."
+        },
+        {
+          "q": "Is there a setup fee?",
+          "a": "No, there is no setup fee."
+        },
+        {
+          "q": "Do you offer support during the free trial?",
+          "a": "Yes, our support is available during the trial as well."
+        },
+        {
+          "q": "How does revenue sharing from ads work in the basic plan?",
+          "a": "You pay a percentage of revenue on successful hires."
+        },
+        {
+          "q": "Which payment methods do you accept?",
+          "a": "We accept credit card, SEPA direct debit and PayPal."
+        }
+      ]
+    },
+
     "jobListingsTitle": "Job Listings",
-    "jobListingsDesc": "At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
+    "jobListingsDesc": "At Higherd, you get genuine candidate backgrounds, higher employee retention rates, and dedicated support to optimize all international procedures.",
     "jobListings": [
       {
         "title": "UX-UI-Designer",
@@ -380,30 +422,70 @@
         "mode": "Remote"
       }
     ],
-    "notEnoughJobs": "If you don’t find enough jobs for yourself, then  ",
+    "notEnoughJobs": "If you don't find enough jobs for yourself, then ",
     "createProfile": "Create Your Profile",
-    "additionalServicesTitle": "Our Services",
-    "additionalServicesDesc": "Higherd is your one-stop shop for international recruitment of STEM candidates. Our local recruiters thoroughly check candidates’ backgrounds. In addition, our value-based AI technology ensures cultural fit with your company and local team. At Higherd, you get a genuine candidate background, higher employee retention rates, and dedicated support to optimize all international procedures.",
-    "preparationTitle": "Expert Recruiting",
-    "preparationDescription": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit. By accessing a vast pool of exceptional STEM talent, we help you fill positions faster, enabling you to meet your clients’ needs with confidence.",
-    "visaTitle": "Visa Support",
-    "visaSupportDescription": "Bureaucratic hurdles are major challenges in cross-border hiring. We ensure a stress-free relocation experience for you and your employees. We take care of everything!",
-    "languageCoursesTitle": "Onboarding and Integration",
-    "languageCoursesDescription": "How can we ensure higher employee retention rates? Our comprehensive learning and development program focuses on organizing certified courses, on-the-job training, and access to government funding programs to ensure stronger ties to your company and mission.",
-    "continuousSupportTitle": "Human Resources",
-    "continuousSupportDescription": "A wide range of candidates from various industries to help you build strong and diverse teams."
+    "additionalServices": [
+      {
+        "icon": "TodoIcon",
+        "title": "Expert Recruiting",
+        "description": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit. By accessing a vast pool of exceptional STEM talent, we help you fill positions faster, enabling you to meet your clients' needs with confidence."
+      },
+      {
+        "icon": "VisaIcon",
+        "title": "Visa Support",
+        "description": "Bureaucratic hurdles are major challenges in cross-border hiring. We ensure a stress-free relocation experience for you and your employees. We take care of everything!"
+      },
+      {
+        "icon": "EducationIcon",
+        "title": "Onboarding and Integration",
+        "description": "How can we ensure higher employee retention rates? Our comprehensive learning and development program focuses on organizing certified courses, on-the-job training, and access to government funding programs to ensure stronger ties to your company and mission."
+      },
+      {
+        "icon": "HrIcon",
+        "title": "Human Resources",
+        "description": "A wide range of candidates from various industries to help you build strong and diverse teams."
+      }
+    ],
+    "pricing": {
+      "title": "For Candidates",
+      "desc": "Unlimited access, profile creation, application, interview preparation...",
+      "price": "From €150 / month",
+      "cta": "Try it now"
+    }
+  },
+  "specialties": {
+    "title": "Specialties",
+    "desc": "Higherd Solutions offers specialized expertise in these areas, ensuring your next hire meets German market requirements. Finding talent in IT, Engineering, and Life Sciences has never been more efficient. Higherd Solutions offers specialized expertise in these areas, ensuring your next hire meets German market requirements.",
+    "items": [
+      {
+        "icon": "TerminalIcon",
+        "title": "IT & Software Development",
+        "desc": "Skilled developers, DevOps engineers, QA specialists and more – specialized for the German market."
+      },
+      {
+        "icon": "SettingsIcon",
+        "title": "Mechanical Engineering",
+        "desc": "From mechanical to civil engineering: Access highly qualified technicians in Germany."
+      },
+      {
+        "icon": "UsersIcon",
+        "title": "Life Sciences",
+        "desc": "Biotech, pharma and healthcare – we connect you with the best experts."
+      }
+    ]
   },
   "students": {
-    "title": "Student Opportunities",
-    "subtitle": "Find internships, entry-level jobs, and career support tailored for students.",
+    "title": "For Students",
+    "subtitle": "Find internships, entry-level jobs, and career support specifically for students.",
     "hero": {
       "imageAlt": "Students exploring career opportunities",
-      "title": "Start Your Career Journey",
+      "title": "Start your career",
       "subtitle": "Discover jobs, internships, and resources for students and graduates.",
-      "bookaDemo": "Book a Free Consultation"
+      "bookaDemo": "Book free consultation"
     },
+
     "jobListingsTitle": "Job Listings",
-    "jobListingsDesc": "Browse the latest student jobs, internships, and graduate programs.",
+    "jobListingsDesc": "Find the latest student jobs, internships, and trainee programs.",
     "jobListings": [
       {
         "title": "UX-UI-Designer",
@@ -443,100 +525,110 @@
       }
     ],
     "cta": {
-      "title": "Ready to take the next step?",
-      "button": "Get Started"
+      "title": "Start your career today!",
+      "subtitle": "Discover internships, entry-level positions and more. Sign up now and take the first step towards your dream job!",
+      "button": "Start now"
     },
-    "additionalServicesTitle": "Student Services",
-    "additionalServicesDesc": "We offer a range of services to help you succeed in your studies and career.",
+    "additionalServicesTitle": "Services for Students",
+    "additionalServicesDesc": "We offer a variety of services to support you in your studies and career.",
     "services": [
       {
-        "title": "Interview Preparation",
-        "description": "Get the skills and confidence you need to excel in interviews."
+        "icon": "TodoIcon",
+        "title": "Expert Recruiting",
+        "description": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit. By accessing a vast pool of exceptional STEM talent, we help you fill positions faster, enabling you to meet your clients' needs with confidence."
       },
       {
+        "icon": "VisaIcon",
         "title": "Visa Support",
-        "description": "We help you navigate the visa process for internships and jobs abroad."
+        "description": "Bureaucratic hurdles are major challenges in cross-border hiring. We ensure a stress-free relocation experience for you and your employees. We take care of everything!"
       },
       {
-        "title": "Language Courses",
-        "description": "Improve your language skills with our certified courses."
+        "icon": "EducationIcon",
+        "title": "Onboarding and Integration",
+        "description": "How can we ensure higher employee retention rates? Our comprehensive learning and development program focuses on organizing certified courses, on-the-job training, and access to government funding programs to ensure stronger ties to your company and mission."
       },
       {
-        "title": "Continuous Support",
-        "description": "Ongoing guidance and resources for your academic and career journey."
+        "icon": "HrIcon",
+        "title": "Human Resources",
+        "description": "A wide range of candidates from various industries to help you build strong and diverse teams."
       }
     ],
+
     "partnersTitle": "Our Partners",
     "faqTitle": "Frequently Asked Questions",
     "faqs": [
       {
         "q": "How do I apply for a student job?",
-        "a": "Simply create a profile and apply directly to listings that interest you."
+        "a": "Simply create a profile and apply directly to interesting positions."
       },
       {
-        "q": "Can I get help with my CV?",
-        "a": "Yes, our team offers CV optimization and review services."
+        "q": "Can I get help with my resume?",
+        "a": "Yes, our team offers optimization and review of your resume."
       },
       {
         "q": "Are internships paid?",
-        "a": "Most internships listed are paid, but details are provided in each listing."
+        "a": "Most internships are paid, details can be found in the respective listing."
       },
       {
-        "q": "Do you offer support for international students?",
-        "a": "Absolutely! We provide visa, language, and relocation support."
+        "q": "Is there support for international students?",
+        "a": "Of course! We offer visa, language and relocation support."
       }
     ]
   },
   "about": {
     "title": "About Higherd",
-    "additionalServicesTitle": "Our Additional Services",
-    "additionalServicesDesc": "Discover the extra ways Higherd supports your hiring and growth.",
-    "subtitle": "Our mission is to make hiring human and effective.",
+    "teamTitle": "Team Members",
+    "teamDesc": "At Higherd, you get genuine candidate backgrounds, higher employee retention rates, and dedicated support to optimize all international procedures.",
+    "subtitle": "Our mission is to make recruiting human and effective.",
     "hero": {
-      "imageAlt": "About Higherd team photo",
-      "title": "Who We Are",
-      "subtitle": "Recruiting with a human touch for a better future.",
-      "bookaDemo": "Book a Free Consultation"
+      "imageAlt": "Higherd team photo",
+      "title": "Frankfurt made HR-Tech",
+      "subtitle": "Higherd Solutions is an HR-tech startup based in Frankfurt. The company was founded by Vitena Xhori, who started with traditional recruiting of civil engineers abroad and outsourcing services for German companies. As the company grew, we discovered more talented candidates from other STEM fields who not only have the required qualifications but also bring a vibrant spectrum of solution-oriented perspectives to the challenges of German industry."
     },
     "specialties": {
-      "title": "Our Specialties",
-      "desc": "We offer deep expertise in IT, Engineering, and Life Sciences, ensuring your next hire fits the German market.",
+      "title": "What sets us apart",
+      "desc": "We offer a fully automated hiring journey, including VISA and relocation procedures, onboarding and upskilling. Transparency is our highest value, ensuring verified qualifications through real experts. Our innovative 'Reverse Employment' feature allows companies to access top talent faster. The unique value-based matching algorithm guarantees perfect alignment between candidate skills and expectations and company global values and local culture.",
       "items": [
         {
-          "icon": "🖥️",
-          "title": "IT & Software Engineering",
-          "desc": "Skilled developers, DevOps engineers, QA specialists and more – focused on the German market."
+          "icon": "ConstructionIcon",
+          "title": "Construction",
+          "desc": "The Higherd founder's background as a German civil engineer ensures deep understanding of market needs. Our candidates have deep understanding from project start to completion and are familiar with cutting-edge technologies like Building Information Modeling (BIM) and digitalization."
         },
         {
-          "icon": "🛠️",
-          "title": "Engineering",
-          "desc": "From mechanical to civil engineering: access highly qualified technical talent in Germany."
+          "icon": "EcoEnergyIcon",
+          "title": "Energy",
+          "desc": "Bureaucratic hurdles are major challenges in cross-border hiring. We ensure a stress-free relocation experience for you and your employees. We take care of everything!"
         },
         {
-          "icon": "🧬",
-          "title": "Life Sciences",
-          "desc": "Biotech, pharma and healthcare – we connect you with top experts."
+          "icon": "UsersIcon",
+          "title": "Mechanical Engineering",
+          "desc": "How can we ensure higher employee retention rates? Our comprehensive learning and development program focuses on organizing certified courses, on-the-job training, and access to government funding programs to ensure stronger ties to your company and mission."
+        },
+        {
+          "icon": "PcScreenIcon",
+          "title": "IT & Consulting",
+          "desc": "How can we ensure higher employee retention rates? Our comprehensive learning and development program"
         }
       ]
     },
-    "additionalServices": {
-      "cvOptimization": {
-        "title": "CV Optimization",
-        "description": "Our CV optimization service helps you create a professional and appealing resume that highlights your skills and experience."
+    "additionalServices": [
+      {
+        "title": "Resume Optimization",
+        "description": "Our resume optimization service helps you create a professional and appealing resume that highlights your skills and experience."
       },
-      "interviewPreparation": {
+      {
         "title": "Interview Preparation",
-        "description": "Get the skills and confidence you need to excel in interviews."
+        "description": "Securing an interview is just the beginning. Our interview preparation service gives you the skills and confidence you need to excel in the interview."
       },
-      "careerCounseling": {
+      {
         "title": "Career Counseling",
-        "description": "Our career counseling provides personalized support and advice to help you achieve your professional goals."
+        "description": "Our career counseling provides personalized support and advice to help you achieve your professional goals and take the next step in your career."
       },
-      "jobAlerts": {
-        "title": "Job Alerts",
-        "description": "Stay up to date with our job alert service, which notifies you about the latest job offers matching your interests and qualifications."
+      {
+        "title": "Job Notifications",
+        "description": "Stay up to date with our job notification service, which informs you about the latest job offers that match your interests and qualifications."
       }
-    },
+    ],
     "partnersTitle": "Our Partners"
   }
 }

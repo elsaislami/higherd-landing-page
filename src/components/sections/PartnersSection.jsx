@@ -4,7 +4,7 @@ export default function PartnersSection({ title, className = "" }) {
   return (
     <>
       <section
-        className={`text-center flex pt-[54px] flex-col justify-end items-center gap-[29px] self-stretch ${className}`}
+        className={`text-center flex flex-col justify-end items-center gap-[29px] self-stretch ${className}`}
       >
         <h1 className="title-xl tracking-tight ">{title}</h1>
       </section>

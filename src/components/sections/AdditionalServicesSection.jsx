@@ -1,4 +1,5 @@
 import Button from "../ui/Button";
+import { getIconComponent } from "../../utils/iconHelpers.jsx";
 
 export default function AdditionalServicesSection({
   services = [],
@@ -26,8 +27,8 @@ export default function AdditionalServicesSection({
             className="p-4 sm:p-6 border border-gray-100 rounded-lg shadow-lg bg-white"
           >
             {service.icon && (
-              <div className="flex justify-center mb-2 text-4xl">
-                {service.icon}
+              <div className="flex justify-left mb-2 text-4xl h-12">
+                {getIconComponent(service.icon)}
               </div>
             )}
             {service.image && !service.icon && (
@@ -35,11 +36,11 @@ export default function AdditionalServicesSection({
                 <img
                   src={service.image}
                   alt=""
-                  className="rounded-lg object-cover max-h-32 sm:max-h-40 lg:max-h-48 w-full"
+                  className="rounded-lg object-cover max-h-60 w-full"
                 />
               </div>
             )}
-            <h4 className="font-semibold text-sm sm:text-base mb-2">
+            <h4 className="font-semibold text-sm sm:text-base my-4">
               {service.title}
             </h4>
             <p className="text-xs sm:text-sm text-gray-500">

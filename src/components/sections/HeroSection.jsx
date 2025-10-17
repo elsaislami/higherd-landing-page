@@ -38,7 +38,7 @@ export default function HeroSection({
         {/* Foreground Content */}
         <div className="flex flex-col-reverse items-center gap-6 sm:gap-8 md:gap-12 md:flex-row md:justify-between relative z-10 w-full">
           <header className="w-full md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start px-4 sm:px-0">
-            <h1 className="title-xxl text-xl sm:text-2xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-2">
+            <h1 className="title-xxl text-xl sm:text-2xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-2 max-w-xl">
               {title}
             </h1>
             <p className="mt-3 text-gray-600 text-sm sm:text-base md:text-lg lg:text-xl max-w-xl">

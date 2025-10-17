@@ -104,6 +104,7 @@ export default function Home() {
           image={recrutImg}
           imageAlt={t("home.images.agenciesAlt")}
           imagePosition="right"
+          priceClassName="pl-5"
           onBookDemo={openBookingURL}
         />
 

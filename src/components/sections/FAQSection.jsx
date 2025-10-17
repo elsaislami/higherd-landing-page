@@ -4,7 +4,7 @@ import FAQStructuredData from "../FAQStructuredData.jsx";
 
 export default function FAQSection({ faqs, className = "" }) {
   const { t } = useTranslation(["pages"]);
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <section

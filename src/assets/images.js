@@ -7,9 +7,11 @@ import teamImg from "./teamImg.png";
 import aboutPhoto1 from "./aboutPhoto1.jpg";
 import aboutPhoto2 from "./aboutPhoto2.jpg";
 import aboutPhoto3 from "./aboutPhoto3.jpg";
+import aboutPhoto4 from "./aboutPhoto4.jpg";
 import agenciesImg from "./agenciesImg.png";
 import companiespage from "./companiespage.png";
 import candidatesImg from "./candidatesImg.png";
+
 
 export {
   employessImg,
@@ -20,6 +22,7 @@ export {
   aboutPhoto1,
   aboutPhoto2,
   aboutPhoto3,
+  aboutPhoto4,
   agenciesImg,
   companiespage,
   candidatesImg,

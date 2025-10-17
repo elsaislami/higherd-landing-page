@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+/* Global user-select prevention */
+* {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none;    /* Firefox */
+  -ms-user-select: none;     /* Internet Explorer/Edge */
+  user-select: none;         /* Standard syntax */
+}
+
 /* Tailwind v4 Custom Theme Configuration */
 :root {
   /* Custom colors */
@@ -247,7 +255,7 @@ body {
   }
   
   .title-xl-white {
-    font-size: 28px; /* Tablet size - consistent with title-xl */
+    font-size: 32px; /* Tablet size - consistent with title-xl */
   }
   
   .title-xxl-white {
@@ -265,7 +273,7 @@ body {
   }
   
   .title-xl-white {
-    font-size: 34px; /* Desktop size - consistent with title-xl */
+    font-size: 48px; /* Desktop size - consistent with title-xl */
   }
   
   .title-xxl-white {

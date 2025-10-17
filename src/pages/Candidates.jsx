@@ -25,25 +25,9 @@ export default function Candidates() {
 
   // Load job listings from translations
   const jobListings = t("candidates.jobListings", { returnObjects: true });
-
-  const additionalServices = [
-    {
-      title: t("candidates.preparationTitle"),
-      description: t("candidates.preparationDescription"),
-    },
-    {
-      title: t("candidates.visaTitle"),
-      description: t("candidates.visaSupportDescription"),
-    },
-    {
-      title: t("candidates.languageCoursesTitle"),
-      description: t("candidates.languageCoursesDescription"),
-    },
-    {
-      title: t("candidates.continuousSupportTitle"),
-      description: t("candidates.continuousSupportDescription"),
-    },
-  ];
+  const additionalServices = t("candidates.additionalServices", {
+    returnObjects: true,
+  });
 
   return (
     <div className="w-full overflow-x-hidden">
@@ -97,7 +81,11 @@ export default function Candidates() {
         {/* Job Listings Section */}
         <JobListingsSection jobListings={jobListings} />
         {/* Additional Services Section */}
-        <AdditionalServicesSection services={additionalServices} />
+        <AdditionalServicesSection
+          services={additionalServices}
+          title={t("candidates.additionalServicesTitle")}
+          description={t("candidates.additionalServicesDesc")}
+        />
 
         {/* Partners Section */}
         <PartnersSection title={t("candidates.partners.title")} />

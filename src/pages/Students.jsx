@@ -7,7 +7,6 @@ import JobListingsSection from "../components/sections/JobListingsSection.jsx";
 import CTASection from "../components/sections/CTASection.jsx";
 import AdditionalServicesSection from "../components/sections/AdditionalServicesSection.jsx";
 import PartnersSection from "../components/sections/PartnersSection.jsx";
-import { logos } from "../assets/logos";
 import {
   DEFAULT_KEYWORDS,
   DEFAULT_URL,
@@ -56,6 +55,7 @@ export default function Students() {
         {/* Call to Action Section */}
         <CTASection
           title={t("students.cta.title")}
+          subtitle={t("students.cta.subtitle")}
           buttonText={t("students.cta.button")}
           variant="white"
         />

@@ -53,8 +53,14 @@
       "agencies": {
         "title": "Für Personalagenturen",
         "list": [
-          "Für Agenturen, die Jobs für Kandidaten suchen...",
-          "Für Agenturen, die auf der Suche nach Kandidaten sind..."
+          {
+            "title": "Für Agenturen, die Jobs für Kandidaten suchen:",
+            "desc": "Verwalten Sie unbegrenzte Kandidatenprofile, greifen Sie auf erstklassige Stellenausschreibungen zu und profitieren Sie von automatisiertem Abgleich und Berichten."
+          },
+          {
+            "title": "Für Agenturen mit Jobs auf der Suche nach Kandidaten:",
+            "desc": "Stellenausschreibungen verwalten, spezieller Zugriff auf Back-Office-Unterstützung und Kontakt zu Top-Kandidaten."
+          }
         ],
         "price": "0 € monatlich + Provision pro Einstellung",
         "cta": "Versuchen Sie es jetzt"
@@ -76,17 +82,17 @@
       "desc": "Higher Solutions bietet spezielles Fachwissen in diesen Bereichen und stellt sicher, dass Ihre nächste Einstellung den Anforderungen des deutschen Marktes entspricht..Die Suche nach Fachkräften für IT, Ingenieurwesen und Biowissenschaften war noch nie so effizient. Higher Solutions bietet spezielles Fachwissen in diesen Bereichen und stellt sicher, dass Ihr nächster Mitarbeiter den Anforderungen des deutschen Marktes entspricht..",
       "items": [
         {
-          "icon": "🖥️",
+          "icon": "TerminalIcon",
           "title": "IT- und Softwareentwicklung",
           "desc": "Qualifizierte Entwickler, DevOps-Ingenieure, QA-Spezialisten und mehr – spezialisiert auf den deutschen Markt."
         },
         {
-          "icon": "🛠️",
+          "icon": "SettingsIcon",
           "title": "Maschinenbau",
           "desc": "Vom Maschinenbau bis zum Bauingenieur: Erhalten Sie Zugang zu hochqualifizierten Technikern in Deutschland."
         },
         {
-          "icon": "🧬",
+          "icon": "UsersIcon",
           "title": "Lebenswissenschaften",
           "desc": "Biotech, Pharma und Gesundheitswesen – wir bringen Sie mit den besten Experten zusammen."
         }
@@ -140,7 +146,9 @@
         "linkedin": "LinkedIn",
         "facebook": "Facebook",
         "instagram": "Instagram"
-      }
+      },
+      "successMessage": "Erfolgreich für unseren Newsletter angemeldet!",
+      "errorMessage": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
     },
     "images": {
       "heroAlt": "Illustration Recruiting",
@@ -217,22 +225,22 @@
       },
       "items": [
         {
-          "icon": "🖥️",
+          "icon": "UsersTagIcon",
           "title": "Experten-Recruiting",
           "desc": "Unsere engagierten Personalvermittler sind hier, um Ihre Kunden mit den perfekten Kandidaten zusammenzubringen und so sicherzustellen, dass sie kulturell und professionell passen. Durch den Zugriff auf einen umfangreichen Pool außergewöhnlicher MINT-Talente helfen wir Ihnen, Positionen schneller zu besetzen, damit Sie die Bedürfnisse Ihrer Kunden mit Zuversicht erfüllen können."
         },
         {
-          "icon": "🛠️",
+          "icon": "VisaIcon",
           "title": "Visa-Unterstützung",
           "desc": "Bürokratische Hürden sind große Herausforderungen bei der grenzüberschreitenden Einstellung. Wir sorgen für ein stressfreies Umzugserlebnis für Sie und Ihre Mitarbeiter. . Wir kümmern uns um alles!"
         },
         {
-          "icon": "🧬",
+          "icon": "UsersIcon",
           "title": "Onboarding und Integration",
           "desc": "Wie können wir eine höhere Mitarbeiterbindungsrate sicherstellen? . Unser umfassendes Lern- und Entwicklungsprogramm konzentriert sich auf die Organisation zertifizierter Kurse, die Ausbildung am Arbeitsplatz und den Zugang zu staatlichen Förderprogrammen, um eine stärkere Bindung zu Ihrem Unternehmen und Ihrer Mission sicherzustellen."
         },
         {
-          "icon": "🧬",
+          "icon": "HrIcon",
           "title": "Personalwesen",
           "desc": "Ein breites Spektrum an Kandidaten aus verschiedenen Branchen, die Ihnen dabei helfen, starke und vielfältige Teams aufzubauen"
         }
@@ -312,22 +320,22 @@
       },
       "items": [
         {
-          "icon": "🖥️",
+          "icon": "TerminalIcon",
           "title": "Experten-Recruiting",
           "desc": "Unsere engagierten Personalvermittler sind hier, um Ihre Kunden mit den perfekten Kandidaten zusammenzubringen und so sicherzustellen, dass sie kulturell und professionell passen. Durch den Zugriff auf einen umfangreichen Pool außergewöhnlicher MINT-Talente helfen wir Ihnen, Positionen schneller zu besetzen, damit Sie die Bedürfnisse Ihrer Kunden mit Zuversicht erfüllen können."
         },
         {
-          "icon": "🛠️",
+          "icon": "VisaIcon",
           "title": "Visa-Unterstützung",
           "desc": "Bürokratische Hürden sind große Herausforderungen bei der grenzüberschreitenden Einstellung. Wir sorgen für ein stressfreies Umzugserlebnis für Sie und Ihre Mitarbeiter. . Wir kümmern uns um alles!"
         },
         {
-          "icon": "🧬",
+          "icon": "UsersIcon",
           "title": "Onboarding und Integration",
           "desc": "Wie können wir eine höhere Mitarbeiterbindungsrate sicherstellen? . Unser umfassendes Lern- und Entwicklungsprogramm konzentriert sich auf die Organisation zertifizierter Kurse, die Ausbildung am Arbeitsplatz und den Zugang zu staatlichen Förderprogrammen, um eine stärkere Bindung zu Ihrem Unternehmen und Ihrer Mission sicherzustellen."
         },
         {
-          "icon": "🧬",
+          "icon": "RegisterIcon",
           "title": "Personalwesen",
           "desc": "Ein breites Spektrum an Kandidaten aus verschiedenen Branchen, die Ihnen dabei helfen, starke und vielfältige Teams aufzubauen"
         }
@@ -343,8 +351,8 @@
     "subtitle": "Bewerben Sie sich ganz einfach für neue Stellen und treten Sie direkt mit Unternehmen in Kontakt, die nach Talenten wie Ihrem suchen. ",
     "bookaDemo": "Versuchen Sie es jetzt",
     "solutionsTitle": "Higherd Solutions – Personalbeschaffung für Ihre Einstellungsbedürfnisse",
-    "additionalServicesTitle": "Additional Services",
-    "additionalServicesDesc": "With us, you get real candidates background, higher employee retention rates and dedicated support to streamline all international procedures.",
+    "additionalServicesTitle": "Unsere Services",
+    "additionalServicesDesc": "Bei uns erhalten Sie echte Kandidatenhintergründe, höhere Mitarbeiterbindungsraten und engagierte Unterstützung zur Optimierung aller internationalen Verfahren.",
     "solutionsDesc": "Higherd bietet maßgeschneiderte Rekrutierungsdienste für KMU, Unternehmen und Agenturen und spart Ihnen Zeit durch gezielten Support und Tools, um Top-Kandidaten direkt zu Ihnen zu bringen..",
     "plansCTA": {
       "title": "Starten Sie Ihre Jobsuche mit Higherd",
@@ -376,6 +384,70 @@
       ]
     },
 
+    "jobListingsTitle": "Stellenangebote",
+    "jobListingsDesc": "Bei Higherd erhalten Sie echte Kandidatenhintergründe, höhere Mitarbeiterbindungsraten und engagierte Unterstützung zur Optimierung aller internationalen Verfahren.",
+    "jobListings": [
+      {
+        "title": "UX-UI-Designer",
+        "description": "Arbeiten Sie an Benutzererfahrung und Schnittstellendesign für digitale Produkte.",
+        "type": "Vollzeit",
+        "mode": "Remote"
+      },
+      {
+        "title": "Product Designer",
+        "description": "Entwerfen und entwickeln Sie innovative Produkte für verschiedene Branchen.",
+        "type": "Vollzeit",
+        "mode": "Remote"
+      },
+      {
+        "title": "Software Engineer",
+        "description": "Entwickeln und warten Sie Softwareanwendungen und -systeme.",
+        "type": "Vollzeit",
+        "mode": "Remote"
+      },
+      {
+        "title": "Graphic Designer",
+        "description": "Erstellen Sie visuelle Konzepte und Designs für Marketingmaterialien.",
+        "type": "Vollzeit",
+        "mode": "Remote"
+      },
+      {
+        "title": "Biotech Praktikant",
+        "description": "Unterstützung bei Forschung und Entwicklung im Biotechsektor.",
+        "type": "Praktikum",
+        "mode": "Vor Ort"
+      },
+      {
+        "title": "QA Engineer",
+        "description": "Testen und sicherstellen der Qualität von Softwareprodukten.",
+        "type": "Vollzeit",
+        "mode": "Remote"
+      }
+    ],
+    "notEnoughJobs": "Wenn Sie nicht genügend Jobs für sich finden, dann ",
+    "createProfile": "Erstellen Sie Ihr Profil",
+    "additionalServices": [
+      {
+        "icon": "TodoIcon",
+        "title": "Experten-Recruiting",
+        "description": "Unsere engagierten Personalvermittler sind hier, um Ihre Kunden mit den perfekten Kandidaten zusammenzubringen und so sicherzustellen, dass sie kulturell und professionell passen. Durch den Zugriff auf einen umfangreichen Pool außergewöhnlicher MINT-Talente helfen wir Ihnen, Positionen schneller zu besetzen, damit Sie die Bedürfnisse Ihrer Kunden mit Zuversicht erfüllen können."
+      },
+      {
+        "icon": "VisaIcon",
+        "title": "Visa-Unterstützung",
+        "description": "Bürokratische Hürden sind große Herausforderungen bei der grenzüberschreitenden Einstellung. Wir sorgen für ein stressfreies Umzugserlebnis für Sie und Ihre Mitarbeiter. Wir kümmern uns um alles!"
+      },
+      {
+        "icon": "EducationIcon",
+        "title": "Onboarding und Integration",
+        "description": "Wie können wir eine höhere Mitarbeiterbindungsrate sicherstellen? Unser umfassendes Lern- und Entwicklungsprogramm konzentriert sich auf die Organisation zertifizierter Kurse, die Ausbildung am Arbeitsplatz und den Zugang zu staatlichen Förderprogrammen, um eine stärkere Bindung zu Ihrem Unternehmen und Ihrer Mission sicherzustellen."
+      },
+      {
+        "icon": "HrIcon",
+        "title": "Personalwesen",
+        "description": "Ein breites Spektrum an Kandidaten aus verschiedenen Branchen, die Ihnen dabei helfen, starke und vielfältige Teams aufzubauen."
+      }
+    ],
     "pricing": {
       "title": "Für Kandidaten",
       "desc": "Unbeschränkter Zugriff, Profilerstellung, Bewerbung, Vorbereitung auf Vorstellungsgespräche...",
@@ -388,17 +460,17 @@
     "desc": "Higher Solutions bietet spezielles Fachwissen in diesen Bereichen und stellt sicher, dass Ihre nächste Einstellung den Anforderungen des deutschen Marktes entspricht..Die Suche nach Fachkräften für IT, Ingenieurwesen und Biowissenschaften war noch nie so effizient. Higher Solutions bietet spezielles Fachwissen in diesen Bereichen und stellt sicher, dass Ihr nächster Mitarbeiter den Anforderungen des deutschen Marktes entspricht..",
     "items": [
       {
-        "icon": "🖥️",
+        "icon": "TerminalIcon",
         "title": "IT- und Softwareentwicklung",
         "desc": "Qualifizierte Entwickler, DevOps-Ingenieure, QA-Spezialisten und mehr – spezialisiert auf den deutschen Markt."
       },
       {
-        "icon": "🛠️",
+        "icon": "SettingsIcon",
         "title": "Maschinenbau",
         "desc": "Vom Maschinenbau bis zum Bauingenieur: Erhalten Sie Zugang zu hochqualifizierten Technikern in Deutschland."
       },
       {
-        "icon": "🧬",
+        "icon": "UsersIcon",
         "title": "Lebenswissenschaften",
         "desc": "Biotech, Pharma und Gesundheitswesen – wir bringen Sie mit den besten Experten zusammen."
       }
@@ -416,30 +488,74 @@
 
     "jobListingsTitle": "Stellenangebote",
     "jobListingsDesc": "Finde die neuesten Studentenjobs, Praktika und Traineeprogramme.",
+    "jobListings": [
+      {
+        "title": "UX-UI-Designer",
+        "description": "Arbeiten Sie an Benutzererfahrung und Schnittstellendesign für digitale Produkte.",
+        "type": "Vollzeit",
+        "mode": "Remote"
+      },
+      {
+        "title": "Product Designer",
+        "description": "Entwerfen und entwickeln Sie innovative Produkte für verschiedene Branchen.",
+        "type": "Vollzeit",
+        "mode": "Remote"
+      },
+      {
+        "title": "Software Engineer",
+        "description": "Entwickeln und warten Sie Softwareanwendungen und -systeme.",
+        "type": "Vollzeit",
+        "mode": "Remote"
+      },
+      {
+        "title": "Graphic Designer",
+        "description": "Erstellen Sie visuelle Konzepte und Designs für Marketingmaterialien.",
+        "type": "Vollzeit",
+        "mode": "Remote"
+      },
+      {
+        "title": "Biotech Praktikant",
+        "description": "Unterstützung bei Forschung und Entwicklung im Biotechsektor.",
+        "type": "Praktikum",
+        "mode": "Vor Ort"
+      },
+      {
+        "title": "QA Engineer",
+        "description": "Testen und sicherstellen der Qualität von Softwareprodukten.",
+        "type": "Vollzeit",
+        "mode": "Remote"
+      }
+    ],
     "cta": {
-      "title": "Bereit für den nächsten Schritt?",
+      "title": "Starten Sie noch heute Ihre Karriere!",
+      "subtitle": "Entdecken Sie Praktika, Einstiegspositionen und mehr. Melden Sie sich jetzt an und machen Sie den ersten Schritt zu Ihrem Traumjob!",
       "button": "Jetzt starten"
     },
     "additionalServicesTitle": "Services für Studierende",
     "additionalServicesDesc": "Wir bieten eine Vielzahl von Services, um dich im Studium und Beruf zu unterstützen.",
     "services": [
       {
-        "title": "Vorbereitung auf Vorstellungsgespräche",
-        "description": "Erhalte die Fähigkeiten und das Selbstvertrauen, um im Interview zu überzeugen."
+        "icon": "TodoIcon",
+        "title": "Experten-Recruiting",
+        "description": "Unsere engagierten Personalvermittler sind hier, um Ihre Kunden mit den perfekten Kandidaten zusammenzubringen und so sicherzustellen, dass sie kulturell und professionell passen. Durch den Zugriff auf einen umfangreichen Pool außergewöhnlicher MINT-Talente helfen wir Ihnen, Positionen schneller zu besetzen, damit Sie die Bedürfnisse Ihrer Kunden mit Zuversicht erfüllen können."
       },
       {
+        "icon": "VisaIcon",
         "title": "Visa-Unterstützung",
-        "description": "Wir helfen dir beim Visaprozess für Praktika und Jobs im Ausland."
+        "description": "Bürokratische Hürden sind große Herausforderungen bei der grenzüberschreitenden Einstellung. Wir sorgen für ein stressfreies Umzugserlebnis für Sie und Ihre Mitarbeiter. Wir kümmern uns um alles!"
       },
       {
-        "title": "Sprachkurse",
-        "description": "Verbessere deine Sprachkenntnisse mit unseren zertifizierten Kursen."
+        "icon": "EducationIcon",
+        "title": "Onboarding und Integration",
+        "description": "Wie können wir eine höhere Mitarbeiterbindungsrate sicherstellen? Unser umfassendes Lern- und Entwicklungsprogramm konzentriert sich auf die Organisation zertifizierter Kurse, die Ausbildung am Arbeitsplatz und den Zugang zu staatlichen Förderprogrammen, um eine stärkere Bindung zu Ihrem Unternehmen und Ihrer Mission sicherzustellen."
       },
       {
-        "title": "Kontinuierliche Unterstützung",
-        "description": "Laufende Beratung und Ressourcen für deinen akademischen und beruflichen Weg."
+        "icon": "HrIcon",
+        "title": "Personalwesen",
+        "description": "Ein breites Spektrum an Kandidaten aus verschiedenen Branchen, die Ihnen dabei helfen, starke und vielfältige Teams aufzubauen."
       }
     ],
+
     "partnersTitle": "Unsere Partner",
     "faqTitle": "Häufig gestellte Fragen",
     "faqs": [
@@ -463,31 +579,37 @@
   },
   "about": {
     "title": "Über Higherd",
+    "teamTitle": "Teammitglieder",
+    "teamDesc": "Bei uns erhalten Sie einen echten Kandidatenhintergrund, höhere Mitarbeiterbindungsraten und engagierte Unterstützung, um alle internationalen Verfahren zu optimieren.",
     "subtitle": "Unsere Mission ist es, Recruiting menschlich und effektiv zu machen.",
     "hero": {
       "imageAlt": "Teamfoto von Higherd",
-      "title": "Wer wir sind",
-      "subtitle": "Recruiting mit Herz und Verstand für eine bessere Zukunft.",
-      "bookaDemo": "Kostenlose Beratung buchen"
+      "title": "Frankfurt hat HR-Tech gemacht",
+      "subtitle": "Higherd Solutions ist ein HR-Tech-Startup mit Sitz in Frankfurt. Das Unternehmen wurde von Vitena Xhori gegründet, die mit der traditionellen Rekrutierung von Bauingenieuren im Ausland und Outsourcing-Dienstleistungen für deutsche Unternehmen begann. . Während das Unternehmen wuchs, entdeckten wir weitere talentierte Kandidaten aus anderen MINT-Bereichen, die nicht nur über die erforderlichen Qualifikationen verfügen, sondern auch ein lebendiges Spektrum an lösungsorientierten Perspektiven für die Herausforderungen der deutschen Industrie einbringen."
     },
     "specialties": {
-      "title": "Unsere Fachgebiete",
-      "desc": "Wir bieten tiefgehende Expertise in IT, Ingenieurwesen und Life Sciences, damit Ihre nächste Einstellung zum deutschen Markt passt.",
+      "title": "Was uns auszeichnet",
+      "desc": "Wir bieten eine vollständig automatisierte Einstellungsreise, einschließlich VISA- und Umzugsverfahren, Onboarding und Weiterqualifizierung. Transparenz ist für uns der höchste Wert und gewährleistet verifizierte Qualifikationen durch echte Experten. . Unsere innovative Funktion „Reverse Employment“ ermöglicht es Unternehmen, schneller auf erstklassige Talente zuzugreifen. Der einzigartige wertbasierte Matching-Algorithmus garantiert eine perfekte Übereinstimmung zwischen den Fähigkeiten und Erwartungen der Kandidaten und den globalen Werten des Unternehmens und der lokalen Kultur.",
       "items": [
         {
-          "icon": "🖥️",
-          "title": "IT- und Softwareentwicklung",
-          "desc": "Qualifizierte Entwickler, DevOps-Ingenieure, QA-Spezialisten und mehr – spezialisiert auf den deutschen Markt."
+          "icon": "ConstructionIcon",
+          "title": "Konstruktion",
+          "desc": "Der Hintergrund des Higher-Gründers als deutscher Bauingenieur gewährleistet ein tiefes Verständnis der Marktbedürfnisse. Unsere Kandidaten verfügen über ein tiefes Verständnis vom Projektbeginn bis zum Abschluss und sind mit Spitzentechnologien wie Building Information Modeling (BIM) und Digitalisierung vertraut."
         },
         {
-          "icon": "🛠️",
-          "title": "Ingenieurwesen",
-          "desc": "Vom Maschinenbau bis zum Bauingenieur: Zugang zu hochqualifizierten Technikern in Deutschland."
+          "icon": "EcoEnergyIcon",
+          "title": "Energie",
+          "desc": "Bürokratische Hürden sind große Herausforderungen bei der grenzüberschreitenden Einstellung. Wir sorgen für ein stressfreies Umzugserlebnis für Sie und Ihre Mitarbeiter. Wir kümmern uns um alles!"
         },
         {
-          "icon": "🧬",
-          "title": "Lebenswissenschaften",
-          "desc": "Biotech, Pharma und Gesundheitswesen – wir bringen Sie mit den besten Experten zusammen."
+          "icon": "UsersIcon",
+          "title": "Maschinenbau",
+          "desc": "Wie können wir eine höhere Mitarbeiterbindungsrate sicherstellen? . Unser umfassendes Lern- und Entwicklungsprogramm konzentriert sich auf die Organisation zertifizierter Kurse, die Ausbildung am Arbeitsplatz und den Zugang zu staatlichen Förderprogrammen, um eine stärkere Bindung zu Ihrem Unternehmen und Ihrer Mission sicherzustellen."
+        },
+        {
+          "icon": "PcScreenIcon",
+          "title": "IT & Beratung",
+          "desc": "Wie können wir eine höhere Mitarbeiterbindungsrate sicherstellen? Unser umfassendes Lern- und Entwicklungsprogramm"
         }
       ]
     },
