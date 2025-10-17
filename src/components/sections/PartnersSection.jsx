@@ -8,7 +8,13 @@ export default function PartnersSection({ title, className = "" }) {
       >
         <h1 className="title-xl tracking-tight ">{title}</h1>
       </section>
-      <div className="w-full bg-theme-primary py-8 md:py-12">
+      <div
+        className="w-full py-8 md:py-12"
+        style={{
+          background:
+            "linear-gradient(90deg, #4500A8 0%, #6C27D0 28.96%, #6C27D0 73.41%, #4500A8 100%)",
+        }}
+      >
         <div className="flex flex-wrap justify-center gap-4 md:gap-8 text-gray-300 px-4 sm:px-6 md:px-10">
           {logos.map((logo, i) => (
             <img

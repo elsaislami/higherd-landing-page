@@ -3,9 +3,9 @@ import React from "react";
 const SettingsIcon = ({ size = 50, color = "#4500A8", ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size}
-    viewBox="0 0 50 50"
+    width="54"
+    height="55"
+    viewBox="0 0 54 55"
     fill="none"
     {...props}
   >

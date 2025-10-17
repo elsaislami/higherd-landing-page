@@ -3,8 +3,8 @@ const RegisterIcon = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       width="54"
-      height="54"
-      viewBox="0 0 54 54"
+      height="55"
+      viewBox="0 0 54 55"
       fill="none"
     >
       <g clipPath="url(#clip0_89_11095)">

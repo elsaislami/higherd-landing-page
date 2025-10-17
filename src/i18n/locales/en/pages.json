@@ -318,7 +318,7 @@
       },
       "items": [
         {
-          "icon": "TerminalIcon",
+          "icon": "UsersTagIcon",
           "title": "Expert Recruiting",
           "desc": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit. By accessing a vast pool of exceptional STEM talent, we help you fill positions faster, enabling you to meet your clients' needs with confidence."
         },
@@ -427,23 +427,23 @@
     "additionalServices": [
       {
         "icon": "TodoIcon",
-        "title": "Expert Recruiting",
-        "description": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit. By accessing a vast pool of exceptional STEM talent, we help you fill positions faster, enabling you to meet your clients' needs with confidence."
+        "title": "Interview Preparation",
+        "description": "Securing an interview is just the beginning. Our interview preparation service provides you with the skills and confidence you need to excel in interviews. We offer personalized coaching sessions that focus on common interview questions, cultural differences, and effective communication strategies to help you make a lasting impression."
       },
       {
         "icon": "VisaIcon",
-        "title": "Visa Support",
-        "description": "Bureaucratic hurdles are major challenges in cross-border hiring. We ensure a stress-free relocation experience for you and your employees. We take care of everything!"
+        "title": "Visa & Relocation Support",
+        "description": "Moving to Germany for your training brings several logistical challenges. Our Visa & Relocation Services simplify this process for you. We assist you with visa applications, provide guidance on required documents, and help you find suitable accommodation. Our team ensures all your paperwork is in order, making your move as smooth and stress-free as possible."
       },
       {
         "icon": "EducationIcon",
-        "title": "Onboarding and Integration",
-        "description": "How can we ensure higher employee retention rates? Our comprehensive learning and development program focuses on organizing certified courses, on-the-job training, and access to government funding programs to ensure stronger ties to your company and mission."
+        "title": "Language Courses",
+        "description": "Mastering the German language is crucial for successful training. We offer tailored language courses that focus on the specific terminology and skills required for your chosen vocational training field. Our courses are available both online and in-person, ensuring you have the necessary language skills to succeed in your training program."
       },
       {
         "icon": "HrIcon",
-        "title": "Human Resources",
-        "description": "A wide range of candidates from various industries to help you build strong and diverse teams."
+        "title": "Ongoing Support",
+        "description": "Our commitment to your success doesn't end when your training begins. We provide ongoing support to help you with challenges during your training – from resolving issues with your training provider to additional learning resources. We ensure you successfully complete your training."
       }
     ],
     "pricing": {
@@ -534,23 +534,23 @@
     "services": [
       {
         "icon": "TodoIcon",
-        "title": "Expert Recruiting",
-        "description": "Our dedicated recruiters are here to match your clients with the perfect candidates, ensuring cultural and professional fit. By accessing a vast pool of exceptional STEM talent, we help you fill positions faster, enabling you to meet your clients' needs with confidence."
+        "title": "Interview Preparation",
+        "description": "Securing an interview is just the beginning. Our interview preparation service provides you with the skills and confidence you need to excel in interviews. We offer personalized coaching sessions that focus on common interview questions, cultural differences, and effective communication strategies to help you make a lasting impression."
       },
       {
         "icon": "VisaIcon",
-        "title": "Visa Support",
-        "description": "Bureaucratic hurdles are major challenges in cross-border hiring. We ensure a stress-free relocation experience for you and your employees. We take care of everything!"
+        "title": "Visa & Relocation Support",
+        "description": "Moving to Germany for your training brings several logistical challenges. Our Visa & Relocation Services simplify this process for you. We assist you with visa applications, provide guidance on required documents, and help you find suitable accommodation. Our team ensures all your paperwork is in order, making your move as smooth and stress-free as possible."
       },
       {
         "icon": "EducationIcon",
-        "title": "Onboarding and Integration",
-        "description": "How can we ensure higher employee retention rates? Our comprehensive learning and development program focuses on organizing certified courses, on-the-job training, and access to government funding programs to ensure stronger ties to your company and mission."
+        "title": "Language Courses",
+        "description": "Mastering the German language is crucial for successful training. We offer tailored language courses that focus on the specific terminology and skills required for your chosen vocational training field. Our courses are available both online and in-person, ensuring you have the necessary language skills to succeed in your training program."
       },
       {
         "icon": "HrIcon",
-        "title": "Human Resources",
-        "description": "A wide range of candidates from various industries to help you build strong and diverse teams."
+        "title": "Ongoing Support",
+        "description": "Our commitment to your success doesn't end when your training begins. We provide ongoing support to help you with challenges during your training – from resolving issues with your training provider to additional learning resources. We ensure you successfully complete your training."
       }
     ],
 

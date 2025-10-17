@@ -3,9 +3,9 @@ import React from "react";
 const TerminalIcon = ({ size = 50, color = "#4500A8", ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={size}
-    height={size * 0.9}
-    viewBox="0 0 50 45"
+    width="54"
+    height="55"
+    viewBox="0 0 54 55"
     fill="none"
     {...props}
   >

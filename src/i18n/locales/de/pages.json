@@ -320,7 +320,7 @@
       },
       "items": [
         {
-          "icon": "TerminalIcon",
+          "icon": "UsersTagIcon",
           "title": "Experten-Recruiting",
           "desc": "Unsere engagierten Personalvermittler sind hier, um Ihre Kunden mit den perfekten Kandidaten zusammenzubringen und so sicherzustellen, dass sie kulturell und professionell passen. Durch den Zugriff auf einen umfangreichen Pool außergewöhnlicher MINT-Talente helfen wir Ihnen, Positionen schneller zu besetzen, damit Sie die Bedürfnisse Ihrer Kunden mit Zuversicht erfüllen können."
         },
@@ -429,8 +429,8 @@
     "additionalServices": [
       {
         "icon": "TodoIcon",
-        "title": "Experten-Recruiting",
-        "description": "Unsere engagierten Personalvermittler sind hier, um Ihre Kunden mit den perfekten Kandidaten zusammenzubringen und so sicherzustellen, dass sie kulturell und professionell passen. Durch den Zugriff auf einen umfangreichen Pool außergewöhnlicher MINT-Talente helfen wir Ihnen, Positionen schneller zu besetzen, damit Sie die Bedürfnisse Ihrer Kunden mit Zuversicht erfüllen können."
+        "title": "Vorbereitung auf Vorstellungsgespräche",
+        "description": "Die Sicherung eines Vorstellungsgesprächs ist nur der Anfang. Unser Service zur Vorbereitung auf Vorstellungsgespräche vermittelt Ihnen die Fähigkeiten und das Selbstvertrauen, die Sie benötigen, um in Vorstellungsgesprächen hervorragende Leistungen zu erbringen. Wir bieten personalisierte Coaching-Sitzungen an, die sich auf häufige Interviewfragen, kulturelle Unterschiede und effektive Kommunikationsstrategien konzentrieren, damit Sie einen bleibenden Eindruck hinterlassen."
       },
       {
         "icon": "VisaIcon",
@@ -536,23 +536,23 @@
     "services": [
       {
         "icon": "TodoIcon",
-        "title": "Experten-Recruiting",
-        "description": "Unsere engagierten Personalvermittler sind hier, um Ihre Kunden mit den perfekten Kandidaten zusammenzubringen und so sicherzustellen, dass sie kulturell und professionell passen. Durch den Zugriff auf einen umfangreichen Pool außergewöhnlicher MINT-Talente helfen wir Ihnen, Positionen schneller zu besetzen, damit Sie die Bedürfnisse Ihrer Kunden mit Zuversicht erfüllen können."
+        "title": "Vorbereitung auf Vorstellungsgespräche",
+        "description": "Die Sicherung eines Vorstellungsgesprächs ist nur der Anfang. Unser Service zur Vorbereitung auf Vorstellungsgespräche vermittelt Ihnen die Fähigkeiten und das Selbstvertrauen, die Sie benötigen, um in Vorstellungsgesprächen hervorragende Leistungen zu erbringen. Wir bieten personalisierte Coaching-Sitzungen an, die sich auf häufige Interviewfragen, kulturelle Unterschiede und effektive Kommunikationsstrategien konzentrieren, damit Sie einen bleibenden Eindruck hinterlassen."
       },
       {
         "icon": "VisaIcon",
-        "title": "Visa-Unterstützung",
-        "description": "Bürokratische Hürden sind große Herausforderungen bei der grenzüberschreitenden Einstellung. Wir sorgen für ein stressfreies Umzugserlebnis für Sie und Ihre Mitarbeiter. Wir kümmern uns um alles!"
+        "title": "Visa- und Umzugsunterstützung",
+        "description": "Der Umzug nach Deutschland für Ihre Ausbildung bringt mehrere logistische Herausforderungen mit sich. Unsere Visa & Relocation Services vereinfachen diesen Prozess für Sie. Wir unterstützen Sie bei der Beantragung eines Visums, geben Hinweise zu den erforderlichen Unterlagen und helfen Ihnen bei der Suche nach einer geeigneten Unterkunft. Unser Team sorgt dafür, dass alle Ihre Unterlagen in Ordnung sind, damit Ihr Umzug so reibungslos und stressfrei wie möglich verläuft."
       },
       {
         "icon": "EducationIcon",
-        "title": "Onboarding und Integration",
-        "description": "Wie können wir eine höhere Mitarbeiterbindungsrate sicherstellen? Unser umfassendes Lern- und Entwicklungsprogramm konzentriert sich auf die Organisation zertifizierter Kurse, die Ausbildung am Arbeitsplatz und den Zugang zu staatlichen Förderprogrammen, um eine stärkere Bindung zu Ihrem Unternehmen und Ihrer Mission sicherzustellen."
+        "title": "Sprachkurse",
+        "description": "Für eine erfolgreiche Ausbildung ist die Beherrschung der deutschen Sprache von entscheidender Bedeutung. Wir bieten maßgeschneiderte Sprachkurse an, die sich auf die spezifische Terminologie und die Fähigkeiten konzentrieren, die für das von Ihnen gewählte Berufsausbildungsfeld erforderlich sind. Unsere Kurse sind sowohl online als auch persönlich verfügbar und stellen sicher, dass Sie über die notwendigen Sprachkenntnisse verfügen, um in Ihrem Schulungsprogramm erfolgreich zu sein."
       },
       {
         "icon": "HrIcon",
-        "title": "Personalwesen",
-        "description": "Ein breites Spektrum an Kandidaten aus verschiedenen Branchen, die Ihnen dabei helfen, starke und vielfältige Teams aufzubauen."
+        "title": "Laufende Unterstützung",
+        "description": "Unser Engagement für Ihren Erfolg endet nicht mit dem Beginn Ihrer Ausbildung. Wir bieten kontinuierliche Unterstützung, um Ihnen bei Herausforderungen während der Ausbildung zu helfen – von der Lösung von Problemen mit Ihrem Ausbildungsanbieter bis hin zu zusätzlichen Lernressourcen. Wir sorgen dafür, dass Sie Ihre Ausbildung erfolgreich abschließen."
       }
     ],
 

@@ -2,9 +2,9 @@ export default function EditSettingsIcon({ size = 48, color = "#4500A8" }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      width={size}
-      height={size}
-      viewBox="0 0 48 48"
+      width="54"
+      height="55"
+      viewBox="0 0 54 55"
       fill="none"
     >
       <path
