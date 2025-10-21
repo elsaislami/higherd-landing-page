@@ -20,5 +20,12 @@
     "imprint": "Imprint",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
+  },
+  "chatbot": {
+    "welcome": "Hi! I'm the Higherd assistant. How can I help you today?",
+    "placeholder": "Type your message...",
+    "typing": "Typing...",
+    "online": "Online",
+    "error": "Sorry, I encountered an error. Please try again."
   }
 }

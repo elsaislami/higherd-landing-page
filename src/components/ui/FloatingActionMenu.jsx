@@ -49,17 +49,17 @@ export default function FloatingActionMenu({ className = "" }) {
   ];
 
   return (
-    <div className={`fixed bottom-6 right-6 z-50 ${className}`}>
+    <div className={`fixed bottom-6 left-6 z-50 ${className}`}>
       {/* Menu Items */}
       {isOpen && (
         <div className="mb-4 space-y-3">
           {menuItems.map((item, index) => (
             <div
               key={index}
-              className="flex items-center justify-end animate-fade-in-up"
+              className="flex items-center justify-start animate-fade-in-up"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <span className="mr-3 bg-black/80 text-white text-sm px-3 py-1 rounded-lg whitespace-nowrap">
+              <span className="ml-3 bg-black/80 text-white text-sm px-3 py-1 rounded-lg whitespace-nowrap order-2">
                 {item.label}
               </span>
               <button
@@ -67,7 +67,7 @@ export default function FloatingActionMenu({ className = "" }) {
                   item.onClick();
                   setIsOpen(false);
                 }}
-                className={`p-3 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-offset-2 text-white cursor-pointer ${item.className}`}
+                className={`p-3 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-offset-2 text-white cursor-pointer order-1 ${item.className}`}
                 aria-label={item.label}
                 title={item.label}
               >
@@ -77,10 +77,10 @@ export default function FloatingActionMenu({ className = "" }) {
           ))}
           {/* Scroll to Top */}
           <div
-            className="flex items-center justify-end animate-fade-in-up"
+            className="flex items-center justify-start animate-fade-in-up"
             style={{ animationDelay: "400ms" }}
           >
-            <span className="mr-3 bg-black/80 text-white text-sm px-3 py-1 rounded-lg whitespace-nowrap">
+            <span className="ml-3 bg-black/80 text-white text-sm px-3 py-1 rounded-lg whitespace-nowrap order-2">
               Scroll to top
             </span>
             <button
@@ -88,7 +88,7 @@ export default function FloatingActionMenu({ className = "" }) {
                 scrollToTop();
                 setIsOpen(false);
               }}
-              className="p-3 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 bg-[#4500A8] hover:bg-purple-800 text-white cursor-pointer"
+              className="p-3 rounded-full shadow-lg transition-all duration-300 ease-in-out transform hover:scale-110 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2 bg-[#4500A8] hover:bg-purple-800 text-white cursor-pointer order-1"
               aria-label="Scroll to top"
               title="Scroll to top"
             >

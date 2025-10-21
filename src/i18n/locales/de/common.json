@@ -20,5 +20,12 @@
     "imprint": "Impressum",
     "privacyPolicy": "Datenschutzerklärung",
     "termsOfService": "AGB"
+  },
+  "chatbot": {
+    "welcome": "Hallo! Ich bin der Higherd-Assistent. Wie kann ich Ihnen heute helfen?",
+    "placeholder": "Geben Sie Ihre Nachricht ein...",
+    "typing": "Tippt...",
+    "online": "Online",
+    "error": "Entschuldigung, es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
   }
 }

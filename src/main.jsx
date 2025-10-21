@@ -8,6 +8,7 @@ import { initAnalytics, initWebVitals } from "./utils/analytics.js";
 import Header from "./components/layout/Header.jsx";
 import Footer from "./components/layout/Footer.jsx";
 import FloatingActionMenu from "./components/ui/FloatingActionMenu.jsx";
+import ChatBot from "./components/ChatBot.jsx";
 import Home from "./pages/Home.jsx";
 import Companies from "./pages/Companies.jsx";
 import Agencies from "./pages/Agencies.jsx";
@@ -29,6 +30,7 @@ function Layout({ children }) {
       <main className="flex-1 pt-16">{children}</main>
       <Footer />
       <FloatingActionMenu />
+      <ChatBot />
     </div>
   );
 }
