@@ -632,5 +632,307 @@
       }
     ],
     "partnersTitle": "Unsere Partner"
+  },
+  "privacy": {
+    "title": "Higherd.de – Allgemeine Datenschutzerklärung",
+    "metaTitle": "Datenschutzerklärung - Higherd.de",
+    "metaDescription": "Erfahren Sie, wie Higherd.de Ihre Privatsphäre schützt und Ihre persönlichen Daten gemäß DSGVO und EU-KI-Verordnung behandelt.",
+    "effectiveDate": "Gültig ab:",
+    "effectiveDateValue": "1. Januar 2025",
+    "lastUpdated": "Zuletzt aktualisiert:",
+    "lastUpdatedValue": "1. Januar 2025",
+    "website": "Website:",
+    "contact": "Kontakt:",
+    "section1": {
+      "title": "1. Einleitung",
+      "p1": "Higherd.de (\"wir\", \"uns\", \"unser\") verpflichtet sich, die Privatsphäre von Personen zu schützen, die mit unserer KI-gestützten Plattform zur Bewertung der kulturellen Passung interagieren. Diese Richtlinie beschreibt, wie wir Ihre personenbezogenen Daten gemäß der",
+      "gdpr": "Datenschutz-Grundverordnung (DSGVO)",
+      "p2": "und relevanten KI-Gesetzgebungen, einschließlich der",
+      "euAiAct": "EU-Verordnung über künstliche Intelligenz",
+      "p3": "Wenn Sie mit den Bedingungen dieser Richtlinie nicht einverstanden sind, verwenden Sie bitte unsere Dienste nicht."
+    },
+    "section2": {
+      "title": "2. Für wen diese Richtlinie gilt",
+      "intro": "Diese Richtlinie gilt für:",
+      "item1": "Bewerber",
+      "item1Desc": "die unsere Plattform nutzen, um die kulturelle Passung mit potenziellen Arbeitgebern zu bewerten",
+      "item2": "Personalvermittler und Arbeitgeber",
+      "item2Desc": "die Higherd.de zur Bewertung von Bewerbern nutzen",
+      "item3": "Website-Besucher",
+      "item3Desc": "die unsere Plattform durchsuchen oder mit ihr interagieren"
+    },
+    "section3": {
+      "title": "3. Welche personenbezogenen Daten wir erheben",
+      "intro": "Wir können folgende Datenkategorien erheben:",
+      "item1": "Persönliche Identifikationsinformationen",
+      "item1Desc": "Name, E-Mail-Adresse, Telefonnummer",
+      "item2": "Berufliche Daten",
+      "item2Desc": "Lebenslauf, Berufserfahrung, Ausbildung",
+      "item3": "Verhaltens- oder psychometrische Eingaben",
+      "item3Desc": "Antworten auf Bewertungen zur kulturellen Passung",
+      "item4": "Metadaten",
+      "item4Desc": "IP-Adresse, Geräteinformationen, Browsertyp",
+      "item5": "KI-generierte Bewertungen",
+      "item5Desc": "Cultural Fit Score, Bewertungsergebnisse",
+      "note": "Wir erheben",
+      "notBold": "nicht",
+      "noteEnd": "wissentlich sensible Daten (z. B. Rasse, Religion, biometrische Daten), es sei denn, sie werden ausdrücklich vom Benutzer bereitgestellt."
+    },
+    "section4": {
+      "title": "4. Wie wir Ihre Daten verwenden",
+      "intro": "Wir verwenden Ihre Daten, um:",
+      "items": [
+        "Cultural Fit Scores zu analysieren und zu generieren",
+        "Sie mit Organisationen abzugleichen, die auf die Übereinstimmung mit der Unternehmenskultur basieren",
+        "Personalvermittlern erklärbare KI-Ergebnisse bereitzustellen",
+        "Die Leistung, Fairness und Genauigkeit unserer Algorithmen zu verbessern",
+        "Die Einhaltung der EU-KI-Verordnung und der DSGVO sicherzustellen"
+      ]
+    },
+    "section5": {
+      "title": "5. Rechtsgrundlage für die Verarbeitung",
+      "intro": "Unsere Datenverarbeitung basiert auf:",
+      "item1": "Einwilligung",
+      "item1Desc": "(z. B. zur Abgabe von Bewertungen)",
+      "item2": "Berechtigtes Interesse",
+      "item2Desc": "(z. B. Verbesserung der algorithmischen Fairness)",
+      "item3": "Vertragserfüllung",
+      "item3Desc": "(z. B. Erfüllung unserer Dienstleistungen für Kunden)",
+      "item4": "Rechtliche Verpflichtung",
+      "item4Desc": "(z. B. zur Einhaltung regulatorischer Prüfungen)"
+    },
+    "section6": {
+      "title": "6. KI-Erklärbarkeit und Transparenz",
+      "p1": "Unser KI-System generiert",
+      "culturalFit": "Cultural Fit Scores",
+      "p2": "basierend auf strukturierten Eingaben (z. B. Persönlichkeitsmerkmale, Werte, Kommunikationsstil). Sie haben das",
+      "rightToExplain": "Recht, eine Erklärung anzufordern",
+      "p3": "wie Ihre Bewertung generiert wurde.",
+      "weOffer": "Wir bieten auch:",
+      "item1": "Zugriff auf zugrunde liegende Kriterien",
+      "item2": "Möglichkeit, eine menschliche Überprüfung anzufordern",
+      "item3": "Kontrafaktisches Feedback",
+      "item3Desc": "(was das Ergebnis hätte ändern können)",
+      "note": "Wir verwenden",
+      "notBold": "keine",
+      "noteEnd": "Proxy-Variablen, die Geschlecht, Rasse oder andere geschützte Merkmale ableiten."
+    },
+    "section7": {
+      "title": "7. Automatisierte Entscheidungsfindung",
+      "p1": "Unser System kann",
+      "automated": "automatisierte Ranglisten oder Empfehlungen",
+      "p2": "von Kandidaten basierend auf Cultural Fit unterstützen. Jedoch:",
+      "item1": "Diese Entscheidungen sind",
+      "notFinal": "nicht endgültig oder verbindlich",
+      "item2": "Menschliche Prüfer validieren immer die endgültige Entscheidung",
+      "item3": "Sie können",
+      "objectText": "der automatisierten Verarbeitung widersprechen",
+      "item3End": "jederzeit"
+    },
+    "section8": {
+      "title": "8. Datenweitergabe und Dritte",
+      "intro": "Wir können Ihre Daten weitergeben an:",
+      "items": [
+        "Arbeitgeber oder Personalvermittler, mit denen Sie aktiv zusammenarbeiten",
+        "Dienstleister, die uns bei der Verarbeitung und Speicherung von Daten helfen",
+        "Rechtliche oder regulatorische Behörden, wenn erforderlich"
+      ],
+      "note": "Wir verkaufen",
+      "notBold": "keine",
+      "noteEnd": "Ihre Daten an Dritte."
+    },
+    "section9": {
+      "title": "9. Internationale Übermittlungen",
+      "text": "Wenn Ihre Daten außerhalb des Europäischen Wirtschaftsraums (EWR) übertragen werden, stellen wir sicher, dass geeignete Schutzmaßnahmen (z. B.",
+      "scc": "Standardvertragsklauseln",
+      "textEnd": ") vorhanden sind, um Ihre Daten zu schützen."
+    },
+    "section10": {
+      "title": "10. Datenspeicherung",
+      "intro": "Wir speichern Ihre Daten:",
+      "item1": "Für",
+      "months12": "12 Monate",
+      "item1End": "nach der letzten Aktivität für Kandidaten",
+      "item2": "Für die",
+      "duration": "Dauer der Geschäftsbeziehung",
+      "item2End": "für Personalvermittler/Arbeitgeber",
+      "item3": "Länger, wenn gesetzlich vorgeschrieben oder im Falle rechtlicher Ansprüche"
+    },
+    "section11": {
+      "title": "11. Ihre Rechte gemäß DSGVO",
+      "intro": "Sie haben das Recht:",
+      "items": [
+        "Auf Ihre personenbezogenen Daten zuzugreifen",
+        "Unrichtige Daten zu korrigieren",
+        "Die Löschung zu verlangen (\"Recht auf Vergessenwerden\")",
+        "Der Verarbeitung zu widersprechen",
+        "Die Einwilligung jederzeit zu widerrufen",
+        "Eine Beschwerde bei einer Datenschutzbehörde einzureichen"
+      ],
+      "contact": "Um Ihre Rechte auszuüben, senden Sie uns eine E-Mail an"
+    },
+    "section12": {
+      "title": "12. Sicherheitsmaßnahmen",
+      "intro": "Wir implementieren branchenübliche Maßnahmen zum Schutz Ihrer Daten, einschließlich:",
+      "items": [
+        "Verschlüsselung im Ruhezustand und während der Übertragung",
+        "Zugriffskontrolle und Audit-Protokolle",
+        "Regelmäßige KI-Modellprüfungen auf Voreingenommenheit, Fairness und Compliance"
+      ]
+    },
+    "section13": {
+      "title": "13. Cookies und Tracking",
+      "text": "Wir verwenden Cookies, um die Benutzererfahrung zu verbessern, den Datenverkehr zu analysieren und Inhalte zu personalisieren. Sie können Ihre Präferenzen über unser Cookie-Einstellungs-Tool verwalten."
+    },
+    "section14": {
+      "title": "14. Aktualisierungen dieser Richtlinie",
+      "text": "Wir können diese Datenschutzerklärung regelmäßig aktualisieren. Wir werden Benutzer über wesentliche Änderungen per E-Mail oder über die Plattform benachrichtigen."
+    },
+    "section15": {
+      "title": "15. Kontaktieren Sie uns",
+      "intro": "Wenn Sie Fragen zu dieser Richtlinie oder zur Handhabung Ihrer Daten haben, kontaktieren Sie uns:"
+    }
+  },
+  "imprint": {
+    "title": "Impressum",
+    "metaTitle": "Impressum - Higherd.de",
+    "metaDescription": "Gesetzliche Angaben und Unternehmensinformationen für Higherd.de - Jobexport e.K.",
+    "heading": "Impressum",
+    "legalInfo": "Angaben gemäß § 5 TMG",
+    "companyName": "Jobexport e.K.",
+    "address": {
+      "street": "Gärtnerweg 62",
+      "postal": "60322 Frankfurt am Main",
+      "country": "Deutschland"
+    },
+    "represented": "Vertreten durch:",
+    "owner": "Dipl.-Ing. Vitena Xhori (Inhaberin)",
+    "contact": "Kontakt:",
+    "phone": "Telefon:",
+    "phoneValue": "069 80884532",
+    "email": "E-Mail:",
+    "emailValue": "info@higherd.de",
+    "website": "Website:",
+    "websiteValue": "www.higherd.de",
+    "registerEntry": "Eintragung im Handelsregister:",
+    "registerCourt": "Registergericht:",
+    "registerCourtValue": "Amtsgericht Frankfurt am Main",
+    "registerNumber": "Registernummer:",
+    "registerNumberValue": "HRA 013 883 300 80",
+    "vatId": "Umsatzsteuer-ID:",
+    "vatIdDesc": "Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:",
+    "vatIdValue": "DE358965392",
+    "authority": "Zuständige Aufsichtsbehörde gemäß Aufenthaltsgesetz:",
+    "authorityDesc": "Die Agentur ist gegenüber der Bundesagentur für Arbeit, Zentrale Auslands- und Fachvermittlung (ZAV) in allen Angelegenheiten im Zusammenhang mit der Beantragung der Vorabzustimmung zur Beschäftigung ausländischer Arbeitskräfte gemäß § 39 Aufenthaltsgesetz (AufenthG) vertretungsberechtigt."
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "metaTitle": "AGB - Higherd.de",
+    "metaDescription": "Allgemeine Geschäftsbedingungen für Higherd.de - KI-gestützte Plattform zur Bewertung der kulturellen Passung. Erfahren Sie mehr über Ihre Rechte und Pflichten.",
+    "heading": "Allgemeine Geschäftsbedingungen",
+    "section1": {
+      "title": "1. Einleitung",
+      "p1": "Willkommen bei Higherd.de – einer KI-gestützten Plattform, die die kulturelle Passung zwischen Kandidaten und Organisationen bewertet.",
+      "p2": "Diese Allgemeinen Geschäftsbedingungen (\"AGB\") regeln Ihre Nutzung der Plattform als:",
+      "userType1": "Unternehmen oder Personalvermittler",
+      "userType2": "Kandidat oder Arbeitssuchender",
+      "userType3": "Website-Besucher",
+      "p3": "Durch die Nutzung von Higherd.de stimmen Sie diesen AGB zu. Wenn Sie nicht zustimmen, dürfen Sie unsere Dienste nicht nutzen."
+    },
+    "section2": {
+      "title": "2. Beschreibung der Dienstleistungen",
+      "intro": "Higherd.de bietet:",
+      "service1": "Ein KI-basiertes Tool zur Analyse der kulturellen Passung",
+      "service2": "Matching und Empfehlungen zur Unterstützung von Einstellungsentscheidungen",
+      "service3": "Dashboards, Einblicke und erklärbare KI-Ausgaben",
+      "note": "Bitte beachten Sie:",
+      "noteText": "Unser KI-System trifft keine endgültigen Einstellungsentscheidungen. Es unterstützt menschliche Entscheidungsträger in Rekrutierungsprozessen."
+    },
+    "section3": {
+      "title": "3. Zugang zur Plattform",
+      "subtitle1": "3.1 Registrierung",
+      "item1": "Sie müssen genaue und vollständige Informationen zur Registrierung angeben.",
+      "item2": "Unternehmen müssen sicherstellen, dass nur autorisiertes Personal auf die Plattform zugreift.",
+      "item3": "Kandidaten müssen wahrheitsgemäße Antworten geben.",
+      "subtitle2": "3.2 Altersanforderung",
+      "ageText": "Sie müssen mindestens 16 Jahre alt sein, um die Plattform zu nutzen."
+    },
+    "section4": {
+      "title": "4. Zulässige Nutzung",
+      "subtitle1": "4.1 Erlaubte Nutzung",
+      "permittedText": "Sie dürfen die Plattform nur für legitime Rekrutierungs- und Bewerbungszwecke in Übereinstimmung mit den geltenden Gesetzen und Vorschriften nutzen.",
+      "subtitle2": "4.2 Verbotene Nutzung",
+      "prohibitedIntro": "Sie dürfen nicht:",
+      "prohibited1": "Das KI-System zurückentwickeln oder manipulieren",
+      "prohibited2": "Daten Dritter ohne Zustimmung hochladen",
+      "prohibited3": "Die Plattform auf diskriminierende oder unethische Weise nutzen",
+      "prohibited4": "Den Cultural Fit Score für rechtswidrige Ausschlüsse missbrauchen"
+    },
+    "section5": {
+      "title": "5. Künstliche Intelligenz & Automatisierte Bewertung",
+      "subtitle1": "5.1 Erklärbare KI",
+      "p1": "Higherd.de verwendet erklärbare KI-Modelle zur Generierung eines Cultural Fit Scores basierend auf Kandidateneingaben und Unternehmenskultur-Daten. Diese Modelle:",
+      "item1": "Verlassen sich nicht auf sensible personenbezogene Daten (z. B. Rasse, Geschlecht)",
+      "item2": "Bieten auf Anfrage Erklärungen",
+      "item3": "Sind prüfbar und werden von Menschen überprüft",
+      "subtitle2": "5.2 Menschliche Aufsicht",
+      "oversightText": "KI-basierte Bewertungen sind unterstützend, nicht entscheidend. Endgültige Entscheidungen liegen bei menschlichen Nutzern (Personalvermittlern)."
+    },
+    "section6": {
+      "title": "6. Nutzerverantwortlichkeiten",
+      "subtitle1": "6.1 Für Arbeitgeber",
+      "employer1": "Sie sind für rechtmäßige Einstellungsentscheidungen verantwortlich.",
+      "employer2": "Sie dürfen sich nicht ausschließlich auf den Cultural Fit Score verlassen.",
+      "employer3": "Sie müssen alle Antidiskriminierungsgesetze und DSGVO-Verpflichtungen einhalten.",
+      "subtitle2": "6.2 Für Kandidaten",
+      "candidate1": "Sie können eine Erklärung Ihrer Bewertung anfordern.",
+      "candidate2": "Sie können der automatisierten Verarbeitung widersprechen.",
+      "candidate3": "Sie können eine menschliche Überprüfung Ihrer Bewertung anfordern."
+    },
+    "section7": {
+      "title": "7. Datenschutz und Datensicherheit",
+      "intro": "Die Nutzung der Plattform unterliegt unserer Datenschutzerklärung. Wichtige Punkte:",
+      "point1": "Daten werden gemäß DSGVO, BDSG (Deutschland) und der EU-KI-Verordnung verarbeitet.",
+      "point2": "Nutzer haben Rechte auf Zugang, Berichtigung, Löschung und Widerspruch gegen ihre personenbezogenen Daten.",
+      "point3": "KI wird in Übereinstimmung mit rechtlichen und ethischen Rahmenbedingungen eingesetzt."
+    },
+    "section8": {
+      "title": "8. Verfügbarkeit & Support",
+      "text": "Wir streben eine monatliche Verfügbarkeit von 99% an. Gelegentliche Unterbrechungen können jedoch aufgrund von Wartung oder Systemaktualisierungen auftreten.",
+      "support": "Support:"
+    },
+    "section9": {
+      "title": "9. Haftung",
+      "subtitle1": "9.1 Kandidaten",
+      "candidatesText": "Higherd.de ist nicht verantwortlich für endgültige Einstellungsergebnisse. Die KI-Bewertung ist beratend und garantiert keine Beschäftigung.",
+      "subtitle2": "9.2 Arbeitgeber",
+      "employersText": "Wir haften nicht für Einstellungsentscheidungen Ihres Unternehmens, die auf den Ausgaben der Plattform basieren.",
+      "subtitle3": "9.3 Allgemein",
+      "generalText": "Wir haften nur für Schäden, die durch Vorsatz oder grobe Fahrlässigkeit oder durch Verletzung wesentlicher Vertragspflichten verursacht werden. Wir haften nicht für indirekte oder Folgeschäden."
+    },
+    "section10": {
+      "title": "10. Lizenz- und Nutzungsrechte",
+      "text": "Sie erhalten eine nicht-exklusive, nicht übertragbare Lizenz zur Nutzung der Plattform für die vereinbarte Laufzeit. Sie dürfen keinen Teil des Systems oder der Inhalte reproduzieren, weiterverkaufen oder kommerziell ausnutzen."
+    },
+    "section11": {
+      "title": "11. Kündigung",
+      "subtitle1": "11.1 Für Arbeitgeber",
+      "employersText": "Vertragsbedingungen und Kündigungsrechte sind in Ihrer Servicevereinbarung festgelegt.",
+      "subtitle2": "11.2 Für Kandidaten",
+      "candidatesText": "Sie können Ihr Konto jederzeit löschen. Wir werden Ihre Daten gemäß unserer Datenschutzerklärung löschen oder anonymisieren."
+    },
+    "section12": {
+      "title": "12. Änderungen dieser AGB",
+      "text": "Wir können diese AGB ändern, um rechtliche, technische oder betriebliche Änderungen widerzuspiegeln. Wir werden Sie über wesentliche Aktualisierungen per E-Mail oder Plattformbenachrichtigung informieren."
+    },
+    "section13": {
+      "title": "13. Anwendbares Recht & Gerichtsstand",
+      "text": "Diese AGB unterliegen den Gesetzen Deutschlands, sofern nicht anders gesetzlich vorgeschrieben. Gerichtsstand ist Berlin, Deutschland, soweit rechtlich zulässig."
+    },
+    "section14": {
+      "title": "14. Kontakt",
+      "email": "support@higherd.de",
+      "website": "https://www.higherd.de"
+    }
   }
 }

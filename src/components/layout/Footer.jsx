@@ -241,7 +241,7 @@ export default function Footer() {
           }}
           className="hover:underline cursor-pointer"
         >
-          Imprint
+          {t("footer.imprint", { ns: "common" })}
         </button>
         <span>|</span>
         <button
@@ -250,7 +250,16 @@ export default function Footer() {
           }}
           className="hover:underline cursor-pointer"
         >
-          Privacy & Terms
+          {t("footer.privacyPolicy", { ns: "common" })}
+        </button>
+        <span>|</span>
+        <button
+          onClick={() => {
+            window.location.href = "/terms-of-service";
+          }}
+          className="hover:underline cursor-pointer"
+        >
+          {t("footer.termsOfService", { ns: "common" })}
         </button>
       </div>
 

@@ -630,5 +630,307 @@
       }
     ],
     "partnersTitle": "Our Partners"
+  },
+  "privacy": {
+    "title": "Higherd.de – General Privacy Policy",
+    "metaTitle": "Privacy Policy - Higherd.de",
+    "metaDescription": "Learn how Higherd.de protects your privacy and handles your personal data in accordance with GDPR and EU AI Act regulations.",
+    "effectiveDate": "Effective Date:",
+    "effectiveDateValue": "January 1, 2025",
+    "lastUpdated": "Last Updated:",
+    "lastUpdatedValue": "January 1, 2025",
+    "website": "Website:",
+    "contact": "Contact:",
+    "section1": {
+      "title": "1. Introduction",
+      "p1": "Higherd.de (\"we\", \"us\", \"our\") is committed to protecting the privacy of individuals who interact with our AI-driven cultural fit assessment platform. This policy describes how we collect, use, and protect your personal data in accordance with the",
+      "gdpr": "General Data Protection Regulation (GDPR)",
+      "p2": "and relevant AI legislation including the",
+      "euAiAct": "EU Artificial Intelligence Act",
+      "p3": "If you do not agree with the terms of this policy, please do not use our services."
+    },
+    "section2": {
+      "title": "2. Who This Policy Applies To",
+      "intro": "This policy applies to:",
+      "item1": "Job Applicants",
+      "item1Desc": "using our platform to assess cultural fit with potential employers",
+      "item2": "Recruiters and Employers",
+      "item2Desc": "using Higherd.de to evaluate applicants",
+      "item3": "Website Visitors",
+      "item3Desc": "browsing or interacting with our platform"
+    },
+    "section3": {
+      "title": "3. What Personal Data We Collect",
+      "intro": "We may collect the following categories of data:",
+      "item1": "Personal identification information",
+      "item1Desc": "name, email address, phone number",
+      "item2": "Professional data",
+      "item2Desc": "CV, work history, education",
+      "item3": "Behavioral or psychometric input",
+      "item3Desc": "responses to cultural fit assessments",
+      "item4": "Metadata",
+      "item4Desc": "IP address, device information, browser type",
+      "item5": "AI-generated scores",
+      "item5Desc": "Cultural Fit Score, assessment outputs",
+      "note": "We do",
+      "notBold": "not",
+      "noteEnd": "knowingly collect sensitive data (e.g. race, religion, biometric data) unless explicitly provided by the user."
+    },
+    "section4": {
+      "title": "4. How We Use Your Data",
+      "intro": "We use your data to:",
+      "items": [
+        "Analyze and generate Cultural Fit Scores",
+        "Match you with organizations based on alignment with company culture",
+        "Provide recruiters with explainable AI results",
+        "Improve the performance, fairness, and accuracy of our algorithms",
+        "Ensure compliance with EU AI Act and GDPR"
+      ]
+    },
+    "section5": {
+      "title": "5. Legal Basis for Processing",
+      "intro": "Our data processing is based on:",
+      "item1": "Consent",
+      "item1Desc": "(e.g. for submitting assessments)",
+      "item2": "Legitimate interest",
+      "item2Desc": "(e.g. improving algorithmic fairness)",
+      "item3": "Contractual necessity",
+      "item3Desc": "(e.g. fulfilling our services to clients)",
+      "item4": "Legal obligation",
+      "item4Desc": "(e.g. to comply with regulatory audits)"
+    },
+    "section6": {
+      "title": "6. AI Explainability and Transparency",
+      "p1": "Our AI system generates",
+      "culturalFit": "Cultural Fit Scores",
+      "p2": "based on structured inputs (e.g. personality traits, values, communication style). You have the",
+      "rightToExplain": "right to request an explanation",
+      "p3": "of how your score was generated.",
+      "weOffer": "We also offer:",
+      "item1": "Access to underlying criteria",
+      "item2": "Option to request human review",
+      "item3": "Counterfactual feedback",
+      "item3Desc": "(what could have changed the outcome)",
+      "note": "We",
+      "notBold": "do not",
+      "noteEnd": "use any proxy variables that infer gender, race, or other protected characteristics."
+    },
+    "section7": {
+      "title": "7. Automated Decision-Making",
+      "p1": "Our system may support",
+      "automated": "automated ranking or recommendation",
+      "p2": "of candidates based on Cultural Fit. However:",
+      "item1": "These decisions are",
+      "notFinal": "not final or binding",
+      "item2": "Human reviewers always validate the final decision",
+      "item3": "You may",
+      "objectText": "object to automated processing",
+      "item3End": "at any time"
+    },
+    "section8": {
+      "title": "8. Data Sharing and Third Parties",
+      "intro": "We may share your data with:",
+      "items": [
+        "Employers or recruiters with whom you're actively engaged",
+        "Service providers who help us process and store data",
+        "Legal or regulatory authorities where required"
+      ],
+      "note": "We do",
+      "notBold": "not",
+      "noteEnd": "sell your data to third parties."
+    },
+    "section9": {
+      "title": "9. International Transfers",
+      "text": "If your data is transferred outside the European Economic Area (EEA), we ensure appropriate safeguards (e.g.,",
+      "scc": "Standard Contractual Clauses",
+      "textEnd": ") are in place to protect your data."
+    },
+    "section10": {
+      "title": "10. Data Retention",
+      "intro": "We retain your data:",
+      "item1": "For",
+      "months12": "12 months",
+      "item1End": "after the last activity for candidates",
+      "item2": "For the",
+      "duration": "duration of the business relationship",
+      "item2End": "for recruiters/employers",
+      "item3": "Longer where legally required or in the event of legal claims"
+    },
+    "section11": {
+      "title": "11. Your Rights Under GDPR",
+      "intro": "You have the right to:",
+      "items": [
+        "Access your personal data",
+        "Correct inaccurate data",
+        "Request deletion (\"right to be forgotten\")",
+        "Object to processing",
+        "Withdraw consent at any time",
+        "File a complaint with a Data Protection Authority"
+      ],
+      "contact": "To exercise your rights, email us at"
+    },
+    "section12": {
+      "title": "12. Security Measures",
+      "intro": "We implement industry-standard measures to protect your data, including:",
+      "items": [
+        "Encryption at rest and in transit",
+        "Access control and audit logs",
+        "Regular AI model audits for bias, fairness, and compliance"
+      ]
+    },
+    "section13": {
+      "title": "13. Cookies and Tracking",
+      "text": "We use cookies to enhance user experience, analyze traffic, and personalize content. You can manage your preferences via our cookie settings tool."
+    },
+    "section14": {
+      "title": "14. Updates to this Policy",
+      "text": "We may update this Privacy Policy periodically. We will notify users of significant changes by email or via the platform."
+    },
+    "section15": {
+      "title": "15. Contact Us",
+      "intro": "If you have questions about this policy or how your data is handled, contact us:"
+    }
+  },
+  "imprint": {
+    "title": "Imprint",
+    "metaTitle": "Imprint - Higherd.de",
+    "metaDescription": "Legal disclosure and company information for Higherd.de - Jobexport e.K.",
+    "heading": "Imprint",
+    "legalInfo": "Information according to § 5 TMG",
+    "companyName": "Jobexport e.K.",
+    "address": {
+      "street": "Gärtnerweg 62",
+      "postal": "60322 Frankfurt am Main",
+      "country": "Germany"
+    },
+    "represented": "Represented by:",
+    "owner": "Dipl.-Ing. Vitena Xhori (Owner)",
+    "contact": "Contact:",
+    "phone": "Phone:",
+    "phoneValue": "069 80884532",
+    "email": "Email:",
+    "emailValue": "info@higherd.de",
+    "website": "Website:",
+    "websiteValue": "www.higherd.de",
+    "registerEntry": "Commercial Register Entry:",
+    "registerCourt": "Register Court:",
+    "registerCourtValue": "Local Court Frankfurt am Main",
+    "registerNumber": "Registration Number:",
+    "registerNumberValue": "HRA 013 883 300 80",
+    "vatId": "VAT ID:",
+    "vatIdDesc": "VAT identification number according to § 27a of the German Sales Tax Act:",
+    "vatIdValue": "DE358965392",
+    "authority": "Competent Supervisory Authority according to the Residence Act:",
+    "authorityDesc": "The agency is authorized to represent all matters related to the application for preliminary approval for the employment of foreign workers in accordance with § 39 of the Residence Act (AufenthG) to the Federal Employment Agency, Central Foreign and Specialist Placement Service (ZAV)."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "metaTitle": "Terms of Service - Higherd.de",
+    "metaDescription": "Terms of Service for Higherd.de - AI-powered cultural fit assessment platform. Learn about your rights and responsibilities.",
+    "heading": "Terms of Service",
+    "section1": {
+      "title": "1. Introduction",
+      "p1": "Welcome to Higherd.de – an AI-powered platform that evaluates cultural fit between candidates and organizations.",
+      "p2": "These Terms of Service (\"Terms\") govern your use of the platform as:",
+      "userType1": "A Company or Recruiter",
+      "userType2": "A Candidate or Job Seeker",
+      "userType3": "A Website Visitor",
+      "p3": "By using Higherd.de, you agree to these Terms. If you do not agree, you may not use our services."
+    },
+    "section2": {
+      "title": "2. Description of Services",
+      "intro": "Higherd.de provides:",
+      "service1": "An AI-based cultural fit analysis tool",
+      "service2": "Matching and recommendations to support hiring decisions",
+      "service3": "Dashboards, insights, and explainable AI outputs",
+      "note": "Please note:",
+      "noteText": "Our AI system does not make final hiring decisions. It assists human decision-makers in recruitment processes."
+    },
+    "section3": {
+      "title": "3. Access to the Platform",
+      "subtitle1": "3.1 Registration",
+      "item1": "You must provide accurate, complete information to register.",
+      "item2": "Companies must ensure only authorized personnel access the platform.",
+      "item3": "Candidates must provide truthful responses.",
+      "subtitle2": "3.2 Age Requirement",
+      "ageText": "You must be 16 years or older to use the platform."
+    },
+    "section4": {
+      "title": "4. Acceptable Use",
+      "subtitle1": "4.1 Permitted Use",
+      "permittedText": "You may only use the platform for legitimate recruitment and application purposes in compliance with applicable laws and regulations.",
+      "subtitle2": "4.2 Prohibited Use",
+      "prohibitedIntro": "You may not:",
+      "prohibited1": "Reverse-engineer or tamper with the AI system",
+      "prohibited2": "Upload third-party data without consent",
+      "prohibited3": "Use the platform in a discriminatory or unethical manner",
+      "prohibited4": "Misuse the Cultural Fit Score for unlawful exclusion"
+    },
+    "section5": {
+      "title": "5. Artificial Intelligence & Automated Scoring",
+      "subtitle1": "5.1 Explainable AI",
+      "p1": "Higherd.de uses explainable AI models to generate a Cultural Fit Score based on candidate inputs and company culture data. These models:",
+      "item1": "Do not rely on sensitive personal data (e.g. race, gender)",
+      "item2": "Provide explanations upon request",
+      "item3": "Are auditable and reviewed by humans",
+      "subtitle2": "5.2 Human Oversight",
+      "oversightText": "AI-based assessments are supportive, not determinative. Final decisions rest with human users (recruiters)."
+    },
+    "section6": {
+      "title": "6. User Responsibilities",
+      "subtitle1": "6.1 For Employers",
+      "employer1": "You are responsible for lawful hiring decisions.",
+      "employer2": "You may not rely solely on the Cultural Fit Score.",
+      "employer3": "You must comply with all anti-discrimination laws and GDPR obligations.",
+      "subtitle2": "6.2 For Candidates",
+      "candidate1": "You may request an explanation of your score.",
+      "candidate2": "You may object to automated processing.",
+      "candidate3": "You can request human review of your evaluation."
+    },
+    "section7": {
+      "title": "7. Privacy and Data Protection",
+      "intro": "The use of the platform is subject to our Privacy Policy. Key points:",
+      "point1": "Data is processed under GDPR, BDSG (Germany), and the EU AI Act.",
+      "point2": "Users have rights to access, correct, delete, and object to their personal data.",
+      "point3": "AI is used in accordance with legal and ethical frameworks."
+    },
+    "section8": {
+      "title": "8. Availability & Support",
+      "text": "We strive to maintain 99% uptime monthly. However, occasional interruptions may occur due to maintenance or system updates.",
+      "support": "Support:"
+    },
+    "section9": {
+      "title": "9. Liability",
+      "subtitle1": "9.1 Candidates",
+      "candidatesText": "Higherd.de is not responsible for final hiring outcomes. The AI evaluation is advisory and does not guarantee employment.",
+      "subtitle2": "9.2 Employers",
+      "employersText": "We are not liable for hiring decisions made by your company based on the platform's outputs.",
+      "subtitle3": "9.3 General",
+      "generalText": "We are only liable for damages caused by intent or gross negligence, or violations of essential contractual obligations. We are not liable for indirect or consequential damages."
+    },
+    "section10": {
+      "title": "10. License and Usage Rights",
+      "text": "You receive a non-exclusive, non-transferable license to use the platform for the agreed-upon term. You may not reproduce, resell, or commercially exploit any part of the system or content."
+    },
+    "section11": {
+      "title": "11. Termination",
+      "subtitle1": "11.1 For Employers",
+      "employersText": "Contractual terms and termination rights are outlined in your service agreement.",
+      "subtitle2": "11.2 For Candidates",
+      "candidatesText": "You may delete your account at any time. We will delete or anonymize your data in accordance with our Privacy Policy."
+    },
+    "section12": {
+      "title": "12. Modifications to These Terms",
+      "text": "We may modify these Terms to reflect legal, technical, or operational changes. We will notify you of material updates via email or platform notice."
+    },
+    "section13": {
+      "title": "13. Governing Law & Jurisdiction",
+      "text": "These Terms are governed by the laws of Germany, unless otherwise required by local law. Jurisdiction is Berlin, Germany, where legally permissible."
+    },
+    "section14": {
+      "title": "14. Contact",
+      "email": "support@higherd.de",
+      "website": "https://www.higherd.de"
+    }
   }
 }

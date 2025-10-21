@@ -16,6 +16,9 @@
     "explorePlans": "Entdecken Sie Pläne"
   },
   "footer": {
-    "rights": "Alle Rechte vorbehalten."
+    "rights": "Alle Rechte vorbehalten.",
+    "imprint": "Impressum",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "AGB"
   }
 }

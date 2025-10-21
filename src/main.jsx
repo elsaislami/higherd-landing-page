@@ -16,6 +16,7 @@ import Students from "./pages/Students.jsx";
 import About from "./pages/About.jsx";
 import Imprint from "./pages/Imprint.jsx";
 import PrivacyTerms from "./pages/PrivacyTerms.jsx";
+import TermsOfService from "./pages/TermsOfService.jsx";
 
 // Initialize analytics and performance monitoring
 initAnalytics();
@@ -94,6 +95,14 @@ const router = createBrowserRouter([
     element: (
       <Layout>
         <PrivacyTerms />
+      </Layout>
+    ),
+  },
+  {
+    path: "/terms-of-service",
+    element: (
+      <Layout>
+        <TermsOfService />
       </Layout>
     ),
   },

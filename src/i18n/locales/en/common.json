@@ -16,6 +16,9 @@
     "explorePlans": "Explore Plans"
   },
   "footer": {
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "imprint": "Imprint",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service"
   }
 }
